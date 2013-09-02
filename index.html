@@ -1,0 +1,23 @@
+---
+layout: default
+title: Unbelievable Exception
+---
+
+<div id="home">
+  <h1>Postagens</h1>
+  {% for post in site.posts %}
+    <p class="post-preview">
+      <span class="post-date">{{ post.date | localize: "%d/%m/%Y" }}</span> &raquo;
+      <a href="{{ site.url }}{{ post.category | category_url }}">
+        <span class="post-category">
+        {{ post.category }}
+        </span>
+      </a> -
+      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+      <blockquote class="post-excerpt">
+        {{ post.excerpt }}
+      </blockquote>
+      <a class="read-more" href="{{ site.url }}{{ post.url }}">Ler mais...</a>
+    </p>
+  {% endfor %}
+</div>

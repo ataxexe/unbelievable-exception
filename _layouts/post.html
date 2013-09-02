@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article class="post">
+  <h1 class="post-title"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+  <h2 class="post-category">
+    <a class="nodecoration" href="{{ site.url }}{{ page.category | category_url }}">
+      {{ page.category }}
+    </a>
+  </h2>
+  <div id="post-content">
+    {{ content }}
+  </div>
+  <p class="meta">Postado por <span class="posted-by">{{ site.owner.nickname }}</span> em
+    <span class="post-date">{{ page.date | localize: "%d/%m/%Y" }}</span> com as tags
+    <span class="tags">
+    {% for tag in page.tags %}
+      {{ tag }}
+    {% endfor %}
+    </span>
+  </p>
+  <div id="comments">
+    <script>
+      var idcomments_acct = '92f232728365952f8c9ed822cd26b9cc';
+      var idcomments_post_id = '{{ page.url }}';
+      var idcomments_post_url;
+    </script>
+    <span id="IDCommentsPostTitle" style="display:none"></span>
+    <script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+  </div>
+</article>

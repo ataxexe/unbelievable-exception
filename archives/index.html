@@ -1,0 +1,21 @@
+---
+layout: default
+title: Archives
+---
+
+<div id="blog-archives">
+  <h1>Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | localize: "%d/%m/%Y" }}</span> &raquo;
+        <a href="{{ site.url }}{{ post.category | category_url }}">
+          <span class="post-category">
+            {{ post.category }}
+          </span>
+        </a> -
+        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

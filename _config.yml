@@ -1,0 +1,17 @@
+name: Unbelievable Exception!!
+description: "Exceção ocorrida com sucesso!"
+
+markdown: redcarpet
+pygments: true
+
+permalink: /posts/:title.html
+paginate: 10
+
+category_dir: "posts"
+category_title_prefix: ""
+category_meta_description_prefix: ""
+
+owner:
+  name: Marcelo Guimarães
+  nickname: Ataxexe
+  email: ataxexe@gmail.com
