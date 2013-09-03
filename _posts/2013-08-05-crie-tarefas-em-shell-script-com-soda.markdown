@@ -11,8 +11,6 @@ virando uma zona em pouco tempo. A desordem foi tanta que eu comecei a pensar em
 organizar os scripts e, de quebra, ainda ter uma base para coisas úteis e comuns a eles. O resultado
 foi um projeto chamado [SODA][] e um pouco mais de diversão no terminal do meu Linux.
 
-{{ excerpt_separator }}
-
 ## Instalação
 
 Basta clonar o [repositório][soda] no github ou [baixar][soda_download] o conteúdo dele. Coloque o

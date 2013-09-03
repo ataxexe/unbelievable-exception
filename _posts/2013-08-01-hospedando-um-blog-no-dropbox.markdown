@@ -11,8 +11,6 @@ chato pra quem não gosta do editor de texto do blog e prefere uma abordagem mai
 Uma solução legal que encontrei foi hospedar o blog direto na minha pasta pública do Dropbox,
 podendo, assim, usar o editor que me der na telha.
 
-{{ excerpt_separator }}
-
 Agora vem a questão: se o Dropbox apenas serve conteúdo estático, como poderemos colocar algo
 *supostamente* dinâmico nele?
 
