@@ -51,6 +51,10 @@ body {
   line-height: 1.7;
 }
 
+.badge {
+  position: absolute; top: 0; right: 0; border: 0;
+}
+
 a         { color: @yellow; }
 a:hover   { color: @orange; }
 
@@ -307,17 +311,16 @@ del {
     padding: 0px 0px 18px 0px;
   }
 
+  .site-description {
+    text-align: left;
+  }
+
 }
 
 @media all and (min-width: 34em) {
 
   #sidebar li, #categories-bar li {
     display: inline;
-  }
-
-  #categories {
-    text-align: right;
-    padding-right: 20px;
   }
 
 }
@@ -362,6 +365,15 @@ del {
   #menu {
     left: 25px;
     top: 180px;
+  }
+
+  #categories {
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .site-description {
+    text-align: right;
   }
 
 }

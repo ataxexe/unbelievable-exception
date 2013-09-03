@@ -11,6 +11,11 @@ category_dir: "posts"
 category_title_prefix: ""
 category_meta_description_prefix: ""
 
+assets:
+  css: assets/css
+  images: assets/images
+  js: assets/js
+
 owner:
   name: Marcelo Guimarães
   nickname: Ataxexe
