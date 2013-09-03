@@ -5,10 +5,10 @@ title: Sobre
 
 # Quem sou eu
 
-Marcelo Guimarães, mais conhecido por Ataxexe. Sou um maluco rabugento que gosta de programar e
-tenta escrever alguma coisa útil neste blog.
+**Marcelo Guimarães**, mais conhecido por **Ataxexe**. Sou um maluco rabugento que gosta de programar
+e tenta escrever alguma coisa útil neste blog.
 
-Se quiser conhecer mais maluquices minhas, acesse:
+Minhas outras tentativas de causar o caos e a destruição em massa:
 
 * Meu canal no [Youtube][].
 * Minhas fotos no [500px][] e [DigitalRev][].
