@@ -12,11 +12,19 @@
 @orange: #FD971F;
 @cyan: #66D9EF;
 @white: #F8F8F0;
+@darken_gray: darken(@dark_gray, 5%);
 
 body {
   min-height: 2000px;
   padding-top: 70px;
+  background-color: @darken_gray;
+  color: @white;
+}
+
+#content {
   background-color: @dark_gray;
+  border: 1px solid @gray;
+  border-radius: 5px 5px 5px 5px;
   color: @white;
 }
 
@@ -28,7 +36,15 @@ h1, h2, h3 {
   text-align: justify;
 }
 
+#posts {
+  color: @yellow;
+}
+
 .post-category > a {
+  color: @green;
+}
+
+#category {
   color: @green;
 }
 
@@ -57,7 +73,7 @@ p code {
   border: 1px solid @gray;
   margin: 0px 2px;
   padding: 0px 5px;
-  background-color: #222222;
+  background-color: @darken_gray;
   border-radius: 3px 3px 3px 3px;
 }
 
@@ -97,11 +113,15 @@ article .meta {
 }
 
 #site-name {
-  color: @gray;
+  color: @blue;
+}
+
+#site-description {
+  color: @red;
 }
 
 .post-preview {
-  background-color: #171812;
+  background-color: @darken_gray;
 }
 
 .post-excerpt > p {

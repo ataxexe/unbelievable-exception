@@ -4,12 +4,10 @@ description: "Exceção ocorrida com sucesso!"
 markdown: redcarpet
 pygments: true
 
-permalink: /posts/:title.html
+permalink: /posts/:title
 paginate: 10
 
-category_dir: "posts"
-category_title_prefix: ""
-category_meta_description_prefix: ""
+category_dir: "categorias"
 
 assets:
   css: assets/css

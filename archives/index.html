@@ -4,12 +4,13 @@ title: Archives
 ---
 
 <div id="blog-archives">
-  <h1>Posts</h1>
+  <h1 id="site-description">{{ site.description }}</h1>
+  <h2 id="posts">Arquivos</h2>
   <ul class="posts">
     {% for post in site.posts %}
       <li>
-        <span class="post-date">{{ post.date | localize: "%d/%m/%Y" }}</span> &raquo;
-        <a href="{{ site.url }}{{ post.category | category_url }}">
+        <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span> &raquo;
+        <a href="{{ site.url }}/{{ post.category | category_url }}">
           <span class="post-category">
             {{ post.category }}
           </span>

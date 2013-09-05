@@ -2,12 +2,14 @@
 layout: default
 ---
 
-<h1 class="category">{{ page.title }}</h1>
+<h1 id="site-description">{{ site.description }}</h1>
+<h2 id="category">{{ page.description }}</h2>
+{{ content }}
 <ul class="posts">
-  {% for post in site.categories[page.category] %}
+  {% for post in site.categories[page.index] %}
   <li>
-    <span class="post-date">{{ post.date | localize: "%d/%m/%Y" }}</span> &raquo;
-    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+    <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span> &raquo;
+    <a class="post-url" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
   </li>
   {% endfor %}
 </ul>

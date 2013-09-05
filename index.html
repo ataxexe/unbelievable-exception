@@ -4,11 +4,12 @@ title: Unbelievable Exception
 ---
 
 <div class="container">
-  <h1>Postagens</h1>
+  <h1 id="site-description">{{ site.description }}</h1>
+  <h2 id="posts">Postagens</h2>
   {% for post in site.posts %}
     <p class="post-preview">
-      <span class="post-date">{{ post.date | localize: "%d/%m/%Y" }}</span> &raquo;
-      <a href="{{ site.url }}{{ post.category | category_url }}">
+      <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span> &raquo;
+      <a href="{{ site.url }}/{{ post.category | category_url }}">
         <span class="post-category">
         {{ post.category }}
         </span>
