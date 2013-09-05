@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
   <title>{{ page.title }} - {{ site.description }}</title>
   <meta charset="utf-8">
@@ -42,14 +42,16 @@
           </li>
           <li class="divider"></li>
           <li><a href="{{ site.url }}/about">Sobre</a></li>
-          <li><a href="{{ site.url }}/feed.xml">RSS Feed</a></li>
+          <li><a href="{{ site.url }}/feed.xml">RSS</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </div>
-  <a href="https://github.com/ataxexe/unbelievable-exception">
-    <img class="github-badge" src="{{ site.url }}/{{ site.assets.images }}/forkme.png" alt="Fork me on GitHub">
-  </a>
+  <div class="navbar-collapse collapse">
+    <a href="https://github.com/ataxexe/unbelievable-exception">
+      <img class="github-badge" src="{{ site.url }}/{{ site.assets.images }}/forkme.png" alt="Fork me on GitHub">
+    </a>
+  </div>
   <div class="container">
     {{ content }}
   </div>
