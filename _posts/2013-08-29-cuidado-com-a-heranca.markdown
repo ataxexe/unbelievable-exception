@@ -72,10 +72,11 @@ porque a API estava ficando muito confusa, Juquinha resolveu estudar um pouco ma
 
 ![Versão com dupla ligação]({{ site.url }}/{{ page.images }}/listas-composicao.png)
 
-Note aqui que não temos mais a classe `ListaLigadaSincronizada` e sim uma `ListaSincronizada`.
-Isso faz muito mais sentido porque a responsabilidade da `ListaSincronizada` é simplesmente de ser
-sincronizada. Uma `ListaLigadaSincronizada` tem responsabilidades demais. Fazendo dessa forma,
-Juquinha exterminou aquela colônia de classes e criou um modelo muito mais simples.
+Note aqui que, além de `Lista` ser agora uma interface, não temos mais a classe
+`ListaLigadaSincronizada` e, sim, uma `ListaSincronizada`. Isso faz muito mais sentido porque a
+responsabilidade da `ListaSincronizada` é simplesmente de ser sincronizada. Uma
+`ListaLigadaSincronizada` tem responsabilidades demais. Fazendo dessa forma, Juquinha exterminou
+aquela colônia de classes e criou um modelo muito mais simples.
 
 ## A composição
 
@@ -118,7 +119,7 @@ Ok! Agora Juquinha já sabe de uma boa prática e irá usar composição sempre 
 comportamento extra em uma classe. O problema é que estamos recheados de péssimos exemplos, sendo um
 deles a própria classe `Properties` do Java. Essa classe herda a classe `Hashtable`, que possui
 métodos para incluir objetos como chave. Conseguiu sentir o problema? Isso significa que você pode
-fazer algo como isto:
+fazer algo assim:
 
 {% highlight java %}
 
