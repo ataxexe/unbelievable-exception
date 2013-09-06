@@ -2,8 +2,12 @@
 layout: default
 ---
 
-<h1 id="site-description">{{ site.description }}</h1>
-<h2 id="category">{{ page.description }}</h2>
+{% if page.description %}
+  <h1 id="site-description">{{ page.description }}</h1>
+{% else %}
+  <h1 id="site-description">{{ site.description }}</h1>
+{% endif%}
+<h2 id="category">{{ page.name }}</h2>
 {{ content }}
 <ul class="posts">
   {% for post in site.categories[page.index] %}
