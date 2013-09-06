@@ -7,8 +7,6 @@ pygments: true
 permalink: /posts/:title
 paginate: 10
 
-category_dir: "categorias"
-
 assets:
   css: assets/css
   images: assets/images
