@@ -4,7 +4,7 @@ title: Unbelievable Exception
 ---
 
 <div class="container">
-  <h1 class="text-danger">{{ site.description }}</h1>
+  <h1 id="site-description">{{ site.description }}</h1>
   <h2 id="posts">Postagens</h2>
   {% for post in site.posts %}
     <p class="post-preview">
@@ -14,11 +14,11 @@ title: Unbelievable Exception
         {{ post.category }}
         </span>
       </a> -
-      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+      <a class="post-title" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
       <blockquote class="post-excerpt">
         {{ post.excerpt }}
       </blockquote>
-      <a class="read-more" href="{{ site.url }}{{ post.url }}">Ler mais...</a>
+      <a class="read-more" href="{{ site.url }}{{ post.url }}">Continue lendo...</a>
     </p>
   {% endfor %}
 </div>
