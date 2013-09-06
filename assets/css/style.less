@@ -1,8 +1,9 @@
+// Monokay colors
 @purple: #F92672;
 @light_purple : #FDA5FF;
 @yellow: #E6DB74;
 @gray: #75715E;
-@dark_gray: #272822;
+@dark_gray: darken(#272822, 5%); // a little bit more darken than the original
 @light_gray: #CFCFC2;
 @violet: #AE81FF;
 @blue: #3697FF;
@@ -12,6 +13,111 @@
 @orange: #FD971F;
 @cyan: #66D9EF;
 @white: #F8F8F0;
+
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+#site-name {
+  color: @blue;
+}
+
+#site-description {
+  color: @red;
+}
+
+.post-category {
+  color: @light_blue;
+}
+
+.post-date {
+  
+}
+
+.posted-by {
+  
+}
+
+#posts {
+  
+}
+
+#category {
+  
+}
+
+.github-badge {
+  padding-top: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+
+article .meta {
+  padding-top: 6px;
+  font-size: 0.85em;
+  font-style: italic;
+  text-align: right;
+}
+
+article img {
+  display: block;
+  text-align: center;
+  margin: 0 auto 1em auto;
+  max-width: 100%;
+}
+
+code {
+  font-family: monospace;
+  font-size: 0.85em;
+  color: @white;
+  overflow: auto;
+}
+
+p code {
+  border: 1px solid @gray;
+  margin: 0px 2px;
+  padding: 0px 5px;
+  background-color: @dark_gray;
+  border-radius: 3px 3px 3px 3px;
+}
+
+blockquote {
+  margin: 22px 22px;
+  padding: 0 20px;
+  border-left: 2px solid #000000;
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+.highlight {
+  background-color: @dark_gray;
+  color: @white;
+}
+
+.highlight > pre {
+  background-color: @dark_gray;
+  border: 1px solid @gray;
+  border-radius: 3px 3px 3px 3px;
+  color: @white;
+}
+
+#footer {
+  border-top: 1px solid @blue;
+  text-align: right;
+  color: @gray;
+  font-size: 0.85em;
+}
+
+article .meta {
+  padding-top: 6px;
+  font-size: 0.85em;
+  font-style: italic;
+  text-align: right;
+}
 
 .highlight .c { color: @gray; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
