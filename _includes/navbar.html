@@ -1,15 +1,15 @@
 <!-- Fixed navbar -->
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <a class="navbar-brand" id="site-name" href="{{ site.url }}">{{ site.name }}</a>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" id="site-name" href="{{ site.url }}">{{ site.name }}</a>
     </div>
-    <div class="navbar-collapse collapse">
+    <div class="navbar-collapse collapse" id="navbar-main">
       <ul class="nav navbar-nav">
         <li><a href="{{ site.url }}">Home</a></li>
         <li><a href="{{ site.url }}/archives">Arquivos</a></li>
@@ -30,6 +30,6 @@
         <li><a href="{{ site.url }}/about">Sobre</a></li>
         <li><a href="{{ site.url }}/feed.xml">RSS</a></li>
       </ul>
-    </div><!--/.nav-collapse -->
+    </div>
   </div>
 </div>
