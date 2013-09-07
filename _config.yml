@@ -7,7 +7,7 @@ pygments: true
 permalink: /posts/:title
 paginate: 10
 
-indexes:
+articles:
   Programação:
     - Shell Script
   Paradigmas:
@@ -15,11 +15,6 @@ indexes:
   Outros:
     - AndroiDoctor
     - Dicas
-
-assets:
-  css: assets/css
-  images: assets/images
-  js: assets/js
 
 owner:
   name: Marcelo Guimarães
