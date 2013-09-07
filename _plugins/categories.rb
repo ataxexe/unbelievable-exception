@@ -9,6 +9,11 @@ module Jekyll
       I18n.transliterate(category).gsub(/\s/, '-').downcase
     end
 
+    # Gets the number of posts in the given category
+    def post_count(category)
+      @context.registers[:site].categories[category.downcase].size
+    end
+
   end
 
 end

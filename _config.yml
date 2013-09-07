@@ -7,6 +7,15 @@ pygments: true
 permalink: /posts/:title
 paginate: 10
 
+indexes:
+  Programação:
+    - Shell Script
+  Paradigmas:
+    - Orientação a Objetos
+  Outros:
+    - AndroiDoctor
+    - Dicas
+
 assets:
   css: assets/css
   images: assets/images
