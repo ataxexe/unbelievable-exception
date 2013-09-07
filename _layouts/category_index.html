@@ -2,11 +2,7 @@
 layout: default
 ---
 
-{% if page.description %}
-  <h1 id="site-description">{{ page.description }}</h1>
-{% else %}
-  <h1 id="site-description">{{ site.description }}</h1>
-{% endif%}
+<h1 id="site-description">{{ site.description }}</h1>
 <h2 id="category">{{ page.title }}</h2>
 {{ content }}
 <ul class="posts">
