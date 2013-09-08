@@ -96,7 +96,7 @@ echo $MIN
 
 Como não poderia faltar em um bom programa de terminal, o SODA suporta *bash completion* para os
 nomes das tarefas e parâmetros. Para criar uma função customizada para sua tarefa, crie-a com o nome
-*TAREFA_bash_completion*.
+`TAREFA_bash_completion`.
 
 {% highlight sh %}
 tarefa_bash_completion() {
@@ -112,7 +112,7 @@ tarefa_bash_completion() {
 {% endhighlight %}
 
 Para ativar as sugestões, utilize o comando `source $SODA_HOME/soda-bash-completion`. Você pode
-adicioná-lo ao seu *.bash_profile* também!
+adicioná-lo ao seu `.bash_profile` também!
 
 O intuito deste post não é documentar o projeto (mal tenho tempo pra documentá-lo no github). Se
 quiser aprender mais, não deixe de ver a [página][soda] do projeto e os [exemplos][soda_examples].
