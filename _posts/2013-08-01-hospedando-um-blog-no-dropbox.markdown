@@ -62,7 +62,7 @@ precisar editar essa parte. Você pode martelar diretamente o caminho, ficando m
 {% endhighlight %}
 
 O problema é se você quiser mudar a url ou até mesmo testar localmente (já já mostro como fazer),
-a solução mais bonita é colocar o caminho do blog no arquivo *_config.yml* e mudar o *html* para
+a solução mais bonita é colocar o caminho do blog no arquivo `_config.yml` e mudar o *html* para
 algo {% comment %} mais ou menos {% endcomment %} assim:
 
 {% highlight html %}
@@ -93,7 +93,7 @@ Com isso fica fácil. No meu caso, por exemplo, meu *id* é **16755042** e coloq
 
 Agora vem a última parte: o jekyll precisa gerar o blog na pasta pública do Dropbox. O padrão dele é
 gerar na pasta *_site*, que não é o que queremos, logo, vamos mapear a pasta no arquivo de
-configuração *_config.yml*:
+configuração `_config.yml`:
 
 {% highlight yaml %}
 url: https://dl.dropboxusercontent.com/u/2345678/CAMINHO_DO_BLOG
@@ -105,7 +105,7 @@ feito, basta rodar o comando `jekyll build`, aguardar o upload e pronto! Seu blo
 
 Para testar localmente, você só precisa remover a chave **destination** e trocar a chave **url**
 por *http://localhost:4000*. Trocar isso a todo instante será uma verdadeira bagunça, então, sugiro
-que você tenha um arquivo de configuração local (algo do tipo *_config_local.yml*) com essas
+que você tenha um arquivo de configuração local (algo do tipo `_config_local.yml`) com essas
 configurações e, para testar o blog localmente, rode o comando
 `jekyll serve --config=_config_local.yml`.
 
