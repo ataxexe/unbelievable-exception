@@ -2,8 +2,6 @@
 layout: post
 title:  Cuidado com a Herança!
 category: Orientação a Objetos
-belongs_to: Paradigmas
-tags: orientação a objetos, herança, interfaces, composição
 images: assets/images/heranca-composicao
 ---
 

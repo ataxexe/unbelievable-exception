@@ -2,7 +2,6 @@
 layout: post
 title:  Hospedando um blog no Dropbox
 category: Dicas
-tags: jekyll dropbox
 ---
 
 Hospedar um blog hoje é mais fácil do que apanhar do Chuck Norris, qualquer um pode se cadastrar

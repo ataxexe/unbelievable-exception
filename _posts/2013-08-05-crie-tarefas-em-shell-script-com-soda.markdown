@@ -2,7 +2,6 @@
 layout: post
 title:  Crie tarefas em Shell Script com SODA
 category: Shell Script
-tags: shell linux soda
 ---
 
 Quem gosta de terminal acaba se rendendo aos Shell Scripts quando precisa de algumas tarefas
