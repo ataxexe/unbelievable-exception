@@ -41,30 +41,30 @@ se atentar para o pulo do gato abaixo.
 Quando você cria um blog novo no jekyll com o comando `jekyll new meu-blog-do-cacete`, uma estrutura
 padrão e você pode ver que o arquivo *_layouts/default.html* tem um trecho parecido com isto:
 
-{% highlight html %}
+~~~html
 <!-- syntax highlighting CSS -->
 <link rel="stylesheet" href="/css/syntax.css">
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="/css/main.css">
-{% endhighlight %}
+~~~
 
 Caso você hospede o blog no dropbox, você terá um link imenso até chegar à raiz do blog, então, vai
 precisar editar essa parte. Você pode martelar diretamente o caminho, ficando mais ou menos assim:
 
-{% highlight html %}
+~~~html
 <!-- syntax highlighting CSS -->
 <link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/SEU_ID/blog/css/syntax.css">
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/SEU_ID/blog/css/main.css">
-{% endhighlight %}
+~~~
 
 O problema é se você quiser mudar a url ou até mesmo testar localmente (já já mostro como fazer),
 a solução mais bonita é colocar o caminho do blog no arquivo `_config.yml` e mudar o *html* para
 algo {% comment %} mais ou menos {% endcomment %} assim:
 
-{% highlight html %}
+~~~html
 {% raw %}
 <!-- syntax highlighting CSS -->
 <link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
@@ -72,13 +72,13 @@ algo {% comment %} mais ou menos {% endcomment %} assim:
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{{ site.url }}/css/main.css">
 {% endraw %}
-{% endhighlight %}
+~~~
 
 E no seu arquivo de configuração, coloque o seguinte trecho:
 
-{% highlight yaml %}
+~~~yaml
 url: https://dl.dropboxusercontent.com/u/SEU_ID/CAMINHO_DO_BLOG
-{% endhighlight %}
+~~~
 
 Para saber como encontrar a url, basta colocar alguma coisa na sua pasta pública do Dropbox e pegar
 o link, você verá que ele é composto das seguintes partes:
@@ -94,10 +94,10 @@ Agora vem a última parte: o jekyll precisa gerar o blog na pasta pública do Dr
 gerar na pasta *_site*, que não é o que queremos, logo, vamos mapear a pasta no arquivo de
 configuração `_config.yml`:
 
-{% highlight yaml %}
+~~~yaml
 url: https://dl.dropboxusercontent.com/u/2345678/CAMINHO_DO_BLOG
 destination: SUA_PASTA_DO_DROPBOX/Public/CAMINHO_DO_BLOG
-{% endhighlight %}
+~~~
 
 Note que o caminho do blog deve ser o mesmo nas chaves **url** e **destination**. Com isso tudo
 feito, basta rodar o comando `jekyll build`, aguardar o upload e pronto! Seu blog estará no Dropbox.
@@ -110,11 +110,11 @@ configurações e, para testar o blog localmente, rode o comando
 
 Ah! Não se esqueça de adicionar o */index.html* nos links da página inicial.
 
-{% highlight html %}
+~~~html
 {% raw %}
 <h1 class="title"><a href="{{ site.url }}/index.html">{{ site.name }}</a></h1>
 {% endraw %}
-{% endhighlight %}
+~~~
 
 [markdown]: <http://daringfireball.net/projects/markdown/syntax>
 [jekyll]:   <http://jekyllrb.com>

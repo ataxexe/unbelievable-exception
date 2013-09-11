@@ -89,7 +89,7 @@ comportamento**. Nesse caso, a `ListaImutavel` irá apenas adicionar o comportam
 a uma implementação de `Lista`, delegando tudo aquilo o que não for relacionado à imutabilidade à
 instância de `Lista` passada pelo construtor. Exemplo:
 
-{% highlight java %}
+~~~java
 public class ListaTemperamental implements Lista {
 
   private final Lista lista;
@@ -107,7 +107,7 @@ public class ListaTemperamental implements Lista {
   }
 
 }
-{% endhighlight %}
+~~~
 
 Para quem sentiu uma certa familiaridade com esse código, esse é o padrão de projeto **Decorator**.
 
@@ -119,8 +119,7 @@ deles a própria classe `Properties` do Java. Essa classe herda a classe `Hashta
 métodos para incluir objetos como chave. Conseguiu sentir o problema? Isso significa que você pode
 fazer algo assim:
 
-{% highlight java %}
-
+~~~java
 Properties props = new Properties();
 props.put("chave", new HashMap()); // isso não pode, segundo a documentação da classe
 props.setProperty("chave-com-valor-correto", "valor"); // deveria ser assim
@@ -132,25 +131,24 @@ Map mapa = new HashMap();
 mapa.put(10, false);
 mapa.put(new Object(), 42);
 props.putAll(mapa); // Uhuuuuuuuuuu, merda no ventilador!! Corre pra debaixo da mesa!!
-
-{% endhighlight %}
+~~~
 
 Fica bem claro a cagada que foi feita quando olhamos o código fonte da classe `Properties`:
 
-{% highlight java %}
+~~~java
 public class Properties extends Hashtable<Object,Object> {
   // mais um monte de esterco aqui
 }
-{% endhighlight %}
+~~~
 
 Como isso poderia ser evitado? Simples! Com uma composição:
 
-{% highlight java %}
+~~~java
 public class Properties {
   private Hashtable table;
   // bla bla bla
 }
-{% endhighlight %}
+~~~
 
 Dessa forma, os métodos de `Hashtable` não ficariam expostos e métodos que recebem `Hashtable` não
 poderiam receber `Properties`. O núcleo da catinga era justamente o `extends Hashtable`. Com isso, o
@@ -173,7 +171,7 @@ cuidadosamente analisados:
 Aqui a coisa fede bastante, ao se acoplar a uma implementação, passamos a depender dela. Isso pode
 gerar alguns probleminhas, como pode ser visto na implementação de um `HttpServlet`:
 
-{% highlight java %}
+~~~java
 public class MeuIngenuoServlet extends HttpServlet {
 
   public void init(ServletConfig config) {
@@ -186,7 +184,7 @@ public class MeuIngenuoServlet extends HttpServlet {
   }
 
 }
-{% endhighlight %}
+~~~
 
 Esse *servlet* será o maior produtor de `NullPointerException` de um sistema. Isso porque o método
 init da classe `HttpServlet` **precisa** ser chamado para guardar o objeto `ServletConfig`. Isso

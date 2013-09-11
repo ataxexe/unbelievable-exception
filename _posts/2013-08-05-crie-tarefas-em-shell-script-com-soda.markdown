@@ -23,12 +23,12 @@ criar a pasta `~/.soda/scripts/common` e enfiar lá dentro seus Shell Scripts. C
 extenalizada será passível de ser chamada pela linha de comando. Para externalizar uma função, basta
 usar a função *task*:
 
-{% highlight sh %}
+~~~sh
 task faz-qualquer-coisa
 faz_qualquer_coisa() {
   echo "Fiz qualquer coisa"
 }
-{% endhighlight %}
+~~~
 
 Com isso, você pode executá-la com o comando `soda faz-qualquer-coisa`. Perceba que o nome da função
 está com *underlines* e o nome passado ao *task* está com hífens. O SODA converte, por padrão, os
@@ -52,12 +52,12 @@ de nomenclatura nas funções. Para chamar uma tarefa de um *namespace* diferent
 
 Qualquer tarefa pode receber parâmetros e é somente necessário passá-los pela linha de comando.
 
-{% highlight sh %}
+~~~sh
 task imprimir-parametro
 imprimir_parametro() {
   echo "$1"
 }
-{% endhighlight %}
+~~~
 
     $ soda imprimir-parametro PARAMETRO
     PARAMETRO
@@ -69,7 +69,7 @@ linha de comando, eles são processados ao início e seus valores serão colocad
 nome do parâmetro em **CAIXA ALTA** e substituindo os *underlines* por hífens. Para interceptar uma
 definição de parâmetro, utilize a função *parameter*.
 
-{% highlight sh %}
+~~~sh
 # não é necessário utilizar o prefixo para definir o parâmetro
 parameter version && {
   echo "0.1.2.3-beta04_build201302034913"
@@ -85,7 +85,7 @@ echo $MAX
 parameter min "MINIMO" 0 "Define o minimo ..."
 # ...
 echo $MIN
-{% endhighlight %}
+~~~
 
     $ soda --version
     $ soda --max ...
@@ -97,7 +97,7 @@ Como não poderia faltar em um bom programa de terminal, o SODA suporta *bash co
 nomes das tarefas e parâmetros. Para criar uma função customizada para sua tarefa, crie-a com o nome
 `TAREFA_bash_completion`.
 
-{% highlight sh %}
+~~~sh
 tarefa_bash_completion() {
   # indica que o primeiro parâmetro foi inserido
   if [[ -f "$1" ]]; then
@@ -108,7 +108,7 @@ tarefa_bash_completion() {
     exit 1
   fi
 }
-{% endhighlight %}
+~~~
 
 Para ativar as sugestões, utilize o comando `source $SODA_HOME/soda-bash-completion`. Você pode
 adicioná-lo ao seu `.bash_profile` também!
