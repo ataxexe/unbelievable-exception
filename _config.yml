@@ -1,7 +1,7 @@
 name: Unbelievable Exception
 description: "Exceção ocorrida com sucesso!"
 
-markdown: redcarpet
+markdown: pandoc
 pygments: true
 
 permalink: /posts/:title
