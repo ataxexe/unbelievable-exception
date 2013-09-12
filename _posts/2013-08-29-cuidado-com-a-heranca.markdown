@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Cuidado com a Herança!
-category: Orientação a Objetos
+category: Café Azedo
 images: assets/images/heranca-composicao
 ---
 

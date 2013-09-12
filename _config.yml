@@ -1,7 +1,7 @@
 name: Unbelievable Exception
 description: "Exceção ocorrida com sucesso!"
 
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 
 permalink: /posts/:title
@@ -11,9 +11,10 @@ paginate_path: :num
 articles:
   Programação:
     - Shell Script
-    - Orientação a Objetos
-  Outros:
+  Modo Ranheta:
+    - Café Azedo
     - AndroiDoctor
+  Geral:
     - Dicas
 
 owner:
