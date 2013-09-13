@@ -1,5 +1,5 @@
 name: Unbelievable Exception
-description: "Exceção ocorrida com sucesso!"
+description: "Problema ocorrido com sucesso!"
 
 markdown: pandoc
 pygments: true
