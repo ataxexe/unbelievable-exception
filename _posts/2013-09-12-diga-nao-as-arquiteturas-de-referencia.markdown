@@ -30,7 +30,7 @@ resposável por resolver os requisitos não-funcionais que ainda nem são conhec
 que dar um patinete para um saci subir uma rampa só porque o Juquinha conseguiu subí-la assim.
 Não vá pensando que uma arquitetura de referência responderá a qualquer necessidade, não se pode
 responder a qualquer coisa com uma só resposta, só o número 42^[Leia o livro "O Guia do Mochileiro
-das Galáxias" - e aproveite pra me contar como é, porque eu não o li] dá conta.
+das Galáxias" - e aproveite pra me contar como é] dá conta.
 
 Existem, ainda, as *pseudo-arquiteturas de referência* (praticamente o bizarro do bizarro), que nada
 mais são do que uma lista de frameworks de adoção obrigatória para qualquer projeto. A regra se
