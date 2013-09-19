@@ -35,6 +35,13 @@ Sim!
 
 Porque, infelizmente, eu não tenho tempo nem dinheiro para manter vários blogs.
 
+## E onde estão os comentários?
+
+Eu resolvi não colocá-los agora. Apesar de eu ter recebido bons comentários no AndroiDoctor, uma
+certa parte deles era para pedir consultoria de graça ou de pessoas que parecem não ter lido o que
+escrevi nos posts. Como eu sou um poço de delicadeza com esse tipo de gente, preferi não colocar
+comentários e deixar minha rabugentice apenas para os posts.
+
 [youtube]: <http://www.youtube.com/user/ataxexe>
 [500px]: <http://500px.com/ataxexe>
 [digitalrev]: <http://www.digitalrev.com/ataxexe>
