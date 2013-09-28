@@ -2,6 +2,7 @@
 layout: post
 title:  "Diga não às arquiteturas de referência"
 category: Café Azedo
+author: Ataxexe
 ---
 
 Sempre que ouço o termo **Arquitetura de Referência**, sou contagiado por uma cólera rabugenta. Esse

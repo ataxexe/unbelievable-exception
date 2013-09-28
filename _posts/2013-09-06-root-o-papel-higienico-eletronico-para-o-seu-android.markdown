@@ -2,6 +2,7 @@
 layout: post
 title:  "Root: o papel higiênico eletrônico para o seu Android"
 category: AndroiDoctor
+author: Ataxexe
 images: assets/images/root-android
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  Crie tarefas em Shell Script com SODA
 category: Shell Script
+author: Ataxexe
 ---
 
 Quem gosta de terminal acaba se rendendo aos Shell Scripts quando precisa de algumas tarefas

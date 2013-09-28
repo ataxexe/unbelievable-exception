@@ -2,6 +2,7 @@
 layout: post
 title:  Cuidado com a Herança!
 category: Café Azedo
+author: Ataxexe
 images: assets/images/heranca-composicao
 ---
 

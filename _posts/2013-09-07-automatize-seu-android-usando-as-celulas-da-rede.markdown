@@ -2,6 +2,7 @@
 layout: post
 title:  "Automatize seu Android usando as células da rede"
 category: AndroiDoctor
+author: Ataxexe
 images: assets/images/llama
 ---
 
