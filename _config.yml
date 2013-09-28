@@ -13,9 +13,15 @@ articles:
     - Shell Script
   Modo Ranheta:
     - Café Azedo
+    - Latrina Digital
     - AndroiDoctor
   Geral:
     - Dicas
+
+slogans:
+  AndroiDoctor: "Faça mais do que trocar a capinha!"
+  Latrina Digital: "Dando a descarga naqueles códigos sujos!"
+  Café Azedo: "Ragubentices na área de TI!"
 
 url: http://entra.la
 download: http://pega.la
