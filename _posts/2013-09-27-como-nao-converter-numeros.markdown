@@ -169,6 +169,6 @@ public class ConversorStringParaDouble {
 Bem melhor assim, não é? Agora o conversor não tem a responsabilidade de escolher qual instância de
 `NumberFormat` deve usar pois isso não é responsabilidade dele. Imagine se fosse necessário um outro
 tipo de conversão com um formato diferente? Em vez de você alterar aquela aberração, pode apenas
-usar outra instância do converor com outro `NumberFormat` e ir pra galera. É claro que podemos
+usar outra instância do conversor com outro `NumberFormat` e ir pra galera. É claro que podemos
 dar um toque melhor e extrair uma interface para o componente, mas pelo menos o código está bem
 melhor agora.
