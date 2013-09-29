@@ -170,5 +170,5 @@ Bem melhor assim, não é? Agora o conversor não tem a responsabilidade de esco
 `NumberFormat` deve usar pois isso não é responsabilidade dele. Imagine se fosse necessário um outro
 tipo de conversão com um formato diferente? Em vez de você alterar aquela aberração, pode apenas
 usar outra instância do conversor com outro `NumberFormat` e ir pra galera. É claro que podemos
-dar um toque melhor e extrair uma interface para o componente, mas pelo menos o código está bem
-melhor agora.
+dar um toque melhor extraindo uma interface para o componente e tratando melhor as exceções, mas
+pelo menos o código está bem melhor agora.
