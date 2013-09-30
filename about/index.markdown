@@ -24,10 +24,15 @@ do AndroiDoctor pra cá e usar somente este espaço.
 ## E essa categoria "Café Azedo"?
 
 Quem me conhece sabe o quanto eu sou rabugento com algumas coisas. Pois bem, esse é o meu espaço
-dedicado para ser rabugento enquanto tento mostrar meu lado ranzinza de ver as coisas no
-desenvolvimento de software.
+dedicado para mostrar meu lado ranzinza de ver as coisas no desenvolvimento de software.
 
-## Então essas duas categorias são praticamente dois blogs?
+## Agora apareceu outra... "Latrina Digital"
+
+Nessa categoria eu decidi colocar algumas loucuras que vejo ou já vi no meu dia-a-dia como papel
+higiênico de TI. Essas coisas serão, basicamente, algoritmos que curam até sinusite. Parece um pouco
+com o Café Azedo, mas é mais voltado para programação.
+
+## Então essas categorias são praticamente blogs distintos?
 
 Sim!
 

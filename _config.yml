@@ -9,14 +9,13 @@ paginate: 5
 paginate_path: :num
 
 articles:
-  Programação:
+  Geral:
     - Shell Script
+    - Dicas
   Modo Ranheta:
     - Café Azedo
     - Latrina Digital
     - AndroiDoctor
-  Geral:
-    - Dicas
 
 slogans:
   AndroiDoctor: "Faça mais do que trocar a capinha!"
