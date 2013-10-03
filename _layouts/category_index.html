@@ -2,18 +2,22 @@
 layout: default
 ---
 
-{% if site.slogans[page.title] %}
-<h1 id="site-description">{{ site.slogans[page.title] }}</h1>
-{% else %}
-<h1 id="site-description">{{ site.description }}</h1>
-{% endif%}
-<h2 id="category">{{ page.title }}</h2>
-{{ content }}
-<ul class="posts">
+<div class="container">
+  {% if site.slogans[page.title] %}
+  <h1 id="site-description">{{ site.slogans[page.title] }}</h1>
+  {% else %}
+  <h1 id="site-description">{{ site.description }}</h1>
+  {% endif%}
+  <h2 id="category">{{ page.title }}</h2>
+  {{ content }}
   {% for post in site.categories[page.index] %}
-  <li>
+  <p>
     <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span> &raquo;
     <a class="post-url" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-  </li>
+    <blockquote class="post-excerpt">
+      {{ post.excerpt }}
+    </blockquote>
+    <a class="read-more" href="{{ site.url }}{{ post.url }}">Continue lendo...</a>
+  </p>
   {% endfor %}
-</ul>
+</div>
