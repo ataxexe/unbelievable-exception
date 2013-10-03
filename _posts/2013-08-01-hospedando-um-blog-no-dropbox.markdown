@@ -2,6 +2,9 @@
 layout: post
 title:  Hospedando um blog no Dropbox
 category: Dicas
+tags:
+  - dropbox
+  - jekyll
 author: Ataxexe
 ---
 

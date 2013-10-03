@@ -3,6 +3,8 @@ layout: post
 title:  Cuidado com a Herança!
 category: Café Azedo
 author: Ataxexe
+tags:
+  - orientação a objetos
 images: assets/images/heranca-composicao
 ---
 

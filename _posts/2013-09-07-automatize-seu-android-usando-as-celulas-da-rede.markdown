@@ -3,6 +3,9 @@ layout: post
 title:  "Automatize seu Android usando as células da rede"
 category: AndroiDoctor
 author: Ataxexe
+tags:
+  - android
+  - automação
 images: assets/images/llama
 ---
 

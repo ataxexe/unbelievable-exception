@@ -3,6 +3,9 @@ layout: post
 title:  "Como não converter números"
 category: Latrina Digital
 author: Ataxexe
+tags:
+  - java
+  - refatoração
 ---
 
 É impressionante como alguns programadores são afoitos o bastante para não pensarem um pouco antes
