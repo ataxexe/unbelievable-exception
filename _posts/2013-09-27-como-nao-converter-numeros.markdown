@@ -13,7 +13,8 @@ de escrever algum código. É claro que algumas situações já estão no sangue
 para problemas mundialmente conhecidos provavelmente já estão na API da sua linguagem de programação
 preferida.
 
-Um exemplo muito lindo:
+Um exemplo muito lindo (atente para o fato de que não constam as funções *trocaSubstring* e
+*stringToArray*):
 
 ~~~java
   /** 
