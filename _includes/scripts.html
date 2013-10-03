@@ -4,4 +4,7 @@
 <script src="{{ site.url }}/assets/js/jquery-1.10.2.min.js"></script>
 <script src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
 <script src="{{ site.url }}/assets/js/bootswatch.js"></script>
+{% for script in page.scripts %}
+  <script src="{{ site.url }}/assets/js/{{ script }}.js"></script>
+{% endfor %}
 <script src="{{ site.url }}/assets/js/ga.js"></script>
