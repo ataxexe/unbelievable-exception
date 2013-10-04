@@ -32,7 +32,8 @@ Veja você mesmo:
 ## Eu quero, eu quero, eu quero!!
 
 Gostou da ideia, não foi? Mas antes você precisa ter um [celular rooteado][post-root] e baixar o
-[Game CIH][gamecih].
+[Game CIH][gamecih]^[Se estiver tendo problemas para baixar pelo site oficial, pode pegar
+[aqui][gamecih_download]].
 
 Uma vez aberto e concedido o acesso de superusuário, você pode abrir seu joguinho e verá um treco
 cinza no canto superior esquerdo. Basta meter o dedão lá e na lupinha que aparecer. Irão aparecer
@@ -114,3 +115,4 @@ Hoje os beneficiados não são os melhores jogadores, são os que tem mais grana
 
 [post-root]: <{{ site.url }}/posts/root-o-papel-higienico-eletronico-para-o-seu-android>
 [gamecih]: <http://www.cih.com.tw/gamecih.html>
+[gamecih_download]: <http://pega.la/android/GameCIH-3.0.0.apk>
