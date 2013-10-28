@@ -76,7 +76,7 @@ Bom, não é minha intenção criar um manual do Tasker. Mas vou dar umas dicas 
 
 1. Novo Perfil: State -&gt; Sensor -&gt; Orientation -&gt; Face Down
 1. Nova Tarefa: Audio Settings -&gt; Ringer Volume -&gt; 0
-1. (Mesma tarefa) Audio Settings -&gt; Notification Volume -&gt; 0
+1. Audio Settings -&gt; Notification Volume -&gt; 0
 
 ## Ei, não precisa colocar tarefa de saída do perfil?
 
@@ -96,8 +96,8 @@ os passos:
 1. Novo Perfil: Application -&gt; Aplicativos que você desejar
 1. Tarefa: Plugin -&gt; Secure Settings -&gt; Configuration -&gt; Input Method (Helper Actions) -&gt;
    Teclado de sua escolha
-1. Tarefa de saída: Plugin -&gt; Secure Settings -&gt; Configuration -&gt; Input Method (Helper Actions)
-   -&gt; Teclado que você usa normalmente
+1. Tarefa de saída: Plugin -&gt; Secure Settings -&gt; Configuration -&gt; Input Method (Helper
+   Actions) -&gt; Teclado que você usa normalmente
 
 ### Ligar o GPS antes de abrir um aplicativo de mapas e desligá-lo ao sair
 
