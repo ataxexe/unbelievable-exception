@@ -74,10 +74,9 @@ Bom, não é minha intenção criar um manual do Tasker. Mas vou dar umas dicas 
 
 ### Ativar o silencioso ao colocar o celular de cabeça pra baixo
 
-* Novo Perfil: State -&gt; Sensor -&gt; Orientation -&gt; Face Down
-Tarefa: 
-1. Audio Settings -&gt; Ringer Volume -&gt; 0
-1. Audio Settings -&gt; Notification Volume -&gt; 0
+1. Novo Perfil: State -&gt; Sensor -&gt; Orientation -&gt; Face Down
+1. Nova Tarefa: Audio Settings -&gt; Ringer Volume -&gt; 0
+1. (Mesma tarefa) Audio Settings -&gt; Notification Volume -&gt; 0
 
 ## Ei, não precisa colocar tarefa de saída do perfil?
 
