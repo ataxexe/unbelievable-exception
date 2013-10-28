@@ -7,4 +7,6 @@
 {% for script in page.scripts %}
   <script src="{{ site.url }}/assets/js/{{ script }}.js"></script>
 {% endfor %}
+{% if site.analytics %}
 <script src="{{ site.url }}/assets/js/ga.js"></script>
+{% endif %}
