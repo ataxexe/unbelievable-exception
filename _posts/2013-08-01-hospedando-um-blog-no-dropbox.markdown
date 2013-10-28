@@ -110,7 +110,7 @@ Para testar localmente, você só precisa remover a chave **destination** e troc
 por *http://localhost:4000*. Trocar isso a todo instante será uma verdadeira bagunça, então, sugiro
 que você tenha um arquivo de configuração local (algo do tipo `_config_local.yml`) com essas
 configurações e, para testar o blog localmente, rode o comando
-`jekyll serve --config=_config_local.yml`.
+`jekyll serve --config _config.yml,_config_local.yml`.
 
 Ah! Não se esqueça de adicionar o */index.html* nos links da página inicial.
 
