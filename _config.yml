@@ -10,7 +10,7 @@ paginate_path: :num
 
 articles:
   Geral:
-    - Shell Script
+    - Linux
     - Dicas
   Modo Ranheta:
     - Café Azedo

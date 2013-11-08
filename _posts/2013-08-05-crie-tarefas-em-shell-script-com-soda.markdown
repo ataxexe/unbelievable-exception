@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Crie tarefas em Shell Script com SODA
-category: Shell Script
+category: Linux
 tags:
   - projetos
   - soda
