@@ -6,7 +6,7 @@ author: Ataxexe
 tags:
 ---
 
-Alguns touchpads são complicados de serem instalados no Linux, o meu é um desses casos. Eu não estava com vontade de instalar o driver dele somente pra usar a função de ativar e desativar quando eu estivesse com o mouse plugado, então, refatorei um script que [encontrei][script] jogado pela internet e vou deixar o resultado compartilhado com vocês:
+Alguns touchpads são complicados de serem instalados no Linux, o meu é um desses. Eu não estava com vontade de instalar o driver somente pra usar a função de ativar e desativar quando eu estivesse com o mouse plugado, então, refatorei um script que [encontrei][script] jogado pela internet e vou deixar o resultado compartilhado com vocês:
 
 ~~~sh
 #!/bin/bash
