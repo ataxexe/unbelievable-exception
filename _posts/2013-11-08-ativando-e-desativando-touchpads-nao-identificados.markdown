@@ -45,7 +45,7 @@ else
 fi
 ~~~
 
-O script é bem simples de se entender, não vou entrar em maiores detalhes. Apenas uma coisa deve ser observada: é necessário trocar o valor da variável `touchpadString` pelo nome mapeado do seu touchpad (geralmente os que não são reconhecidos como tal possuem aquele nome genérico). Se estiver em dúvidas de qual é o nome, basta usar o comando `xinput --list`.
+O script é bem simples de se entender, não vou entrar em maiores detalhes. Apenas uma coisa deve ser observada: é necessário trocar o valor da variável `touchpadString` pelo nome mapeado do seu touchpad (geralmente os que não são reconhecidos como tal possuem aquele nome genérico). Se estiver em dúvidas sobre o nome do touchpad, basta usar o comando `xinput --list`.
 
 Pra quem já utiliza o [SODA][], o script fica mais simples de ser usado. O resultado está logo abaixo:
 
