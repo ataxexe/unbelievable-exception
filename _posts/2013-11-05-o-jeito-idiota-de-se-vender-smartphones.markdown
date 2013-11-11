@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  O jeito idiota de se vender smartphones
+title:  O jeito idiota de se vender smarphones
 category: AndroiDoctor
 author: Ataxexe
 tags:
