@@ -47,6 +47,12 @@ certa parte deles era para pedir consultoria de graça ou de pessoas que parecem
 escrevi nos posts. Como eu sou um poço de delicadeza com esse tipo de gente, preferi não colocar
 comentários e deixar minha rabugentice apenas para os posts.
 
+## Ué, agora tem comentários?
+
+É...resolvi dar uma segunda chance a mim mesmo. Mas não me venha com pedidos de consultoria gratuita.
+Uma coisa é pedir ajuda, outra é querer que eu faça o trabalho de alguém que já e pago pra fazer (e não
+sou eu).
+
 [youtube]: <http://www.youtube.com/user/ataxexe>
 [500px]: <http://500px.com/ataxexe>
 [digitalrev]: <http://www.digitalrev.com/ataxexe>
