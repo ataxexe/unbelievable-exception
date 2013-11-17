@@ -32,7 +32,7 @@ A tela também foi outro grande trunfo, na minha opinião. Quando você pega o M
 
 ## Hummmm... bacana
 
-É sim. A Motorola marcou um golaço com o Moto X. Outro ponto muito positivo foi que, como ele entra naquela lei de insenção fiscal e precisa ter uma porrada de apps brasileiros, a solução da Motorola foi colocar um aplicativo com os links para os apps brasileiros. Muito melhor do que encher o celular de merda.
+É sim. A Motorola marcou um golaço com o Moto X. Outro ponto muito positivo foi que, como ele entra naquela lei de incentivos fiscais e precisa ter uma porrada de apps brasileiros, a solução da Motorola foi colocar um aplicativo com os links para os apps brasileiros. Muito melhor do que encher o celular de merda.
 
 ## Ei, que preconceito é esse com os apps brasileiros?
 
