@@ -32,11 +32,11 @@ A tela também foi outro grande trunfo, na minha opinião. Quando você pega o M
 
 ## Hummmm... bacana
 
-É sim. A Motorola marcou um golaço com o Moto X. Outro ponto muito positivo foi que, como ele entra naquela PEC de insenção fiscal e precisa ter uma porrada de apps brasileiros, a solução da Motorola foi colocar um aplicativo com os links para os apps brasileiros. Muito melhor do que encher o celular de merda.
+É sim. A Motorola marcou um golaço com o Moto X. Outro ponto muito positivo foi que, como ele entra naquela lei de insenção fiscal e precisa ter uma porrada de apps brasileiros, a solução da Motorola foi colocar um aplicativo com os links para os apps brasileiros. Muito melhor do que encher o celular de merda.
 
 ## Ei, que preconceito é esse com os apps brasileiros?
 
-Nenhum, só que, pela PEC, deveriam ser colocados 50 aplicativos brasileiros (e não é qualquer aplicativo não, tem um certo filtro aí na jogada^[filtro]). Agora dê uma olhada na quantidade de aplicativos que seu celular tem e que são realmente úteis. Consegue imaginar 50 aplicativos jogados ao acaso nele (e sem a possibilidade de removê-los)? Mesmo sendo aplicativos brasileiros, estrangeiros ou de uma galáxia muito, muito distante, seria um estupro do bom senso.
+Nenhum, só que, pela lei, deveriam ser colocados 50 aplicativos brasileiros (e não é qualquer aplicativo não, tem um certo filtro aí na jogada^[filtro]). Agora dê uma olhada na quantidade de aplicativos que seu celular tem e que são realmente úteis. Consegue imaginar 50 aplicativos jogados ao acaso nele (e sem a possibilidade de removê-los)? Mesmo sendo aplicativos brasileiros, estrangeiros ou de uma galáxia muito, muito distante, seria um estupro do bom senso.
 
 [^filtro]: Isso parece coisa pra favorecer alguma empresa de desenvolvimento de aplicativos "parceira" do governo.
 
