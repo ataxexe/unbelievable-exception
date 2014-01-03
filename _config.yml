@@ -8,18 +8,14 @@ permalink: /posts/:title
 paginate: 10
 paginate_path: :num
 
-articles:
-  Geral:
-    - Linux
-    - Dicas
-  Modo Ranheta:
-    - Café Azedo
-    - Latrina Digital
-    - AndroiDoctor
+navbar_categories:
+  - Linux
+  - separator
+  - Latrina Digital
+  - AndroiDoctor
 
 slogans:
   AndroiDoctor: "Faça mais do que trocar a capinha!"
-  Latrina Digital: "Dando a descarga naqueles códigos de merda!"
 
 url: http://entra.la
 download: http://pega.la

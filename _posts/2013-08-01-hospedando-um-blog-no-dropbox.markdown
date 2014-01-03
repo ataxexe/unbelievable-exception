@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Hospedando um blog no Dropbox
-category: Dicas
+category: Latrina Digital
 tags:
   - dropbox
   - jekyll

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Diga não às arquiteturas de referência"
-category: Café Azedo
+category: Latrina Digital
 author: Ataxexe
 tags:
   - arquitetura

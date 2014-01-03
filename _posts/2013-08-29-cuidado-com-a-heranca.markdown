@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Cuidado com a Herança!
-category: Café Azedo
+category: Latrina Digital
 author: Ataxexe
 tags:
   - orientação a objetos

@@ -1,4 +1,3 @@
-<!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -16,15 +15,16 @@
             Artigos <span class="badge">{% post_count %}</span><b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            {% for article in site.articles %}
-              <li class="dropdown-header">{{ article[0] }}</li>
-              {% for category in article[1] %}
+            {% for category in site.navbar_categories %}
+              {% if category == "separator" %}
+                <li class="dropdown-header divider"></li>
+              {% else %}
                 <li>
                   <a href="{{ site.url }}/{{ category | category_url }}">
                     {{ category }} <span class="badge">{{ category | post_count }}</span>
                   </a>
                 </li>
-              {% endfor %}
+              {% endif %}
             {% endfor %}
           </ul>
         </li>

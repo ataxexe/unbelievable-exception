@@ -14,12 +14,10 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
       self.data['index'] = category
       # this is ugly but works for now
-      @site.config['articles'].each do |name, categories|
-        categories.each do |cat|
-          if cat.downcase == category
-            self.data['title'] = cat
-            break
-          end
+      @site.config['navbar_categories'].each do |cat|
+        if cat.downcase == category
+          self.data['title'] = cat
+          break
         end
       end
     end
@@ -30,7 +28,6 @@ module Jekyll
 
     def generate(site)
       if site.layouts.key? 'category_index'
-        p site.categories
         site.categories.keys.each do |category|
           site.pages << CategoryPage.new(site, site.source, category)
         end
