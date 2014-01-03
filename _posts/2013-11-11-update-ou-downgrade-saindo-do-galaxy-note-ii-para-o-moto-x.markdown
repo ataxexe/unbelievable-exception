@@ -3,7 +3,10 @@ layout: post
 title:  Update ou downgrade? Saindo do Galaxy Note II para o Moto X
 category: AndroiDoctor
 author: Ataxexe
-tags:
+tags: 
+  - android
+  - moto x
+  - galaxy note
 ---
 
 Meu Galaxy Note II estava dando uns problemas muito malucos. Trocar de ROM não estava adiantando (o que indicava ser algo físico no aparelho - para o meu desespero) e a minha paciência estava do tamanho do meu salário. Acabei decidido a comprar um Nexus (o 4, o 5 não vai caber tão cedo no meu bolso), mas por alguns motivos (que irei abordar mais abaixo), comprei o excelente Moto X.
