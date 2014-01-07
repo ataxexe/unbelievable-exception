@@ -9,7 +9,7 @@ tags:
   - galaxy note
 ---
 
-Meu Galaxy Note II estava dando uns problemas muito malucos. Trocar de ROM não estava adiantando (o que indicava ser algo físico no aparelho - para o meu desespero) e a minha paciência estava do tamanho do meu salário. Acabei decidido a comprar um Nexus (o 4, o 5 não vai caber tão cedo no meu bolso), mas por alguns motivos (que irei abordar mais abaixo), comprei o excelente Moto X.
+Meu Galaxy Note II estava dando uns problemas muito malucos. Trocar de ROM não estava adiantando (o que indicava ser algo físico no aparelho - para o meu desespero) e a minha paciência estava do tamanho do meu salário. Acabei decidido a comprar um Nexus (o 4, o 5 não vai caber tão cedo no meu bolso), mas por alguns motivos (os quais irei abordar ao longo deste post), comprei o excelente Moto X.
 
 ## Mas o Nexus é bem melhor, tem garantia de atualização e é Android puro
 
@@ -21,7 +21,7 @@ Isso é um fato muito legal. O finado Nexus S da minha esposa (morreu junto com 
 
 ## Mas no Nexus praticamente não temos esses problemas
 
-Ótimo ponto. E é uma verdade tão pura como o Android que roda nele. O ponto onde quero chegar é: eu quero um smartphone realmente [*smart*][post_smart], e o Moto X me surpreendeu (e muito). Além de o Android rodar muito bem nele, a interface gráfica ser praticamente a do Android puro (estou dizendo praticamente, mas ainda não achei alguma mudança significativa), ter dois processadores (o que já ajuda bastante a dar conta do sistema) e uma boa quantidade de memória RAM (2 GB), ele é simplesmente o melhor Android em termos de interação com o seu dono^[Detesto o termo "usuário"... coisa de cliente de traficante].
+Ótimo ponto. E é uma verdade tão pura como o Android que roda nele. Mas o ponto onde quero chegar é: eu quero um smartphone realmente [*smart*][post_smart] e o Moto X me surpreendeu (e muito). Além de o Android rodar muito bem nele, a interface gráfica ser praticamente a do Android puro, ter dois processadores (o que já ajuda bastante a dar conta do sistema) e uma boa quantidade de memória RAM (2 GB), ele é simplesmente o melhor Android em termos de interação com o seu dono^[Detesto o termo "usuário"... parece coisa de cliente de traficante].
 
 ## Credo, ele nem é top de linha como o Note II, o III, o S4...
 
@@ -29,13 +29,13 @@ Sinceramente, isso [não importa][post_vendedor]. Praticamente tudo o que eu faz
 
 ## Grande bosta
 
-Tá, eu confesso, parece mesmo. Mas é muito legal poder interagir dessa forma com seu smartphone, faz ele parecer mais humano. As notificações também são muito legais e aparecem na tela somente quando o Moto X percebe que você pode vê-las, ou seja, se estiver caminhando, ele nem irá se dar ao trabalho de acender a tela.
+Tá, eu confesso, parece mesmo. Mas é muito legal poder interagir dessa forma com seu smartphone, faz ele parecer mais humano (ou menos robotizado, se preferir). As notificações também são muito legais e aparecem na tela somente quando o Moto X percebe que você pode vê-las, ou seja, se estiver caminhando, ele nem irá se dar ao trabalho de acender a tela.
 
 A tela também foi outro grande trunfo, na minha opinião. Quando você pega o Moto X, ele automaticamente acende alguns pixels brancos na tela mostrando o horário, a opção de desbloqueio e, caso alguém tenha te pentelhado, as notificações. O fato de ele acender somente alguns pixels poupa muito sua bateria (e ainda deixa o visual bem agradável).
 
 ## Hummmm... bacana
 
-É sim. A Motorola marcou um golaço com o Moto X. Outro ponto muito positivo foi que, como ele entra naquela lei de incentivos fiscais e precisa ter uma porrada de apps brasileiros, a solução da Motorola foi colocar um aplicativo com os links para os apps brasileiros. Muito melhor do que encher o celular de merda.
+É sim. A Motorola marcou um golaço com o Moto X. Outro ponto muito positivo foi que, como ele entra naquela lei de incentivos fiscais e precisa ter uma porrada de apps brasileiros, a solução da Motorola foi colocar um aplicativo com os links para os apps brasileiros. Muito melhor do que encher o celular de merda. (E você pode remover a loja *brazuka* facilmente após rootear o rapazinho.)
 
 ## Ei, que preconceito é esse com os apps brasileiros?
 
@@ -69,8 +69,8 @@ Mas não é. Não recebi um tostão furado de ninguém pra falar bem do Moto X. 
 
 [^macumba]: Acho que foi macumba do [vendedor da Samsung][post_vendedor].
 
-[post_vendedor]: <{{ site.url }}/posts/o-jeito-idiota-de-se-vender-smartphones/>
-[post_smart]: <{{ site.url }}/posts/faca-valer-o-smart-do-seu-smartphone>
+[post_vendedor]: <{{site.url}}/posts/o-jeito-idiota-de-se-vender-smartphones/>
+[post_smart]: <{{site.url}}/posts/faca-valer-o-smart-do-seu-smartphone>
 
 [benchmark_1]: <http://arstechnica.com/gadgets/2013/08/performance-preview-the-moto-x-sports-a-great-gpu-respectable-cpu>
 [benchmark_2]: <http://www.fonearena.com/blog/80178/motorola-moto-x-benchmarks.html>
