@@ -53,5 +53,9 @@ intrusivas. Infelizmente as propagandas normais também não irão aparecer. É 
 de renda de desenvolvedores competentes, mas, como algumas propagandas podem fazer você querer
 inventar a voadora por email, é uma boa solução.
 
-[post-root]: <{{ site.url }}/posts/root-o-papel-higienico-eletronico-para-o-seu-android>
+**UPDATE**: Para os felizes usuários do [Xposed][post-xposed], o módulo [MinMinGuard][] também cumpre (e muito bem, por sinal) o papel de bloquear as propagandas. Ele utiliza outra forma pra isso (e se baseia no conceito de *proxy* do Xposed) e consegue até remover os espaços destinados a propagandas nos aplicativos.
+
+[MinMinGuard]: <http://repo.xposed.info/module/tw.fatminmin.xposed.minminguard>
+[post-xposed]: <{{site.url}}/posts/xposed-a-forma-genial-de-se-modificar-uma-rom>
+[post-root]: <{{site.url}}/posts/root-o-papel-higienico-eletronico-para-o-seu-android>
 [adaway]: <https://f-droid.org/repository/browse/?fdid=org.adaway>
