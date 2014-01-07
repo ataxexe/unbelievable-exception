@@ -21,7 +21,7 @@ module Jekyll
             PandocParser.new @config
           else
             STDERR.puts "Invalid Markdown processor: #{@config['markdown']}"
-            STDERR.puts " Valid options are [ maruku | rdiscount | kramdown ]"
+            STDERR.puts " Valid options are [ redcarpet | kramdown | rdiscount | maruku | pandoc ]"
             raise FatalException.new("Invalid Markdown process: #{@config['markdown']}")
         end
         @setup = true
