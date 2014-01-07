@@ -13,7 +13,7 @@ Minhas outras tentativas de causar o caos e a destruição em massa:
 * Minhas fotos no [500px][] e [DigitalRev][].
 * Minha conta no [GitHub][].
 
-# FAQ
+# FAQ (ou quase isso)
 
 ## Por que tem a categoria "AndroiDoctor" aqui?
 
