@@ -11,9 +11,17 @@
     <div class="navbar-collapse collapse" id="navbar-main">
       <ul class="nav navbar-nav">
         <li class="dropdown">
+          {% if page.category %}
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            {{ page.category }}
+            <span class="badge">{{ page.category | post_count }}</span>
+            <b class="caret"></b>
+          </a>
+          {% else %}
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             Artigos <span class="badge">{% post_count %}</span><b class="caret"></b>
           </a>
+          {% endif %}
           <ul class="dropdown-menu">
             {% for category in site.navbar_categories %}
               {% if category == "separator" %}
@@ -31,6 +39,7 @@
         <li class="divider"></li>
         <li><a href="{{ site.url }}/about">Sobre</a></li>
         <li><a href="{{ site.url }}/feed.xml">RSS</a></li>
+        <li class="divider"></li>
       </ul>
     </div>
   </div>

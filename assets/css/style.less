@@ -1,14 +1,14 @@
-// cyborg colors
-@blue:              #2A9FD6;
-@green:             #77B300;
-@orange:            #FF8800;
-@red:               #CC0000;
-@violet:            #9933CC;
+@orange:            #ff8800;
+@white:             #fff;
+@dark-gray:         #161616;
+@light_gray:        #CFCFC2;
 
-@footer-height:       120px;
-@footer-background: #161616;
+@footer-background: @dark-gray;
+@navbar-background: @dark-gray;
 
-@navbar-background: #161616;
+.navbar-default {
+  background-color: @dark-gray;
+}
 
 html, body {
   height: 100%;
@@ -19,47 +19,15 @@ body {
   text-align: justify;
 }
 
-h1 {
-  color: @red;
-}
-
-h2 {
-  color: @orange;
-}
-
-h3 {
-  color: @violet;
-}
-
 #site-name {
-  color: @blue;
+  color: @orange;
 }
 
 #site-description {
-  color: @red;
+  color: @orange;
 }
 
 .site-owner {
-  color: @orange;
-}
-
-.post-category {
-  color: @green;
-}
-
-.post-date {
-  color: @violet;
-}
-
-.posted-by {
-  color: @orange;
-}
-
-#posts {
-  color: @orange;
-}
-
-#category {
   color: @orange;
 }
 
@@ -71,6 +39,14 @@ h3 {
   border: 0;
 }
 
+a.post-title {
+  color: @light_gray;
+}
+
+.post-details {
+  font-style: italic;
+}
+
 article {
 
   .post-content {
@@ -80,7 +56,7 @@ article {
   .meta {
     padding-top: 6px;
     font-style: italic;
-    text-align: left;
+    text-align: right;
   }
 
   img {
@@ -109,24 +85,7 @@ article {
   }
 }
 
-/* Wrapper for page content to push down footer */
-#wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by its height */
-  margin: 0 auto -@footer-height;
-  /* Pad bottom by footer height */
-  padding: 0 0 @footer-height;
-}
-
-/* Set the fixed height of the footer here */
 #footer {
-  border-top: 1px solid @blue;
+  border-top: 1px solid @orange;
   text-align: right;
-  height: @footer-height;
-}
-
-.navbar {
-  background-color: @navbar-background;
 }
