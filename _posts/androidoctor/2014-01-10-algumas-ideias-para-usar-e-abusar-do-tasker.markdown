@@ -41,7 +41,9 @@ Ah! E não se esqueça de colocar como tarefa de saída a mesma tarefa de entrad
 
 Se algum pentelho tiver a mania de tentar desbloquear seu Android, você pode criar um perfil com o evento **Failed Login Atempts** do [Secure Settings][] e vincular a uma tarefa que pode, inclusive, tirar uma foto do rosto do zé ruela, obter a localização do dispositivo, enviar um email com essas informações para você e, de quebra, disparar um alarme ou mensagem de voz pelo TTS.
 
-A foto pode ser tirada com a tarefa nativa **Take Photo**, ela irá gravar a foto na pasta `DCIM/tasker` com o nome que você escolher (pode até ter sequência no nome). A ideia é que o nome da foto seja sempre o mesmo (pra facilitar as coisas e não encher o celular com porcaria desnecessária) e a foto seja batida com a câmera frontal e no modo silencioso (*"Discreet"*, nas configurações da tarefa). Para obter a localização, certifique-se de que o GPS está ligado ou o ligue usando o [Secure Settings][]. Para enviar o email, ative o 3g e utilize o aplicativo [Email Me Pro][]. Eu, pessoalmente, apenas solto um "gentil" alarme de voz na terceira tentativa.
+A foto pode ser tirada com a tarefa nativa **Take Photo**, ela irá gravar a foto na pasta `DCIM/tasker` com o nome que você escolher (pode até ter sequência no nome). A ideia é que o nome da foto seja sempre o mesmo (pra facilitar as coisas e não encher o celular com porcaria desnecessária) e a foto seja batida com a câmera frontal e no modo silencioso (*"Discreet"*, nas configurações da tarefa). Para obter a localização, certifique-se de que o GPS está ligado ou o ligue usando o [Secure Settings][]. Para enviar o email, ative o 3g e utilize o aplicativo [Email Me Pro][]. Eu, pessoalmente, apenas solto alguns "gentis" alarmes de voz a partir da terceira tentativa, como vocês podem ver abaixo:
+
+{% youtube RhjYs49bAO4 %}
 
 ## Desabilitar a segurança em locais seguros
 
