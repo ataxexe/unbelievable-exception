@@ -5,7 +5,7 @@ markdown: pandoc
 pygments: true
 
 permalink: /posts/:title
-paginate: 6
+paginate: 15
 paginate_path: :num
 
 navbar_categories:
