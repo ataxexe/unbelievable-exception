@@ -43,6 +43,7 @@ var search_finish = function(result) {
       .appendTo("#search-result")
   })
   $("#search-result").show("slow")
+  $("#content").hide("slow")
 }
 
 $("#search-input").keyup(function(){
@@ -51,5 +52,6 @@ $("#search-input").keyup(function(){
     search(term, search_finish)
   } else {
     $("#search-result").hide("slow")
+    $("#content").show("slow")
   }
 })
