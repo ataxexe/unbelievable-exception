@@ -1,0 +1,13 @@
+---
+layout: none
+---
+{ "entries": [ {% for post in site.posts %}
+  {
+    "url": "{{post.url}}",
+    "tags": "{{post.tags | join: ', '}}",
+    "category": "{{post.category}}",
+    "title": "{{post.title | escape}}",
+    "body": "{{post.content | strip_html | strip_newlines | truncatewords: 400}}",
+    "date": "{{post.date | date: "%d/%m/%Y"}}"
+  } {% if post.previous %},{% endif %} {% endfor %}
+]}
