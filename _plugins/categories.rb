@@ -13,13 +13,6 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
       self.data['index'] = category
-      # this is ugly but works for now
-      @site.config['navbar_categories'].each do |cat|
-        if cat.downcase == category
-          self.data['title'] = cat
-          break
-        end
-      end
     end
   end
 
