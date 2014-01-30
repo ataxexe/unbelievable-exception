@@ -46,7 +46,7 @@ var search_finish = function(result) {
   $("#content").hide("slow")
 }
 
-$("#search-input").keyup(function(){
+$(".search-input").keyup(function(){
   term = $(this).val()
   if (term.length > 3) {
     search(term, search_finish)

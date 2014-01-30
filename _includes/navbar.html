@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
     </div>
-    <div class="navbar-collapse collapse" id="navbar-main">
+    <div class="navbar-collapse collapse navbar-responsive-collapse" id="navbar-main">
       <ul class="nav navbar-nav">
         <li class="dropdown">
           {% if page.category %}
@@ -19,7 +19,7 @@
           </a>
           {% else %}
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            Artigos <span class="badge">{% post_count %}</span><b class="caret"></b>
+            Artigos&nbsp;<span class="badge">{% post_count %}</span><b class="caret"></b>
           </a>
           {% endif %}
           <ul class="dropdown-menu">
@@ -37,12 +37,50 @@
           </ul>
         </li>
         <li class="divider"></li>
-        <li><a href="https://github.com/ataxexe/unbelievable-exception" target="_blank">GitHub</a></li>
-        <li><a href="{{ site.url }}/feed.xml">RSS</a></li>
-        <li><a href="{{ site.url }}/about">Sobre</a></li>
+        <li>
+          <a href="https://github.com/ataxexe/unbelievable-exception" target="_blank">
+            <span class="visible-xs visible-md visible-lg">GitHub</span>
+            <span class="hidden-xs hidden-md hidden-lg">
+              <i class="fa fa-github"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.url }}/feed.xml">
+            <span class="visible-xs visible-md visible-lg">RSS</span>
+            <span class="hidden-xs hidden-md hidden-lg">
+              <i class="fa fa-rss"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.url }}/about">
+            <span class="visible-xs visible-md visible-lg">Sobre</span>
+            <span class="hidden-xs hidden-md hidden-lg">
+              <i class="fa fa-question"></i>
+            </span>
+          </a>
+        </li>
         <li class="divider"></li>
-        <li class="navbar-form navbar-right">
-          <input id="search-input" class="form-control col-lg-8" type="text" placeholder="Pesquisar"></input>
+        <form class="navbar-form hidden-xs">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <i class="fa fa-search"></i>
+            </span>
+            <input type="text" placeholder="Pesquisar"
+                   class="search-input expanded-search-input form-control col-lg-8">
+            </input>
+          </div>
+        </form>
+        <li class="visible-xs">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <i class="fa fa-search"></i>
+            </span>
+            <input type="text" placeholder="Pesquisar"
+                   class="search-input form-control col-lg-8">
+            </input>
+          </div>
         </li>
       </ul>
     </div>
