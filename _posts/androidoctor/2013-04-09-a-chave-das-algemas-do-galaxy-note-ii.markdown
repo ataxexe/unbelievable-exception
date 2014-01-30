@@ -8,6 +8,11 @@ tags:
   - android
   - root
   - galaxy note ii
+  - roms
+  - slim
+  - alliance
+  - tasker
+  - aplicativos
 ---
 
 O Galaxy Note 2 é um <del>celular</del> <del>tablet</del> <del>coisa</del> <del>OVNI</del> aparelho excelente! A Samsung não diz se é um tablet, um smartphone ou filho de um Galaxy S3 bêbado com um Palmtop no cio. Alguns o chamam de *phablet* (tablet + smartphone). Eu prefiro o termo *aparelho traveco* mesmo, mas usarei somente *aparelho* para tentar manter a sanidade deste post (preciso acreditar nisso pelo menos uma vez)!

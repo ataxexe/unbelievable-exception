@@ -6,6 +6,7 @@ author: Ataxexe
 tags:
   - android
   - launcher
+  - customização
 ---
 
 Você já percebeu como as telas iniciais dos Androids de fabricantes diferentes são **bem**

@@ -6,6 +6,8 @@ author: Ataxexe
 tags:
   - android
   - tasker
+  - root
+  - secure settings
 images: assets/images/tasker
 ---
 

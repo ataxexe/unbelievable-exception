@@ -8,6 +8,7 @@ tags:
   - android
   - cores
   - customização
+  - aplicativos
 ---
 
 Ter um celular bonito vai muito além de trocar a capinha (sacou o bordão do blog agora?). O interessante é que, com os aplicativos certos (e um pouco de noção de cores) você pode ter um celular de cair o queixo.

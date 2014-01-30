@@ -9,6 +9,7 @@ tags:
   - root
   - gamecih
   - game guardian
+  - jogos
 ---
 
 Depois de um longo tempo sem postar nada aqui resolvi incomodar a humanidade novamente com minhas maluquices Androidianas. Hoje a bola da vez será o [Game Guardian][]. Na minha insana e rabugenta opinião, ele dá um pau no Game CIH.

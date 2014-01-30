@@ -7,6 +7,7 @@ tags:
   - android
   - root
   - xposed
+  - customização
 ---
 
 Trocar a ROM de um Android é muito bacana, apesar de não ser trivial. É muito bom ver várias funcionalidades novas e nativas no sistema e, principalmente, a possibilidade de customizar a interface (mudar algumas cores, ícones e fundos, por exemplo). O problema é que alguns aparelhos não possuem ROMs customizadas e, outro ainda maior, é o trabalho de socar uma ROM nova no aparelho só pra poder trocar o ícone da bateria. Eis, então, que surge um herói chamado [Xposed][].

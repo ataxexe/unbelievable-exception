@@ -7,6 +7,7 @@ tags:
   - android
   - gestos
   - root
+  - gmd gesture control
 ---
 
 A comunicação não-verbal é responsável por 55% da mensagem que transmitimos. As palavras são responsáveis por apenas 7%. Isso pode não ser o motivo pelo qual seu smartphone executa os comandos de voz tão bem quanto o cachorro do vizinho, o ponto é: se os gestos são responsáveis por mais informação do que as palavras, por quê não podemos aplicar esse conceito aos nossos smartphones?

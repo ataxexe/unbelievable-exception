@@ -8,6 +8,8 @@ tags:
   - android
   - gamecih
   - root
+  - jogos
+  - hack
 ---
 
 Você acaba de baixar aquele joguinho, se vicia mais do que o povo da Crackolândia, junta um monte de
