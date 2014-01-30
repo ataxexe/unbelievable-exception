@@ -6,6 +6,7 @@ author: Ataxexe
 tags:
   - java
   - refatoração
+  - conversão
 ---
 
 É impressionante como alguns programadores são afoitos o bastante para não pensarem um pouco antes

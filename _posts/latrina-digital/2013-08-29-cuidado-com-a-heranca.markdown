@@ -5,6 +5,8 @@ category: Latrina Digital
 author: Ataxexe
 tags:
   - orientação a objetos
+  - herança
+  - composição
 images: assets/images/heranca-composicao
 ---
 
