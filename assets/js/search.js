@@ -49,7 +49,7 @@ $(".search-input").keyup(function(){
   if (!index_loaded) {
     $(".search-image").removeClass("fa-search").addClass("fa-cog")
     input = $(this)
-    input.attr("placeholder", "Carregando...").addClass("disabled")
+    input.attr("placeholder", "Carregando...").attr("disabled", "disabled")
     $.getJSON("/search.json", function(data, textStatus, jqXHR){
       search_entries = data
       $.each(search_entries, function(){
@@ -57,7 +57,7 @@ $(".search-input").keyup(function(){
       })
       index_loaded = true
       $(".search-image").removeClass("fa-cog").addClass("fa-search")
-      input.attr("placeholder", "Pesquisar").removeClass("disabled")
+      input.attr("placeholder", "Pesquisar").removeAttr("disabled")
     })
   }
 })
