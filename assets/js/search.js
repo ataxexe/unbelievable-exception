@@ -57,7 +57,7 @@ $(".search-input").keyup(function(){
       })
       index_loaded = true
       $(".search-image").removeClass("fa-cog").addClass("fa-search")
-      input.attr("placeholder", "Pesquisar").removeAttr("disabled")
+      input.attr("placeholder", "Pesquisar").removeAttr("disabled").focus()
     })
   }
 })
