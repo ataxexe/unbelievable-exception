@@ -8,18 +8,12 @@ permalink: /posts/:title
 paginate: 15
 paginate_path: :num
 
-navbar_categories:
-  - Linux
-  - separator
-  - AndroiDoctor
-  - Latrina Digital
-
 exclude:
   - build
   - serve
 
 slogans:
-  AndroiDoctor: "Faça mais do que trocar a capinha!"
+  androidoctor: "Faça mais do que trocar a capinha!"
 
 url: http://entra.la
 download: http://pega.la
@@ -28,3 +22,9 @@ owner:
   name: Marcelo Guimarães
   nickname: Ataxexe
   email: ataxexe@gmail.com
+  contacts:
+    GitHub: http://github.com/ataxexe
+    YouTube: http://youtube.com/ataxexe
+    Google_Plus: http://google.com/+AtaxexeXeréns
+    LinkedIn: http://br.linkedin.com/pub/marcelo-guimarães/23/a4/212/
+    Twitter: http://twitter.com/ataxexe

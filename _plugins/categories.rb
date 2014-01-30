@@ -11,7 +11,21 @@ module Jekyll
       @name = 'index.html'
 
       self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
+      self.read_yaml(File.join(base, '_layouts'), 'category-index.html')
+      self.data['index'] = category
+    end
+  end
+
+  class CategoryFeed < Page
+
+    def initialize(site, base, category)
+      @site = site
+      @base = base
+      @dir = I18n.transliterate(category).gsub(/\s/, '-').downcase
+      @name = 'feed.xml'
+
+      self.process(@name)
+      self.read_yaml(File.join(base, '_layouts'), 'category-feed.xml')
       self.data['index'] = category
     end
   end
@@ -20,10 +34,9 @@ module Jekyll
     safe true
 
     def generate(site)
-      if site.layouts.key? 'category_index'
-        site.categories.keys.each do |category|
-          site.pages << CategoryPage.new(site, site.source, category)
-        end
+      site.categories.keys.each do |category|
+        site.pages << CategoryPage.new(site, site.source, category)
+        site.pages << CategoryFeed.new(site, site.source, category)
       end
     end
   end

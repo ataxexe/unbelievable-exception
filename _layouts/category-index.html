@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-
 <div class="container">
-  {% if site.slogans[page.title] %}
-  <h1>{{ site.slogans[page.title] }}</h1>
+  {% if site.slogans[page.index] %}
+  <h1>{{ site.slogans[page.index] }}</h1>
   {% else %}
   <h1>{{ site.description }}</h1>
   {% endif%}
