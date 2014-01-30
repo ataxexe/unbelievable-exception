@@ -9,8 +9,10 @@ layout: default
   <h1>{{ site.description }}</h1>
   {% endif%}
   <h2>Postagens</h2>
+  {% include sharebar-small.html %}
   {{ content }}
   {% for post in site.categories[page.index] %}
     {% include post-summary.html %}
   {% endfor %}
 </div>
+{% include sharebar-large.html %}
