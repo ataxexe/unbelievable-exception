@@ -43,7 +43,7 @@ logo toma uma dose de energético com cafeína e arrebenta com a versão 3.0 da 
 
 Juquinha foi promovido e sua API foi utilizada em quase todos os sistemas da empresa. Algum tempo
 depois, foi solicitado ao Juquinha que incluísse na API alguma funcionalidade para permitir Listas
-imutáveis, pois acharam melhor a ideia de usar objetos mutáveis em vez de métodos sincronizados.
+imutáveis, pois acharam melhor a ideia de usar objetos imutáveis em vez de métodos sincronizados.
 Juquinha passa um pouco mais de tempo para implementar desta vez, mas libera a versão:
 
 ![Pronto! A cagada está feita!]({{ site.url }}/{{ page.images }}/listas-heranca-bagunca.png)
