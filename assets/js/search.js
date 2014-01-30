@@ -13,15 +13,6 @@ var search_entries = null
 var search = function(term, callback) {
   if(index_loaded) {
     callback(search_engine.search(term))
-  } else {
-    $.getJSON("/search.json", function(data, textStatus, jqXHR){
-      search_entries = data
-      $.each(search_entries, function(){
-        search_engine.add(this)
-      })
-      index_loaded = true
-      search(term, callback)
-    });
   }
 }
 
@@ -53,5 +44,20 @@ $(".search-input").keyup(function(){
   } else {
     $("#search-result").hide("slow")
     $("#content").show("slow")
+  }
+}).focus(function(){
+  if (!index_loaded) {
+    $(".search-image").removeClass("fa-search").addClass("fa-cog")
+    input = $(this)
+    input.attr("placeholder", "Carregando...")
+    $.getJSON("/search.json", function(data, textStatus, jqXHR){
+      search_entries = data
+      $.each(search_entries, function(){
+        search_engine.add(this)
+      })
+      index_loaded = true
+      $(".search-image").removeClass("fa-cog").addClass("fa-search")
+      input.attr("placeholder", "Pesquisar")
+    })
   }
 })
