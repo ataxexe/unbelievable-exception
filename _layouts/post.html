@@ -5,14 +5,14 @@ layout: default
   <h1>{{ page.title }}</h1>
   <p class="meta">Postado por {{ page.author }} em {{ page.date | date: "%d/%m/%Y" }}</p>
   <div class="post-content">
-    {% include sharebar-small.html %}
+    {% include sharebar.html %}
     {{ content }}
     <p class="meta">
       {% for tag in page.tags %}
         <span class="label label-primary">{{ tag }}</span>
       {% endfor %}
     </p>
-    {% include sharebar-large.html %}
+    {% include sharebar.html %}
   </div>
   {% include comments.html %}
 </article>
