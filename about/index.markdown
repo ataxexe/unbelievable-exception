@@ -17,32 +17,31 @@ Aprendi muita coisa, também, em fóruns de discussão (apesar de, infelizmente,
 
 Eu acredito que, se soubermos como as coisas funcionam, saberemos como usá-las. Por isso criei este blog e espero que aproveitem!
 
-## FAQ (ou quase isso)
+## Como funciona o blog
 
-### Por que tem a categoria "AndroiDoctor" aqui?
+Este blog é estático, ou seja, nada de servidores de aplicação ou banco de dados, é tudo gerado pra ser um conjunto de páginas estáticas. Pra isso, utilizei o excelente [Jekyll][].
 
-Porque eu cansei de postar usando o Wordpress... é um saco! De agora em diante vou migrar os posts do AndroiDoctor pra cá e usar somente este espaço.
+Um dos desafios em manter um blog é a organização e pra isso o Jekyll é bem flexível (até demais, pois faltam coisas básicas como geração de páginas de categorias e, por conseguinte, paginação e *feed* delas). Para isso eu criei geradores customizados e, sempre que precisava de alguma coisa (contadores de posts, por exemplo), foi só criar um plugin. Além da documentação, temos vários outros sites feitos no Jekyll cujos fontes estão liberados no GitHub, então, era só dar uma olhada pra entender como tudo funcionava e poderia ser aplicado no meu caso.
 
-### Agora apareceu outra... "Latrina Digital"
+A parte de busca foi a mais legal de implementar. Como tudo é estático, eu tinha duas alternativas:
 
-Quem me conhece sabe o quanto eu sou rabugento com algumas coisas. Pois bem, esse é o meu espaço dedicado para mostrar meu lado ranzinza de ver as coisas no desenvolvimento de software e nerdices em geral. Certa vez eu estava tão puto da vida por ter que arrumar umas cagadas de um sistema que acabei me intitulando um papel higiênico da área de TI, daí veio o nome dessa categoria.
+#. Redirecionar a busca pra algum motor como o Google.
+#. Implementar um mecanismo em Javascript.
 
-### O "Café Azedo" sumiu
+Claro que optei pela segunda e, pra não reinventar a roda, utilizei a biblioteca [Lunr][], que é muito simples de usar e relativamente rápida. A dificuldade era de montar o que deveria ser indexado. Indexar os títulos, a categoria e as *tags* de cada post daria uma busca muito simples e colocar o conteúdo geral dos posts levaria a um índice muito pesado pra se colocar no lado do cliente. Optei por utilizar uma pequena parte do post e mandar o Jekyll gerar um [JSON][json-indices] com os índices e montá-lo somente quando o campo de pesquisa é selecionado (por isso ele fica inativo por algum tempo, esse é o tempo necessário pra montar o índice - que varia de dispositivo para dispositivo).
 
-Sim, eu o adocei e o fundi com a categoria **Latrina Digital** pra não ficar muito confuso.
+Na parte dos comentários não deu pra fazer muita coisa diferente. Como não posso arquivar nada aqui, acabei utilizando o [Intense Debate][intense-debate] para os comentários. Os botões de compartilhamento foram fruto da minha preguiça (gerei-os no [ShareThis][]).
 
-### Então essas categorias são praticamente blogs distintos?
+Para escrever os posts, eu utilizo um repositório secundário no Git que, ao receber um *commit*, trata logo de construir o blog e jogá-lo no meu servidor (aluguei um no [DigitalOcean][] e recomendo). Depois da bagunça, ele mesmo manda o *commit* pro repositório central no GitHub. Tentem imaginar uma estrutura dessas usando alguma porcaria como o SVN[^csv]. Tem como, mas não é simples e prático assim.
 
-Sim!
+[^csv]: CVS não, ele é ruim demais pra ser considerado uma mera porcaria.
 
-### E por quê não fazer blogs separados?
+Para os downloads, eu usei um outro domínio que aponta pra minha pasta pública no Dropbox, assim não fico versionando arquivos no blog. Para os vídeos, vão ficar no [canal][youtube] do blog.
 
-Porque, infelizmente, eu não tenho tempo nem dinheiro para manter vários blogs.
-
-### E onde estão os comentários?
-
-Eu resolvi não colocá-los agora. Apesar de eu ter recebido bons comentários no AndroiDoctor, uma certa parte deles era para pedir consultoria de graça ou de pessoas que parecem não ter lido o que escrevi nos posts. Como eu sou um poço de delicadeza com esse tipo de gente, preferi não colocar comentários e deixar minha rabugentice apenas para os posts.
-
-### Ué, agora tem comentários?
-
-É...resolvi dar uma segunda chance a mim mesmo. Mas não quero ler pedidos de consultoria gratuita nem aqueles cujo pré-requisito envolve capacitores de fluxo ou bolas de cristal. Se precisa de ajuda, dê as informações.
+[intense-debate]: <http://intensedebate.com>
+[lunr]: <http://lunrjs.com>
+[digitalocean]: <http://www.digitalocean.com>
+[jekyll]: <http://jekyllrb.com>
+[json-indices]: </search.json>
+[sharethis]: <http://www.sharethis.com>
+[youtube]: <http://www.youtube.com/user/unbelievablexception>
