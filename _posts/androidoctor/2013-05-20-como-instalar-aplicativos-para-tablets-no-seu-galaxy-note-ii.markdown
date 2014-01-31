@@ -3,7 +3,7 @@ layout: post
 title:  "Como instalar aplicativos para Tablets no seu Galaxy Note II"
 category: AndroiDoctor
 author: Ataxexe
-images: assets/images/note-ii-tablet
+images: /assets/images/note-ii-tablet
 tags:
   - android
   - galaxy note ii
@@ -25,7 +25,7 @@ Vale lembrar que, como a maluquice envolve diminuir bastante o tamanho dos compo
 
 Exato! E precisa de um conhecimento um pouco mais avançado pra alterar um arquivo no celular. A menos que você instale a excelente [SlimBean][]. Assumindo que você instalou a SlimBean, pode apenas ir no menu "Interface" dentro do menu de sistema e seguir as instruções:
 
-![Não tem como errar. Para interagir com o passo-a-passo, você pode colocar seu dedinho gorduroso nos itens que ele te ajuda nos procedimentos.]({{site.url}}/{{page.images}}/settings-landscape.png)
+![Não tem como errar. Para interagir com o passo-a-passo, você pode colocar seu dedinho gorduroso nos itens que ele te ajuda nos procedimentos.]({{ page.images }}/settings-landscape.png)
 
 ## E o que isso vai fazer?
 
@@ -35,9 +35,9 @@ Isso irá modificar a densidade da tela do Android. A densidade e o tamanho dos 
 
 Ao reduzirmos o valor para 200, alguns aplicativos que não eram compatíveis com o Galaxy Note 2 (como o Photoshop Touch) agora podem ser instalados sem problemas:
 
-![Esta é a versão para tablets.]({{site.url}}/{{page.images}}/play-photoshop.png)
+![Esta é a versão para tablets.]({{ page.images }}/play-photoshop.png)
 
-![E esta, para celulares.]({{site.url}}/{{page.images}}/play-photoshop-phone.png)
+![E esta, para celulares.]({{ page.images }}/play-photoshop-phone.png)
 
 Note que a versão para celulares não está mais disponível, apenas a de tablets, mas isso não é um ponto negativo pois temos a opção de um aplicativo otimizado para telas maiores. Outros aplicativos como o Sketch Mobile não apresentam essa característica, ou seja, você pode ter os dois convivendo em harmonia no seu brinquedinho.
 

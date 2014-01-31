@@ -8,7 +8,7 @@ tags:
   - root
   - propagandas
   - xposed
-images: assets/images/adaway
+images: /assets/images/adaway
 ---
 
 Todos sabemos que as propagandas são uma interessante fonte de renda para os desenvolvedores. É
@@ -47,7 +47,7 @@ mapeamentos e os insere no arquivo **hosts**.
 
 Vá correndo baixar ele! Você verá uma tela bem simples quando abrí-lo:
 
-![]({{ site.url }}/{{ page.images }}/adaway.png)
+![]({{ page.images }}/adaway.png)
 
 Meta o dedão no botão que destaquei em vermelho e não será mais pentelhado por propagandas
 intrusivas. Infelizmente as propagandas normais também não irão aparecer. É chato remover uma fonte

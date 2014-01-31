@@ -6,7 +6,7 @@ author: Ataxexe
 tags:
   - android
   - torrent
-images: assets/images/atorrent
+images: /assets/images/atorrent
 ---
 
 Aaahhh... [The Pirate Bay][the_pirate_bay]!!! Praticamente a melhor coisa que existe na internet
@@ -31,17 +31,17 @@ aos [links magnéticos][link_magnetico] também.
 
 Claro! Aqui vai um exemplo baixando a imagem do CentOS:
 
-![]({{ site.url }}/{{ page.images }}/magnetic-link.png)
+![]({{ page.images }}/magnetic-link.png)
 
 Note que, como é um link magnético, o Android avisa que ele precisa ser aberto com um aplicativo.
 Não se preocupe com isso porque o aTorrent já será aberto quando você enfiar o dedo no botão "OK".
 
-![]({{ site.url }}/{{ page.images }}/atorrent-add-download.png)
+![]({{ page.images }}/atorrent-add-download.png)
 
 Aqui você deverá escolher o local para salvar o conteúdo do torrent. Soque o botão "Download" e
 deixe o aTorrent fazer o resto.
 
-![]({{ site.url }}/{{ page.images }}/atorrent-downloading.png)
+![]({{ page.images }}/atorrent-downloading.png)
 
 Pronto! Agora é só relaxar e esperar o download acabar (ou a sua franquia de dados).
 

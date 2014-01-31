@@ -7,7 +7,7 @@ tags:
   - orientação a objetos
   - herança
   - composição
-images: assets/images/heranca-composicao
+images: /assets/images/heranca-composicao
 ---
 
 Muitos autores dizem para evitarmos a herança e usarmos composição sempre que possível. Muitos não
@@ -25,7 +25,7 @@ da orientação a objetos: a herança. Juquinha logo cria uma classe
 dela: uma lista que utiliza um array e uma lista Ligada. A herança permitiu reaproveitar o código
 bastando herdar a classe `Lista`. Pronto! Uma maravilha! Juquinha é o cara!
 
-![Primeira versão da API]({{ site.url }}/{{ page.images }}/listas-heranca-1.png)
+![Primeira versão da API]({{ page.images }}/listas-heranca-1.png)
 
 ## Primeiro upgrade
 
@@ -33,20 +33,20 @@ Tudo está uma maravilha e a API de listas é o assunto do momento. Surge, agora
 listas sincronizadas para compartilhá-las com várias *threads*. Juquinha nem hesita e já senta o
 dedo na herança. O resultado fica lindo e o código foi praticamente reaproveitado!
 
-![Atualização... ainda parece legal]({{ site.url }}/{{ page.images }}/listas-heranca-2.png)
+![Atualização... ainda parece legal]({{ page.images }}/listas-heranca-2.png)
 
 Novamente o sucesso da API é ecoado em todos os corredores, só se fala no design maravilhoso e...
 antes que Juquinha tirasse uma folga, veio a necessidade de listas duplamente Ligadas. Juquinha
 logo toma uma dose de energético com cafeína e arrebenta com a versão 3.0 da API:
 
-![Hummmm...parece complexo]({{ site.url }}/{{ page.images }}/listas-heranca-3.png)
+![Hummmm...parece complexo]({{ page.images }}/listas-heranca-3.png)
 
 Juquinha foi promovido e sua API foi utilizada em quase todos os sistemas da empresa. Algum tempo
 depois, foi solicitado ao Juquinha que incluísse na API alguma funcionalidade para permitir Listas
 imutáveis, pois acharam melhor a ideia de usar objetos imutáveis em vez de métodos sincronizados.
 Juquinha passa um pouco mais de tempo para implementar desta vez, mas libera a versão:
 
-![Pronto! A cagada está feita!]({{ site.url }}/{{ page.images }}/listas-heranca-bagunca.png)
+![Pronto! A cagada está feita!]({{ page.images }}/listas-heranca-bagunca.png)
 
 ## Tem alguma coisa cheirando mal aqui
 
@@ -71,7 +71,7 @@ herança deveria ser com a classe `Lista` e não com `ListaLigada`.
 Tudo bem! O Juquinha não sabia que poderia fazer daquele jeito. Depois que deram uma bronca nele
 porque a API estava ficando muito confusa, Juquinha resolveu estudar um pouco mais e a refatorou.
 
-![Versão com dupla ligação]({{ site.url }}/{{ page.images }}/listas-composicao.png)
+![Versão com dupla ligação]({{ page.images }}/listas-composicao.png)
 
 Note aqui que, além de `Lista` ser agora uma interface, não temos mais a classe
 `ListaLigadaSincronizada` e, sim, uma `ListaSincronizada`. Isso faz muito mais sentido porque a

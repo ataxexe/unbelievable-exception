@@ -3,7 +3,7 @@ layout: post
 title:  "Faça backup dos seus aplicativos"
 category: AndroiDoctor
 author: Ataxexe
-images: assets/images/backup
+images: /assets/images/backup
 tags:
   - android
   - backup
@@ -25,10 +25,10 @@ qualquer aplicativo do celular e ainda faz o backup do aplicativo em si (e muita
 do que os meios de backup dos próprios aplicativos).
 
 Aí vai a cara do guri:
-![Tela inicial]({{site.url}}/{{page.images}}/tb-main.png)
+![Tela inicial]({{ page.images }}/tb-main.png)
 Tela inicial, ela mostra todos os aplicativos (os em vermelho são aplicativos do sistema).
 
-![Opções de backup]({{site.url}}/{{page.images}}/tb-bkp.png)
+![Opções de backup]({{ page.images }}/tb-bkp.png)
 Aqui você encontra as opções possíveis de backup e restauração.
 
 O interessante é que o Titanium Backup permite apagar os dados do aplicativo (aquela opção *Wipe
@@ -55,7 +55,7 @@ O Titanium Backup suporta processamento em lote, ou seja, você pode restaurar s
 um processamento em lote no Titanium Backup pra reinstalar todos os aplicativos com seus respectivos
 dados. Uma maravilha!
 
-![]({{site.url}}/{{page.images}}/uhu.gif)
+![]({{ page.images }}/uhu.gif)
 Uhuuuuuuuuuuu! Quem é o papai agora, ein?
 
 ### Automatizar os backups
@@ -65,7 +65,7 @@ agendar tarefas, automatizando os backups de aplicativos novos e com novas vers�
 não corre o risco de ter que restaurar seu aparelho e perder alguns dados (ou algumas horinhas de
 jogo).
 
-![]({{site.url}}/{{page.images}}/tb-schedule.png)
+![]({{ page.images }}/tb-schedule.png)
 Essa é uma das melhores funcionalidades do Titanium Backup.
 
 ## Lembrei que meu celular não é rooteado, tem outro jeito?
@@ -74,7 +74,7 @@ Não! E é por um bom motivo: imagine que qualquer aplicativo tenha acesso aos d
 aplicativos. Viu o tamanho da encrenca? Por isso esse procedimento requer privilégios de
 superusuário.
 
-![]({{site.url}}/{{page.images}}/hum.gif)
+![]({{ page.images }}/hum.gif)
 Pare de se lamentar e vá logo rootear seu aparelho!
 
 [post-root]: <{{ site.url }}/posts/root-o-papel-higienico-eletronico-para-o-seu-android>

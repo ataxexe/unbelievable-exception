@@ -3,7 +3,7 @@ layout: post
 title:  "GameCIH: O GameShark pra Android"
 category: AndroiDoctor
 author: Ataxexe
-images: assets/images/gamecih
+images: /assets/images/gamecih
 tags:
   - android
   - gamecih
@@ -29,7 +29,7 @@ chatas só pra comprar aquele item legal que custa metade do seu rim esquerdo.
 
 Veja você mesmo:
 
-![]({{ site.url }}/{{ page.images }}/game-cih-4.png)
+![]({{ page.images }}/game-cih-4.png)
 
 ## Eu quero, eu quero, eu quero!!
 
@@ -42,7 +42,7 @@ cinza no canto superior esquerdo. Basta meter o dedão lá e na lupinha que apar
 três opções, escolha "Input Number" e coloque a quantidade atual do que você quer mudar e o Game CIH
 irá procurar tudo o que tiver esse valor.
 
-![]({{ site.url }}/{{ page.images }}/game-cih-1.png)
+![]({{ page.images }}/game-cih-1.png)
 
 Geralmente ele vai achar uma porrada de coisa com o valor que você escolheu, então, você precisa
 voltar ao jogo e achar uma forma de modificar o valor que escolheu. Vá passar de umas fases, pegar
@@ -55,18 +55,18 @@ abaixo:
 - **"-"** se o valor diminuiu
 - ir em "Input Number" caso queira colocar o valor exato
 
-![]({{ site.url }}/{{ page.images }}/game-cih-2.png)
+![]({{ page.images }}/game-cih-2.png)
 
 Repita o procedimento acima até ter apenas uma variável na lista ou um número bom pra tentar a sorte.
 Enfie o dedo na variável para alterar o valor. Em alguns casos, você precisará fazer alguma coisa
 que altere novamente o valor para ver o resultado na tela.
 
-![]({{ site.url }}/{{ page.images }}/game-cih-3.png)
+![]({{ page.images }}/game-cih-3.png)
 
 Depois de tudo certo, você pode ir no menu do Game CIH e desativá-lo para continuar jogando sem o
 cacareco cinza na tela (seu TOC agradece).
 
-![]({{ site.url }}/{{ page.images }}/game-cih-4.png)
+![]({{ page.images }}/game-cih-4.png)
 
 Pronto! Agora vá comprar as coisas do jogo e se sentir o Michael Jackson numa loja de brinquedos.
 

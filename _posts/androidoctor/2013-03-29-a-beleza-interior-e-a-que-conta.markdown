@@ -13,7 +13,7 @@ tags:
 
 Ter um celular bonito vai muito além de trocar a capinha (sacou o bordão do blog agora?). O interessante é que, com os aplicativos certos (e um pouco de noção de cores) você pode ter um celular de cair o queixo.
 
-![Então vamos aquecer os motores!!!]({{site.url}}/{{page.images}}/aquecimento.jpg)
+![Então vamos aquecer os motores!!!]({{ page.images }}/aquecimento.jpg)
 
 ## E por onde eu começo?
 
@@ -35,9 +35,9 @@ Agora entra a parte das imagens. É importante que você procure imagens que use
 
 Bom, antes que você ligue a SKY (aliás, o melhor serviço de meteorologia que existe - sempre perde o sinal um pouco antes de começar a chover), vou dar um exemplo de como já customizei meu celular e usá-lo no decorrer deste post:
 
-![Essa é a tela de desbloqueio.]({{site.url}}/{{page.images}}/lockscreen1.png)
+![Essa é a tela de desbloqueio.]({{ page.images }}/lockscreen1.png)
 
-![E essa é a tela inicial.]({{site.url}}/{{page.images}}/home.png)
+![E essa é a tela inicial.]({{ page.images }}/home.png)
 
 Como você percebeu, eu usei instrumentos musicais como tema e uma harmonia monocromática (tá, tem uma linha azul no meio da tela inicial, mas eu explico o porquê depois). O legal da coisa é transformar a customização em personalização, ou seja, não mude só por mudar, ponha um pedaço de você no seu aparelho (no sentido figurado, por favor) e deixe ele com a sua cara (idem).
 
@@ -77,11 +77,11 @@ São, sim! E valem cada centavinho do seu cartão de crédito. Um bom aplicativo
 
 Excelente pergunta! Com um [celular rooteado][post-rooot], você pode trocar a ROM para alguma que suporte temas. Atualmente eu utilizo a [Slim Bean][]. Além de suportar temas, ela tem o *"The Real Dark Slim"*, que descolora a interface gráfica do Android para um tom buraco-negro-extremo digno de reverências.
 
-![Show de bola, né?]({{site.url}}/{{page.images}}/slim-dark.png)
+![Show de bola, né?]({{ page.images }}/slim-dark.png)
 
 Além disso, algumas ROMs também permitem que você modifique a barra de notificações. A Slim Bean suporta isso e o resultado é muito legal:
 
-![Pronto! A imagem que faltava no exemplo. Não ficou uma beleza?]({{site.url}}/{{page.images}}/notification.png)
+![Pronto! A imagem que faltava no exemplo. Não ficou uma beleza?]({{ page.images }}/notification.png)
 
 ## E o que é essa tal ROM?
 

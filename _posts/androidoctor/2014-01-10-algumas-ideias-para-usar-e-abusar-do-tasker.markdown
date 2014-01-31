@@ -3,7 +3,7 @@ layout: post
 title:  "Algumas ideias para usar e abusar do Tasker"
 category: AndroiDoctor
 author: Ataxexe
-images: assets/images/tasker-ideias
+images: /assets/images/tasker-ideias
 tags:
   - android
   - root
@@ -20,11 +20,11 @@ Já faz algum tempo que eu ando mexendo no excelente [Tasker][] e hoje pretendo 
 
 Essa dica é pra quem usa o **Motorola Assist** (atualmente, os felizes proprietários de um Moto X), um recurso que identifica se você está em um veículo em movimento. Esse recurso, apesar de muito interessante, não é flexível a ponto de dispararmos alguma tarefa assim que o dispositivo reconhecer que estamos em movimento. Isso é facilmente resolvido utilizando o Tasker para criar um perfil ativado por um evento de notificação para o aplicativo **Assist**. Como esse aplicativo detecta mais algumas coisas, deixe o campo **Title** com o texto "Driving". A tarefa é bem simples de configurar, bastando apenas usar o [Secure Settings][] para conectar com o dispositivo bluetooth do carro.
 
-![Configuração do perfil]({{site.url}}/{{page.images}}/assist-profile.png)
+![Configuração do perfil]({{ page.images }}/assist-profile.png)
 
-![Configuração do evento]({{site.url}}/{{page.images}}/event-config.png)
+![Configuração do evento]({{ page.images }}/event-config.png)
 
-![Tarefa]({{site.url}}/{{page.images}}/assist-task.png)
+![Tarefa]({{ page.images }}/assist-task.png)
 
 Perceba que eu coloquei uma restrição no perfil para ser ativado somente quando um determinado dispositivo bluetooth não estiver conectado. Esse dispositivo é o meu fone de ouvido e eu coloquei essa restrição porque, quando eu estou no ônibus e o perfil é ativado, ele faz o meu *player* de música parar. Aproveitando o gancho, seria interessante, também, ativar o aplicativo de GPS do aparelho, o problema é que esse perfil detecta movimento em veículo, sendo que ele pode não ser o seu. A solução mais simples é criar um outro perfil no Tasker atrelado a uma conexão bluetooth com o dispositivo do seu carro.
 
@@ -34,7 +34,7 @@ Um dos melhores módulos do [Xposed][], o [GravityBox][], foi atualizado recente
 
 O modo expandido esconde a barra de notificações e a barra de navegação (a que fica embaixo mostrando as teclas virtuais) é uma excelente opção para quem tem dispositivos com teclas virtuais e tela modesta, ou seja, perfeito para o Moto X. Em conjunto com o modo expandido, você pode configurar o GravityBox para ativar os *"Pie Controls"* quando o modo expandido estiver ativo. Eu costumo colocar os jogos e os leitores de conteúdo (notícias, navegador, etc.) para utilizar o modo expandido.
 
-![Desktop expandido e Pie Controls]({{site.url}}/{{page.images}}/expanded-desktop.png)
+![Desktop expandido e Pie Controls]({{ page.images }}/expanded-desktop.png)
 
 Ah! E não se esqueça de colocar como tarefa de saída a mesma tarefa de entrada, assim o modo expandido será desligado quando sair do aplicativo.
 
@@ -61,7 +61,7 @@ Essa é bem interessante: é possível atender automaticamente as chamadas quand
 
 O tempo de espera é interessante para que você possa rejeitar a chamada antes que o sistema a atenda pra você. Outro ponto legal é que pode-se configurar o campo **Number** do estado para somente os contatos favoritos.
 
-![Configuração do estado de ligação]({{site.url}}/{{page.images}}/call-incoming.png)
+![Configuração do estado de ligação]({{ page.images }}/call-incoming.png)
 
 [tasker]: <https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm>
 [secure settings]: <https://play.google.com/store/apps/details?id=com.intangibleobject.securesettings.plugin>

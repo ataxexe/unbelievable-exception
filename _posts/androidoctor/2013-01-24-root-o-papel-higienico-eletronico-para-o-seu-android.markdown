@@ -6,7 +6,7 @@ author: Ataxexe
 tags:
   - android
   - root
-images: assets/images/root-android
+images: /assets/images/root-android
 ---
 
 A primeira coisa que eu faço depois de testar meus celulares é fazer o tal do root. "Rootear" um
@@ -108,11 +108,11 @@ root.)
 
 Abaixo você pode ver o painel principal do SuperSU, um dos programas mais usados pra isso:
 
-![SuperSU]({{ site.url }}/{{ page.images }}/supersu.png)
+![SuperSU]({{ page.images }}/supersu.png)
 
 E aqui ele pedindo autorização de superusuário para um aplicativo:
 
-![SuperSU pedindo autorização]({{ site.url }}/{{ page.images }}/supersu-notification.png)
+![SuperSU pedindo autorização]({{ page.images }}/supersu-notification.png)
 
 Vale lembrar que ainda assim seu celular corre riscos. Aplicativos maliciosos podem aproveitar
 brechas do sistema para conseguir acesso root sem que você tenha conhecimento. O conselho aqui é

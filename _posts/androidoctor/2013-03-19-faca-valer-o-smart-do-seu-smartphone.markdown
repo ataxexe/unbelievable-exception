@@ -8,7 +8,7 @@ tags:
   - tasker
   - root
   - secure settings
-images: assets/images/tasker
+images: /assets/images/tasker
 ---
 
 
@@ -48,13 +48,13 @@ de ações que podem, inclusive ter operadores lógicos e condicionais.
 Sim... o aplicativo é feio que dói^[O desenvolvedor acabou de atualizar o Tasker. A interface está
 maravilhosa!!]:
 
-![Lista de Perfis]({{site.url}}/{{page.images}}/tasker-profiles.png)
+![Lista de Perfis]({{ page.images }}/tasker-profiles.png)
   
-![Lista de Tarefas]({{site.url}}/{{page.images}}/tasker-tasks.png)
+![Lista de Tarefas]({{ page.images }}/tasker-tasks.png)
   
-![Definição de uma Tarefa]({{site.url}}/{{page.images}}/tasker-task.png)
+![Definição de uma Tarefa]({{ page.images }}/tasker-task.png)
   
-![Variáveis]({{site.url}}/{{page.images}}/tasker-variables.png)
+![Variáveis]({{ page.images }}/tasker-variables.png)
 
 ## É feio mesmo... se funcionar, tá valendo!
 

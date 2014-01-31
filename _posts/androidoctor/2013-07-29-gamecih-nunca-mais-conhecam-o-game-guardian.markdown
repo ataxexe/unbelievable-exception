@@ -3,7 +3,7 @@ layout: post
 title:  "GameCIH nunca mais: conheçam o Game Guardian!"
 category: AndroiDoctor
 author: Ataxexe
-images: assets/images/game-guardian
+images: /assets/images/game-guardian
 tags:
   - android
   - root
@@ -34,21 +34,21 @@ Antes de mais nada, ao abrir o aplicativo você verá um manual bem detalhado so
 
 Com o recado dado, saia do Game Guardian e vá para o joguinho. Você verá um ícone no centro da tela um pouco transparente. Meta o dedão lá para abrir o Game Guardian e clique na lupa.
 
-![]({{site.url}}/{{page.images}}/game-guardian-input.png)
+![]({{ page.images }}/game-guardian-input.png)
 
 Depois de colocar o valor da sua grana, o Game Guardian irá trazer uma lista com as variáveis cujos valores batem com o que você digitou. Se vieram duas ou uma, sinta-se sortudo. Caso contrário, vá jogar um pouco pra mudar o valor da grana.
 
-![Me ferrei!]({{site.url}}/{{page.images}}/game-guardian-search.png)
+![Me ferrei!]({{ page.images }}/game-guardian-search.png)
 
 Depois que o valor mudar, vá para o Game Guardian novamente e veja se no máximo duas variáveis estão com o valor da sua grana.
 
-![Ahá!]({{site.url}}/{{page.images}}/game-guardian-found.png)
+![Ahá!]({{ page.images }}/game-guardian-found.png)
 
 Agora é fácil, troque o valor por algo que te agrade e volte para a jogatina.
 
-![]({{site.url}}/{{page.images}}/game-guardian-replace.png)
+![]({{ page.images }}/game-guardian-replace.png)
 
-![Rodinhas novas…uhuuuu]({{site.url}}/{{page.images}}/game-guardian-done.png)
+![Rodinhas novas…uhuuuu]({{ page.images }}/game-guardian-done.png)
 
 ## Por que seus últimos posts estão tão curtos?
 

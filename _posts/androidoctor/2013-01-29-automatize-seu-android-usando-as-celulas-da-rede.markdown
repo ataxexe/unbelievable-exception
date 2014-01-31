@@ -7,7 +7,7 @@ tags:
   - android
   - automação
   - llama
-images: assets/images/llama
+images: /assets/images/llama
 ---
 
 Meu celular sempre teve um baita dedão no canto da tela onde eu ligava a wifi e o colocava no
@@ -74,20 +74,20 @@ saco.
 Agora vem a melhor parte: ligar condições com ações. É nessa hora que o Llama mostra seu valor. Vá
 na aba "EVENTS" e esmurre o botão "+". Você verá algo parecido com isto:
 
-![]({{ site.url}}/{{ page.images }}/llama-new-event.png)
+![]({{ page.images }}/llama-new-event.png)
 
 Em "Add Condition", você poderá optar por uma porrada de condições que podem disparar um evento no
 Llama. As áreas que você mapear estarão presentes nas condições "Enter/In Area" (para quando você
 entrar ou estiver dentro da área) e "Leave Area" (para quando você sair dela).
 
-![]({{ site.url}}/{{ page.images }}/llama-conditions.png)
+![]({{ page.images }}/llama-conditions.png)
 
 Em "Add Action", uma enorme gama de ações, inclusive a ativação do perfil (em "Profile"), é colocada
 à sua disposição. Existe ação pra muita coisa (adicionar lembretes, abrir aplicativos, atalhos e por
 aí vai...), portanto, não deixe de passar por todas elas para ter noção do poder que está em suas
 mãos.
 
-![]({{ site.url}}/{{ page.images }}/llama-actions.png)
+![]({{ page.images }}/llama-actions.png)
 
 Com tudo configurado, você pode cutucar o "Test Actions" pra ver se vai funcionar direitinho.
 Perceba que você não precisa necessariamente ter áreas associadas no Llama ou perfis de som para

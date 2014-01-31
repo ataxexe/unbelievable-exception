@@ -3,7 +3,7 @@ layout: post
 title:  "A chave das algemas do Galaxy Note II"
 category: AndroiDoctor
 author: Ataxexe
-images: assets/images/root-note-2
+images: /assets/images/root-note-2
 tags:
   - android
   - root
@@ -62,7 +62,7 @@ Antes de mais nada, não me responsabilizo por <del>nenhuma merda que você faç
 #. Clique no botão PDA e escolha o arquivo **"cwm6-root-note2.tar"** (é esse camarada a chave das algemas)
 #. Clique em "Start" (não toque em mais nada)
 
-![Antes de clicar no Start você vai ver mais ou menos isso aí.]({{site.url}}/{{page.images}}/odin.png)
+![Antes de clicar no Start você vai ver mais ou menos isso aí.]({{ page.images }}/odin.png)
 
 Prontinho! Seu brinquedo está rooteado e pronto pra receber uma ROM nova! O próximo passo é escolher a ROM que vai usar.
 
@@ -87,8 +87,8 @@ Os últimos itens são tranquilos por causa dos ganhos em outras partes do siste
 
 Uma amostra do visual da Slim:
 
-![Tema super escuro!]({{site.url}}/{{page.images}}/slim-dark.png)
-![Customização da barra de notificações]({{site.url}}/{{page.images}}/notification.png)
+![Tema super escuro!]({{ page.images }}/slim-dark.png)
+![Customização da barra de notificações]({{ page.images }}/notification.png)
 
 ## E como eu coloco a ROM no aparelho?
 
@@ -135,18 +135,18 @@ O começo de tudo é criar duas tarefas nele: uma para ser ativada ao retirar a 
 #. Trocar o teclado para o MyScript Stylus (parei de usar o Graffiti depois que usei esse)
 #. Mudar o valor da variável %SPEN para "on" (lembre-se que as variáveis em maiúscula são globais)
 
-![]({{site.url}}/{{page.images}}tasker-spen-out.png)
+![]({{ page.images }}tasker-spen-out.png)
 
 ### Ao inserir a caneta
 
 #. Trocar o teclado para o padrão
 #. Limpar o valor da variável %SPEN
 
-![]({{site.url}}/{{page.images}}tasker-spen-in.png)
+![]({{ page.images }}tasker-spen-in.png)
 
 Com essas duas tarefas prontas, atribua um ícone a elas (o Tasker não nos deixa ligar uma tarefa a um atalho se ela não tiver um ícone) e as coloque para serem ativadas no GMD SPen Control (use o atalho Task Shortcut pra selecionar a tarefa do Tasker) nos seus respectivos locais.
 
-![]({{site.url}}/{{page.images}}/spen-trigger.png)
+![]({{ page.images }}/spen-trigger.png)
 
 Com isso eu posso trocar o teclado sem precisar ir no menu e ainda posso ativar funções legais com a variável do Tasker.
 
@@ -156,8 +156,8 @@ Ela serve para o nosso perfil matador. Crie um perfil no Tasker com o contexto d
 
 Essa variável servirá como um indicativo para você usar no Tasker quando a caneta for removida ou inserida. Isso abre um leque de possibilidades muito interessante e pode ser usado independente da ROM que você escolher (mesmo na de fábrica).
 
-![]({{site.url}}/{{page.images}}/spen-in-at-call.png)
-![]({{site.url}}/{{page.images}}/spen-out-at-call.png)
+![]({{ page.images }}/spen-in-at-call.png)
+![]({{ page.images }}/spen-out-at-call.png)
 
 ## Ah! Mas eu adoro o recurso de desligar o aparelho se você não estiver olhando a tela
 
