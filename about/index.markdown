@@ -13,7 +13,9 @@ Apesar de ter entrado bem tarde no mundo da programação (comecei com 20 anos, 
 
 O interessante de ter aprendido a programar em uma empresa recheada de gente louca por programação foi que eu pude aprender as coisas orientadas ao mundo real. E, como foram poucas as vezes em que me enfiei no meio da criação de um sistema (praticamente só trabalhei mantendo legado), tive um prato cheio pra aprender a resolver problemas oriundos de falta de perspectiva de médio e longo prazo (os contraexemplos parecem funcionar melhor do que os exemplos).
 
-Aprendi muita coisa, também, em fóruns de discussão (apesar de, infelizmente, não serem mais os mesmos - essa geração Y está ficando muito esquisita, mas isso é assunto pra depois) e lendo sobre coisas que eu não tinha vontade alguma de usar, mas precisava saber como funcionavam. É isso que me move e irá mover este blog!
+Aprendi muita coisa, também, em fóruns de discussão (apesar de, infelizmente, não serem mais os mesmos - essa geração Y está ficando muito esquisita, mas isso é assunto pra depois) e lendo sobre coisas que eu não tinha vontade alguma de usar, mas precisava saber como funcionavam.
+
+Eu acredito que, se soubermos como as coisas funcionam, saberemos como usá-las. Por isso criei este blog e espero que aproveitem!
 
 ## FAQ (ou quase isso)
 
