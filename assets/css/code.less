@@ -14,7 +14,10 @@
 @cyan:                  #66D9EF;
 @white:                 #F8F8F0;
 
+@code_font_size:        1.1em;
+
 code, pre {
+  font-size: @code_font_size;
   color: @white;
   overflow: auto;
   background-color: @dark_gray;
@@ -22,6 +25,7 @@ code, pre {
 }
 
 p code {
+  font-size: @code_font_size;
   border: 1px solid @gray;
   margin: 0px 2px;
   padding: 0px 5px;
@@ -30,12 +34,11 @@ p code {
 }
 
 .sourceCode {
+  font-size: @code_font_size;
   border-radius: 3px 3px 3px 3px;
   background-color: @dark_gray;
   color: @white;
-}
 
-.sourceCode {
   .kw, .dt { color: @purple; } /* Keyword.Declaration */
   .co { color: @gray; font-style: italic } /* Comment.Multiline */
   .dv { color: @violet } /* Literal.Number */

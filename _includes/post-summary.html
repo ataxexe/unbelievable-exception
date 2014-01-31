@@ -1,11 +1,11 @@
 <p class="post-preview">
   <h3>
-    <a class="post-title" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+    <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
   </h3>
   <p class="post-details">
     <span class="well well-sm">
       Publicado em {{ post.date | date: "%d/%m/%Y" }} na categoria
-      <a href="{{ site.url }}/{{ post.category | category_url }}">
+      <a href="/{{ post.category | category_url }}">
         {{post.category}}
       </a>
     </span>
@@ -13,6 +13,6 @@
   <blockquote class="post-excerpt">
     {{ post.excerpt }}
   </blockquote>
-  <a class="read-more" href="{{ site.url }}{{ post.url }}">Continue lendo...</a>
+  <a class="read-more" href="{{ post.url }}">Continue lendo...</a>
   <hr>
 </p>
