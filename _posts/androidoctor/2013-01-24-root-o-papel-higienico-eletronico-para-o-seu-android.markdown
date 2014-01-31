@@ -7,7 +7,6 @@ tags:
   - android
   - root
 images: /assets/images/root-android
-id: root
 ---
 
 A primeira coisa que eu faço depois de testar meus celulares é fazer o tal do root. "Rootear" um
