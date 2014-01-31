@@ -5,6 +5,7 @@ category: Latrina Digital
 author: Ataxexe
 tags:
   - arquitetura
+  - juquinha
 ---
 
 Sempre que ouço o termo **Arquitetura de Referência**, sou contagiado por uma cólera rabugenta. Esse

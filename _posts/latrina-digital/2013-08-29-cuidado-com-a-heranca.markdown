@@ -7,6 +7,7 @@ tags:
   - orientação a objetos
   - herança
   - composição
+  - juquinha
 images: /assets/images/heranca-composicao
 ---
 
