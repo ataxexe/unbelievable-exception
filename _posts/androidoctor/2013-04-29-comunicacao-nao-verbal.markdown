@@ -42,8 +42,8 @@ Hummm.....agora não. (Sim! Eu sou mal... muito mal!)
 
 O meu intuito com o blog não é de dar uma receita de bolo pronta pra você rechear seus aparelho, é mostrar novas ideias, algumas formas diferentes de fazer uso do seu querido Android. Por isso eu não irei revelar como algumas ideias são aplicadas justamente para motivar você a fuçar no seu brinquedinho e aprender como as coisas funcionam nele. Futuramente, poderei mostrar alguns truques mais malucos, mas, por ora, posso dizer que usei o [WidgetLocker][] com um tema que deixa os slides de desbloqueio invisíveis e uma ROM customizada para conseguir o efeito que queria. O resto vou deixar com você!
 
-[post-root]: <{{site.url}}/posts/root-o-papel-higienico-eletronico-para-o-seu-android>
-[post-tasker]: <{{site.url}}/posts/faca-valer-o-smart-do-seu-smartphone>
+[post-root]: </posts/root-o-papel-higienico-eletronico-para-o-seu-android>
+[post-tasker]: </posts/faca-valer-o-smart-do-seu-smartphone>
 
 [gmd gesturecontrol]: <https://play.google.com/store/apps/details?id=com.goodmooddroid.gesturecontrol>
 [widgetlocker]: <https://play.google.com/store/apps/details?id=com.teslacoilsw.widgetlocker>

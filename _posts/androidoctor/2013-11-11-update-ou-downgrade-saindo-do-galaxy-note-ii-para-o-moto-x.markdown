@@ -69,8 +69,8 @@ Mas não é. Não recebi um tostão furado de ninguém pra falar bem do Moto X. 
 
 [^macumba]: Acho que foi macumba do [vendedor da Samsung][post_vendedor].
 
-[post_vendedor]: <{{site.url}}/posts/o-jeito-idiota-de-se-vender-smartphones/>
-[post_smart]: <{{site.url}}/posts/faca-valer-o-smart-do-seu-smartphone>
+[post_vendedor]: </posts/o-jeito-idiota-de-se-vender-smartphones/>
+[post_smart]: </posts/faca-valer-o-smart-do-seu-smartphone>
 
 [benchmark_1]: <http://arstechnica.com/gadgets/2013/08/performance-preview-the-moto-x-sports-a-great-gpu-respectable-cpu>
 [benchmark_2]: <http://www.fonearena.com/blog/80178/motorola-moto-x-benchmarks.html>

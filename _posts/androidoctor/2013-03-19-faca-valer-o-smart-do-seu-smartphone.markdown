@@ -114,4 +114,4 @@ Eu sabia! Aguarde por mais dicas e vá correndo testar o Tasker. Garanto que val
 
 [tasker]: <https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm>
 [secure_settings]: <https://play.google.com/store/apps/details?id=com.intangibleobject.securesettings.plugin>
-[post-root]: <{{site.url}}/posts/root-o-papel-higienico-eletronico-para-o-seu-android>
+[post-root]: </posts/root-o-papel-higienico-eletronico-para-o-seu-android>

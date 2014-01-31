@@ -77,5 +77,5 @@ superusuário.
 ![]({{ page.images }}/hum.gif)
 Pare de se lamentar e vá logo rootear seu aparelho!
 
-[post-root]: <{{ site.url }}/posts/root-o-papel-higienico-eletronico-para-o-seu-android>
+[post-root]: </posts/root-o-papel-higienico-eletronico-para-o-seu-android>
 [titanium_backup]: <https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup>

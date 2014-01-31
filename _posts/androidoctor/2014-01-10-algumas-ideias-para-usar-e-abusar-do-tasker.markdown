@@ -71,5 +71,5 @@ O tempo de espera é interessante para que você possa rejeitar a chamada antes 
 [skiplock]: <https://play.google.com/store/apps/details?id=com.benhirashima.skiplock>
 [unlock with wifi]: <https://play.google.com/store/apps/details?id=com.benhirashima.unlockwithwifi>
 
-[post-root]: <{{site.url}}/posts/root-o-papel-higienico-eletronico-para-o-seu-android>
-[post-xposed]: <{{site.url}}/posts/xposed-a-forma-genial-de-se-modificar-uma-rom>
+[post-root]: </posts/root-o-papel-higienico-eletronico-para-o-seu-android>
+[post-xposed]: </posts/xposed-a-forma-genial-de-se-modificar-uma-rom>

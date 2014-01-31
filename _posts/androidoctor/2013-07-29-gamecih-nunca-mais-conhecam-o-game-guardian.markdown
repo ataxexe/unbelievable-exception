@@ -54,8 +54,8 @@ Agora é fácil, troque o valor por algo que te agrade e volte para a jogatina.
 
 Droga! Achei que não ia notar… eu ando meio sem tempo, então não sei quando vou voltar a postar coisas mais longas.
 
-[post-root]: <{{ site.url }}/posts/root-o-papel-higienico-eletronico-para-o-seu-android>
-[post-gamecih]: <{{site.url}}/posts/gamecih-o-gameshark-pra-android>
+[post-root]: </posts/root-o-papel-higienico-eletronico-para-o-seu-android>
+[post-gamecih]: </posts/gamecih-o-gameshark-pra-android>
 [game guardian]: <http://gameguardian.net>
 [download]: <http://gameguardian.net/forum/files/file/2-gameguardian>
 [download-alternativo]: <{{site.download}}/android/Game_Guardian-6.0.3.apk>
