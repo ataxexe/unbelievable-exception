@@ -6,7 +6,6 @@ title: "Unbelievable Exception | Problema Ocorrido Com Sucesso!"
 <div class="container">
   <h1>{{ site.description }}</h1>
   <h2>Postagens</h2>
-  {% include sharebar-small.html %}
   {% for post in paginator.posts %}
     {% include post-summary.html %}
   {% endfor %}
@@ -14,4 +13,3 @@ title: "Unbelievable Exception | Problema Ocorrido Com Sucesso!"
 <div class="container">
   {% include pagination.html %}
 </div>
-{% include sharebar-large.html %}

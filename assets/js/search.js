@@ -26,10 +26,10 @@ var search_finish = function(result) {
   $.each(result, function(){
     index = this['ref']
     entry = search_entries[index]
-    h4 = $("<h4 class='list-group-item-heading result-title'>" + 
+    h4 = $("<h2 class='list-group-item-heading result-title'>" + 
               entry['title'] + " <small>(" + entry["date"] + ")</small></h4>")
-    h5 = $("<h5 class='list-group-item-heading result-category'>" + entry['category'] + "</h5>")
-    p = $("<p class='list-group-item-text'>" + entry['excerpt'] + "</p>")
+    h5 = $("<h3 class='list-group-item-heading result-category'>" + entry['category'] + "</h5>")
+    p = $("<p class='list-group-item-text result-excerpt'>" + entry['excerpt'] + "</p>")
     $("<a href='" + entry['url'] + "' class='list-group-item'>")
       .append(h4, h5, p)
       .appendTo("#search-result")
