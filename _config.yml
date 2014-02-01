@@ -12,8 +12,13 @@ exclude:
   - build
   - serve
 
-slogans:
-  androidoctor: "Faça mais do que trocar a capinha!"
+custom_categories:
+  androidoctor:
+    name: AndroiDoctor
+    slogan: "Faça mais do que trocar a capinha!"
+  latrina digital:
+    name: Latrina Digital
+    slogan: "Dê a descarga ou jogue no ventilador!"
 
 url: http://entra.la
 download: http://pega.la

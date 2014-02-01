@@ -2,11 +2,7 @@
 layout: default
 ---
 <div class="container">
-  {% if site.slogans[page.index] %}
-  <h1>{{ site.slogans[page.index] }}</h1>
-  {% else %}
-  <h1>{{ site.description }}</h1>
-  {% endif%}
+  <h1>{{ page.index | category_slogan }}</h1>
   <h2>Postagens</h2>
   {{ content }}
   {% for post in site.categories[page.index] %}
