@@ -26,7 +26,7 @@
         </li>
         <li class="divider"></li>
         <li>
-          <a href="https://github.com/ataxexe/unbelievable-exception" target="_blank">
+          <a href="{{site.github}}" target="_blank">
             <span class="visible-xs visible-md visible-lg">GitHub</span>
             <span class="hidden-xs hidden-md hidden-lg">
               <i class="fa fa-github"></i>
@@ -51,9 +51,21 @@
         </li>
         <li class="divider"></li>
         <li>
-          <input type="text" placeholder="Pesquisar"
-                 class="search-input form-control col-lg-8">
-          </input>
+          <div class="input-group search-input">
+            <span class="input-group-btn">
+              <button id="btn-search" class="btn btn-default">
+                <i id="search-image" class="fa fa-search"></i>
+              </button>
+            </span>
+            <input id="search-input" type="text" placeholder="Pesquisar"
+                 class="form-control col-lg-8">
+            </input>
+            <span class="input-group-btn">
+              <button id="btn-clear-search" class="btn btn-default">
+                x
+              </button>
+            </span>
+          </div>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">

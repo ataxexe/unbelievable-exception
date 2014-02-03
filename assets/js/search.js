@@ -1,3 +1,5 @@
+$("#btn-search").attr("disabled", "disabled")
+
 var search_engine = lunr(function () {
   this.field('title', { boost: 10 })
   this.field('tags', { boost: 8 })
@@ -36,29 +38,39 @@ var search_finish = function(result) {
   })
   $("#search-result").show("slow")
   $("#content").hide("slow")
+  $("#btn-clear-search").show()
 }
 
-$(".search-input").keyup(function(){
-  term = $(this).val()
-  if (term.length > 3) {
+var cancel_search = function() {
+  $("#search-result").hide("slow")
+  $("#content").show("slow")
+  $(this).hide()
+}
+
+$("#btn-clear-search").click(cancel_search)
+$("#btn-search").click(function(){
+  term = $("#search-input").val()
+  search(term, search_finish)
+})
+$("#search-input").keydown(function(event){
+  var ENTER = 13
+  if (event.keyCode == ENTER) {
+    term = $(this).val()
     search(term, search_finish)
-  } else {
-    $("#search-result").hide("slow")
-    $("#content").show("slow")
   }
 }).focus(function(){
   if (!index_loaded) {
-    $(".search-image").removeClass("fa-search").addClass("fa-cog")
     input = $(this)
-    input.attr("placeholder", "Carregando...").attr("disabled", "disabled")
+    input.attr("placeholder", "Carregando...")
+    $("#search-input").attr("disabled", "disabled")
     $.getJSON("/search.json", function(data, textStatus, jqXHR){
       search_entries = data
       $.each(search_entries, function(){
         search_engine.add(this)
       })
       index_loaded = true
-      $(".search-image").removeClass("fa-cog").addClass("fa-search")
-      input.attr("placeholder", "Pesquisar").removeAttr("disabled").focus()
+      input.attr("placeholder", "Pesquisar")
+      $("#btn-search, #search-input").removeAttr("disabled")
     })
   }
 })
