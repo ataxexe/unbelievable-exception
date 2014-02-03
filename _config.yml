@@ -15,6 +15,7 @@ exclude:
 analytics: true
 comments: true
 share: true
+minify: true
 
 custom_categories:
   androidoctor:
@@ -26,6 +27,7 @@ custom_categories:
 
 url: http://entra.la
 download: http://pega.la
+github: https://github.com/ataxexe/unbelievable-exception
 
 owner:
   name: Marcelo Guimarães
