@@ -3,7 +3,11 @@ layout: default
 ---
 <div class="container">
   <h1>{{ page.index | category_slogan }}</h1>
-  <h2>Postagens</h2>
+  <h2>Postagens
+    <a href="/{{ page.index | category_url }}/feed.xml">
+      <i class="fa fa-rss right"></i>
+    </a>
+  </h2>
   {{ content }}
   {% for post in site.categories[page.index] %}
     {% include post-summary.html %}
