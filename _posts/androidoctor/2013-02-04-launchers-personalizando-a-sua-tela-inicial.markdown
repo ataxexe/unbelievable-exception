@@ -2,7 +2,6 @@
 layout: post
 title:  "Launchers: Personalizando a sua tela inicial"
 category: AndroiDoctor
-author: Ataxexe
 tags:
   - android
   - launcher

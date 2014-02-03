@@ -2,7 +2,6 @@
 layout: post
 title: "Xposed: a forma genial de se modificar uma ROM"
 category: AndroiDoctor
-author: Ataxexe
 tags: 
   - android
   - root

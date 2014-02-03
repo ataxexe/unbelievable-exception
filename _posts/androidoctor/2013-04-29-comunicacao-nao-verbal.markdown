@@ -2,7 +2,6 @@
 layout: post
 title:  "Comunicação não-verbal"
 category: AndroiDoctor
-author: Ataxexe
 tags:
   - android
   - gestos

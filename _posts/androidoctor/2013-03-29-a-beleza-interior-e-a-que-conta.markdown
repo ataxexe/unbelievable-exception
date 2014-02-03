@@ -2,7 +2,6 @@
 layout: post
 title:  "A beleza interior é a que conta"
 category: AndroiDoctor
-author: Ataxexe
 images: assets/images/beleza-interior
 tags:
   - android

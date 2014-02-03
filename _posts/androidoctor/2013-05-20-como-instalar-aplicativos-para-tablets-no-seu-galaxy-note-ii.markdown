@@ -2,7 +2,6 @@
 layout: post
 title:  "Como instalar aplicativos para Tablets no seu Galaxy Note II"
 category: AndroiDoctor
-author: Ataxexe
 images: /assets/images/note-ii-tablet
 tags:
   - android

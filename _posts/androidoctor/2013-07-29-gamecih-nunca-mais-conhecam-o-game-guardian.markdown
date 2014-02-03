@@ -2,7 +2,6 @@
 layout: post
 title:  "GameCIH nunca mais: conheçam o Game Guardian!"
 category: AndroiDoctor
-author: Ataxexe
 images: /assets/images/game-guardian
 tags:
   - android

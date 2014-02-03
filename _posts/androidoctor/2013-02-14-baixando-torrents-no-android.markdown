@@ -2,7 +2,6 @@
 layout: post
 title:  "Baixando torrents no Android"
 category: AndroiDoctor
-author: Ataxexe
 tags:
   - android
   - torrent

@@ -2,7 +2,6 @@
 layout: post
 title:  "Não! Vocẽ não precisa de um Task Killer"
 category: AndroiDoctor
-author: Ataxexe
 tags:
   - android
   - task killer

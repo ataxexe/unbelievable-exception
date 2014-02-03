@@ -6,7 +6,7 @@ layout: default
   <a href="/{{ page.category | category_url }}">
     <label class="label label-default">{{ page.category }}</label>
   </a>
-  <p class="meta">Postado por {{ page.author }} em {{ page.date | date: "%d/%m/%Y" }}</p>
+  <p class="meta">Postado por {{ site.owner.nickname }} em {{ page.date | date: "%d/%m/%Y" }}</p>
   <div class="post-content">
     {% include sharebar.html %}
     {{ content }}

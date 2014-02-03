@@ -2,7 +2,6 @@
 layout: post
 title:  "Algumas ideias para usar e abusar do Tasker"
 category: AndroiDoctor
-author: Ataxexe
 images: /assets/images/tasker-ideias
 tags:
   - android

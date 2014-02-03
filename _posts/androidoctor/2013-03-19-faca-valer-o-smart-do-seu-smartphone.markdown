@@ -2,7 +2,6 @@
 layout: post
 title:  "Faça valer o \"smart\" do seu smartphone"
 category: AndroiDoctor
-author: Ataxexe
 tags:
   - android
   - tasker

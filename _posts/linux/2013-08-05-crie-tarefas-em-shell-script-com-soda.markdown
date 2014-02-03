@@ -5,7 +5,7 @@ category: Linux
 tags:
   - projetos
   - soda
-author: Ataxexe
+  - shell script
 ---
 
 Quem gosta de terminal acaba se rendendo aos Shell Scripts quando precisa de algumas tarefas

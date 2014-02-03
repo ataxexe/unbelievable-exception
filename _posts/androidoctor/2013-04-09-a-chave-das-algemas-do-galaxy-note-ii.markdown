@@ -2,7 +2,6 @@
 layout: post
 title:  "A chave das algemas do Galaxy Note II"
 category: AndroiDoctor
-author: Ataxexe
 images: /assets/images/root-note-2
 tags:
   - android

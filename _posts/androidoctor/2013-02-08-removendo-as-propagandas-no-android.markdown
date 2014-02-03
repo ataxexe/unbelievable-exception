@@ -2,7 +2,6 @@
 layout: post
 title:  "Removendo as propagandas no Android"
 category: AndroiDoctor
-author: Ataxexe
 tags:
   - android
   - root

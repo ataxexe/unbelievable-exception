@@ -2,7 +2,6 @@
 layout: post
 title:  "Faça backup dos seus aplicativos"
 category: AndroiDoctor
-author: Ataxexe
 images: /assets/images/backup
 tags:
   - android

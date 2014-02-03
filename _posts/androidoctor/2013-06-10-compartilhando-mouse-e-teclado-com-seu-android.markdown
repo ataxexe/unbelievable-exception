@@ -2,7 +2,6 @@
 layout: post
 title:  "Compartilhando mouse e teclado com seu Android"
 category: AndroiDoctor
-author: Ataxexe
 tags:
   - android
   - root

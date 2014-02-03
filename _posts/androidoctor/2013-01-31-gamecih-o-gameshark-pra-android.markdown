@@ -2,7 +2,6 @@
 layout: post
 title:  "GameCIH: O GameShark pra Android"
 category: AndroiDoctor
-author: Ataxexe
 images: /assets/images/gamecih
 tags:
   - android

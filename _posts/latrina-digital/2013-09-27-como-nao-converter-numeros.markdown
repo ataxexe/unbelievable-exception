@@ -2,7 +2,6 @@
 layout: post
 title:  "Como não converter números"
 category: Latrina Digital
-author: Ataxexe
 tags:
   - java
   - refatoração

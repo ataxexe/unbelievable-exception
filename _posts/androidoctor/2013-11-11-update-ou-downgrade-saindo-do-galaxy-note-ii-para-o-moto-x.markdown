@@ -2,7 +2,6 @@
 layout: post
 title:  Update ou downgrade? Saindo do Galaxy Note II para o Moto X
 category: AndroiDoctor
-author: Ataxexe
 tags: 
   - android
   - moto x
