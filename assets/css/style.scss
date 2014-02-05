@@ -1,12 +1,36 @@
-@orange:            #ff8800;
-@white:             #fff;
-@dark-gray:         #161616;
-@light-gray:        #CFCFC2;
+$orange:            #ff8800;
+$white:             #fff;
+$dark-gray:         #161616;
+$light-gray:        #CFCFC2;
 
-@footer-background: @dark-gray;
+$footer-background: $dark-gray;
+
+@mixin transition ($duration, $mode) {
+  -webkit-transition: all $duration $mode;
+     -moz-transition: all $duration $mode;
+       -o-transition: all $duration $mode;
+      -ms-transition: all $duration $mode;
+          transition: all $duration $mode;
+}
+ 
+@mixin rotation ($amount) {
+  -webkit-transform: rotate($amount);
+     -moz-transform: rotate($amount);
+       -o-transform: rotate($amount);
+      -ms-transform: rotate($amount);
+          transform: rotate($amount);
+}
 
 .navbar-default {
-  background-color: @dark-gray;
+  background-color: $dark-gray;
+}
+
+.avatar {
+  @include transition(0.5s, ease)
+}
+
+.avatar:hover {
+  @include rotation(-15deg)
 }
 
 html, body {
@@ -27,19 +51,19 @@ body {
 }
 
 #site-name {
-  color: @orange;
+  color: $orange;
 }
 
 #site-description {
-  color: @orange;
+  color: $orange;
 }
 
 .site-owner {
-  color: @orange;
+  color: $orange;
 }
 
 a.post-title {
-  color: @light-gray;
+  color: $light-gray;
 }
 
 .post-details {
@@ -108,13 +132,13 @@ article {
 #copyright {
   font-style: italic;
   font-size: small;
-  background-color: @footer-background;
+  background-color: $footer-background;
   li {
     list-style: none;
   }
 }
 
 #footer {
-  border-top: 1px solid @orange;
+  border-top: 1px solid $orange;
   text-align: right;
 }
