@@ -23,7 +23,7 @@ module Jekyll
         FileUtils.mkdir_p(File.dirname(dest_path))
         begin
           engine = Sass::Engine.for_file(path,
-                     :style => (compress ? "compressed" : "expanded"))
+                    :style => (compress ? :compressed : :expanded))
           content = engine.render
           File.open(dest_path, 'w') do |f|
             f.write(content)
