@@ -23,7 +23,9 @@ Alguns já devem ter ouvido falar do meu antigo blog, o AndroiDoctor. Ele foi mi
 
 Este blog é estático, ou seja, nada de servidores de aplicação ou banco de dados. Tudo é gerado pra ser um conjunto de páginas estáticas. Pra isso, utilizei o excelente [Jekyll][]. Ele cumpre bem o que promete e tem uma comunidade muito ativa por ser o cara por trás do [GitHub Pages][github-pages].
 
-Confesso que nunca fui muito chegado em programar pra web (apesar de adorar Javascript e venerar o [jQuery][]). Por isso comecei a estudar um pouco de CSS e a relembrar o que já tinha aprendido de Javascript. A escolha do jQuery foi meio óbvia pra mim. Para a parte do CSS, acabei ficando com o [Bootstrap][], o tema [Cyborg][] do [Bootswatch][] e [Less][] pra escrever CSS como deveria ser. Essa galerinha me deu uma boa base pra montar um blog bem responsivo e, hoje, aprendi a gostar de web (apesar de continuar gostando muito mais de *backend*).
+Confesso que nunca fui muito chegado em programar pra web (apesar de adorar Javascript e venerar o [jQuery][]). Por isso comecei a estudar um pouco de CSS e a relembrar o que já tinha aprendido de Javascript. A escolha do jQuery foi meio óbvia pra mim. Para a parte do CSS, acabei ficando com o [Bootstrap][], o tema [Cyborg][] do [Bootswatch][] (com algumas mudanças) e [Sass][][^sass-less] pra escrever CSS como deveria ser. Essa galerinha me deu uma boa base pra montar um blog bem responsivo e, hoje, aprendi a gostar de web (apesar de continuar gostando muito mais de *backend*).
+
+[^sass-less]: Inicialmente eu usava [Less][], mas achei o Sass mais bacana depois de ler um [excelente][sass-vs-less] comparativo entre eles.
 
 Um dos desafios em manter um blog é a organização e pra isso o Jekyll é bem flexível (até demais, pois faltam coisas básicas como geração de páginas de categorias e, por conseguinte, paginação e *feed* delas). Para isso eu criei geradores customizados e, sempre que precisava de alguma coisa (contadores de posts, por exemplo), foi só criar um *plugin*. Além da documentação, temos vários outros [sites][built-with-jekyll] feitos no Jekyll cujos fontes estão liberados no GitHub, então, era só dar uma olhada pra entender como tudo funcionava e poderia ser aplicado no meu caso.
 
@@ -57,6 +59,8 @@ Para os downloads, eu usei um outro domínio que aponta pra minha pasta pública
 [jquery]: <http://jquery.com>
 [json-indices]: </search.json>
 [less]: <http://lesscss.org>
+[sass]: <http://sass-lang.com>
+[sass-vs-less]: <http://css-tricks.com/sass-vs-less>
 [lunr]: <http://lunrjs.com>
 [repo]: <https://github.com/ataxexe/unbelievable-exception>
 [sharethis]: <http://www.sharethis.com>
