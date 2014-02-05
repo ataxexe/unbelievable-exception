@@ -5,7 +5,7 @@ $light-gray:        #CFCFC2;
 
 $footer-background: $dark-gray;
 
-@mixin transition ($duration, $mode) {
+@mixin animate ($duration, $mode) {
   -webkit-transition: all $duration $mode;
      -moz-transition: all $duration $mode;
        -o-transition: all $duration $mode;
@@ -26,7 +26,7 @@ $footer-background: $dark-gray;
 }
 
 .avatar {
-  @include transition(0.5s, ease)
+  @include animate(0.5s, ease);
 }
 
 .avatar:hover {
