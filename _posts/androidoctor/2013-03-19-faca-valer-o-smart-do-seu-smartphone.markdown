@@ -12,8 +12,8 @@ images: /assets/images/tasker
 
 
 Você já se deparou em alguma situação que te fez pensar "Nossa! Queria que meu smartphone fizesse
-isso!"? As situações podem ser um berro do celular "Tão te ligando!" enquanto você <del>dá aquela
-cagada</del> realiza trabalhos de natureza pessoal, ligar o GPS quando abrir o Google Maps, soar um
+isso!"? As situações podem ser um berro do celular "Tão te ligando!" enquanto você ~~dá aquela
+cagada~~ realiza trabalhos de natureza pessoal, ligar o GPS quando abrir o Google Maps, soar um
 alarme caso vocẽ esteja no trabalho para te lembrar de bater o ponto, enfim, o seu smartphone pode
 realmente levar o nome "smart" a sério caso vocẽ o automatize ao extremo.
 

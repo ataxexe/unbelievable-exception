@@ -16,8 +16,8 @@ podendo, assim, usar o editor que me der na telha.
 Agora vem a questão: se o Dropbox apenas serve conteúdo estático, como poderemos colocar algo
 *supostamente* dinâmico nele?
 
-A resposta é simples: **não tem como!!** Pra fazer o blog funcionar pelo Dropbox, é preciso <del>uma
-gambiarra</del> que ele seja estático, ou seja, os posts devem ser convertidos em *html* e colocados
+A resposta é simples: **não tem como!!** Pra fazer o blog funcionar pelo Dropbox, é preciso ~~uma
+gambiarra~~ que ele seja estático, ou seja, os posts devem ser convertidos em *html* e colocados
 no Dropbox (assumindo, claro, que você não queira fazer tudo na mão). É aí que entram dois camaradas:
 
 * [Markdown][]

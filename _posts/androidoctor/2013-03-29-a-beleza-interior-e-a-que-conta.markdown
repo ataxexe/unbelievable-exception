@@ -42,7 +42,7 @@ Como você percebeu, eu usei instrumentos musicais como tema e uma harmonia mono
 
 ## E qual o motivo de você usar tanto preto?
 
-Eu gosto de abusar <del>do preto</del> da cor preta porque, além de ser muito bonita e consumir menos bateria do dispositivo, reduz a tensão e os males causados aos olhos. Se você pensa que é brincadeira, abra o [Google][] e o [Pretog][], faça algumas pesquisas no Pretog e, depois de uns 5 minutos, mude para o Google. Garanto que você terá uma sensação desconfortável quando fizer isso.
+Eu gosto de abusar ~~do preto~~ da cor preta porque, além de ser muito bonita e consumir menos bateria do dispositivo, reduz a tensão e os males causados aos olhos. Se você pensa que é brincadeira, abra o [Google][] e o [Pretog][], faça algumas pesquisas no Pretog e, depois de uns 5 minutos, mude para o Google. Garanto que você terá uma sensação desconfortável quando fizer isso.
 
 ## Interessante...e aquelas coisas legais que você colocou nas telas?
 

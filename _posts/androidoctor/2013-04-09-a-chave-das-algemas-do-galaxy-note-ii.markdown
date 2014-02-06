@@ -14,11 +14,11 @@ tags:
   - aplicativos
 ---
 
-O Galaxy Note 2 é um <del>celular</del> <del>tablet</del> <del>coisa</del> <del>OVNI</del> aparelho excelente! A Samsung não diz se é um tablet, um smartphone ou filho de um Galaxy S3 bêbado com um Palmtop no cio. Alguns o chamam de *phablet* (tablet + smartphone). Eu prefiro o termo *aparelho traveco* mesmo, mas usarei somente *aparelho* para tentar manter a sanidade deste post (preciso acreditar nisso pelo menos uma vez)!
+O Galaxy Note 2 é um ~~celular~~ ~~tablet~~ ~~coisa~~ ~~OVNI~~ aparelho excelente! A Samsung não diz se é um tablet, um smartphone ou filho de um Galaxy S3 bêbado com um Palmtop no cio. Alguns o chamam de *phablet* (tablet + smartphone). Eu prefiro o termo *aparelho traveco* mesmo, mas usarei somente *aparelho* para tentar manter a sanidade deste post (preciso acreditar nisso pelo menos uma vez)!
 
-Nossa história começa num final de tarde. Você não tem mais nada pra fazer e resolve gastar seu rico dinheirinho em um belíssimo Samsung Galaxy Note 2. Ele não é aquele pedaço de cerâmica de um metro quadrado com slot pra cartão de memória tal qual seu antecessor, é uma garrafa de Guara Viton achatada que cabe bem na sua mão estilo raquete de tênis. Você o compra e fica louco pra descobrir tudo o que ele pode oferecer. É uma relação linda entre o homem e o seu <del>amplificador anti-social</del> aparelho móvel!
+Nossa história começa num final de tarde. Você não tem mais nada pra fazer e resolve gastar seu rico dinheirinho em um belíssimo Samsung Galaxy Note 2. Ele não é aquele pedaço de cerâmica de um metro quadrado com slot pra cartão de memória tal qual seu antecessor, é uma garrafa de Guara Viton achatada que cabe bem na sua mão estilo raquete de tênis. Você o compra e fica louco pra descobrir tudo o que ele pode oferecer. É uma relação linda entre o homem e o seu ~~amplificador anti-social~~ aparelho móvel!
 
-Tudo vai bem até você se deparar com a interface teletubbiana da Samsung (e mais outras coisinhas que irei contar ao longo deste post). Não se desespere, meu caro padawan! Hoje você irá libertar seu <del>traveco</del> aparelho das forças do mal.
+Tudo vai bem até você se deparar com a interface teletubbiana da Samsung (e mais outras coisinhas que irei contar ao longo deste post). Não se desespere, meu caro padawan! Hoje você irá libertar seu ~~traveco~~ aparelho das forças do mal.
 
 ## Cara, eu não vou ler isso porque você é lunático e detesta a interface da Samsung
 
@@ -49,7 +49,7 @@ Depois dessa eu queria dar um fim nas cinco polegadas e meia de bloqueio criativ
 
 ## E como faço pra ter root no aparelho?
 
-Antes de mais nada, não me responsabilizo por <del>nenhuma merda que você faça</del> nenhum problema causado no seu aparelho caso faça algum procedimento de forma errada. Entre [aqui][download-odin] e baixe o programa Odin. Ele é o mocinho que soca qualquer coisa no aparelho. O que iremos jogar lá é um pacote que fará o root do aparelho e mais outras coisinhas que iremos precisar pra trocar a ROM. O procedimento é bem simples:
+Antes de mais nada, não me responsabilizo por ~~nenhuma merda que você faça~~ nenhum problema causado no seu aparelho caso faça algum procedimento de forma errada. Entre [aqui][download-odin] e baixe o programa Odin. Ele é o mocinho que soca qualquer coisa no aparelho. O que iremos jogar lá é um pacote que fará o root do aparelho e mais outras coisinhas que iremos precisar pra trocar a ROM. O procedimento é bem simples:
 
 #. Instale os drivers da Samsung (se não souber onde encontrar, pergunte ao [Google][google-samsung-drivers])
 #. Extraia os arquivos (são três)
@@ -80,7 +80,7 @@ A Slim vai fazer você esquecer de tudo de ruim que seu aparelho já foi. Ela ve
 - Rádio FM
 - Os excelentes <em>popups</em> que aparecem ao passar a caneta em cima de algumas coisas (nos eventos do calendário, por exemplo)
 - A também excelente rolagem de tela com a caneta
-- Suporte a <del>múltiplas</del> duas janelas (alguém aqui realmente usa isso em um celular?)
+- Suporte a ~~múltiplas~~ duas janelas (alguém aqui realmente usa isso em um celular?)
 
 Os últimos itens são tranquilos por causa dos ganhos em outras partes do sistema no uso da caneta. O que pega mesmo são os dois primeiros, principalmente se você comprou o cabo (não compre em lojas brasileiras pois ele custa 10 dólares na Amazon, ao contrário dos 150 reais só pelo adaptador na terra que tem palmeiras onde canta o sabiá). A regra é clara: se você quer liberdade total, opte por uma ROM AOSP (e encare as consequências).
 
