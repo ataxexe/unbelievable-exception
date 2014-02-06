@@ -49,28 +49,16 @@
             </span>
           </a>
         </li>
-        <li>
-          <div class="input-group search-input">
-            <span class="input-group-btn">
-              <button id="btn-search" class="btn btn-default">
-                <i id="search-image" class="fa fa-search"></i>
-              </button>
-            </span>
-            <input id="search-input" type="text" placeholder="Pesquisar"
-                 class="form-control col-lg-8">
-            </input>
-            <span class="input-group-btn">
-              <button id="btn-clear-search" class="btn btn-default">
-                x
-              </button>
-            </span>
-          </div>
-        </li>
       </ul>
-      <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+      <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <img class="avatar" src="/assets/images/ataxexe-mini.png"><b class="caret"></b>
+            <span class="visible-xs visible-md visible-lg">
+              Contatos<b class="caret"></b>
+            </span>
+            <span class="hidden-xs hidden-md hidden-lg">
+              <i class="fa fa-user fa-lg"></i><b class="caret"></b>
+            </span>
           </a>
           <ul class="dropdown-menu">
             {% for contact in site.owner.contacts %}
