@@ -5,32 +5,8 @@ $light-gray:        #CFCFC2;
 
 $footer-background: $dark-gray;
 
-@mixin animate ($duration, $mode) {
-  -webkit-transition: all $duration $mode;
-     -moz-transition: all $duration $mode;
-       -o-transition: all $duration $mode;
-      -ms-transition: all $duration $mode;
-          transition: all $duration $mode;
-}
- 
-@mixin rotation ($amount) {
-  -webkit-transform: rotate($amount);
-     -moz-transform: rotate($amount);
-       -o-transform: rotate($amount);
-      -ms-transform: rotate($amount);
-          transform: rotate($amount);
-}
-
 .navbar-default {
   background-color: $dark-gray;
-}
-
-.avatar {
-  @include animate(0.5s, ease);
-}
-
-.avatar:hover {
-  @include rotation(-15deg)
 }
 
 html, body {
