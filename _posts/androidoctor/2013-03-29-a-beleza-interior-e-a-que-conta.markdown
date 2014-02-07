@@ -2,7 +2,7 @@
 layout: post
 title:  "A beleza interior é a que conta"
 category: AndroiDoctor
-images: assets/images/beleza-interior
+images: /assets/images/beleza-interior
 tags:
   - android
   - cores
