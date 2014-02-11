@@ -4,31 +4,18 @@ module Jekyll
 
   class CategoryPage < Page
 
-    def initialize(site, base, category)
+    def initialize(site, category, name, layout)
       @site = site
-      @base = base
+      @base = site.source
       @dir = I18n.transliterate(category).gsub(/\s/, '-').downcase
-      @name = 'index.html'
+      @name = name
 
       self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'category-index.html')
+      self.read_yaml(File.join(@base, '_layouts'), layout)
       self.data['category'] = category
-      self.data['title'] = category
+      self.data['title'] = site.config['post_categories'][category.downcase]['name']
     end
-  end
 
-  class CategoryFeed < Page
-
-    def initialize(site, base, category)
-      @site = site
-      @base = base
-      @dir = I18n.transliterate(category).gsub(/\s/, '-').downcase
-      @name = 'feed.xml'
-
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'category-feed.xml')
-      self.data['category'] = category
-    end
   end
 
   class CategoryPageGenerator < Generator
@@ -36,32 +23,18 @@ module Jekyll
 
     def generate(site)
       site.categories.keys.each do |category|
-        site.pages << CategoryPage.new(site, site.source, category)
-        site.pages << CategoryFeed.new(site, site.source, category)
+        site.pages << CategoryPage.new(site, category, 'index.html', 'category-index.html')
+        site.pages << CategoryPage.new(site, category, 'feed.xml', 'category-feed.xml')
       end
     end
   end
 
   module CategoryFilter
 
-    def category_name(category)
-      site = @context.registers[:site]
-      entry = site.config['custom_categories'][category.downcase]
-      if entry
-        entry['name']
-      else
-        category.split.map(&:capitalize).join(' ')
-      end
-    end
-
     def category_slogan(category)
       site = @context.registers[:site]
-      entry = site.config['custom_categories'][category.downcase]
-      if entry
-        entry['slogan']
-      else
-        site.config['description']
-      end
+      entry = site.config['post_categories'][category.downcase]
+      entry['slogan'] or site.config['description']
     end
 
     # build the url for a given category

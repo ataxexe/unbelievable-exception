@@ -17,13 +17,15 @@ comments: true
 share: true
 minify: true
 
-custom_categories:
+post_categories:
   androidoctor:
     name: AndroiDoctor
     slogan: "Faça mais do que trocar a capinha!"
   latrina digital:
     name: Latrina Digital
     slogan: "Dê a descarga ou jogue no ventilador!"
+  linux:
+    name: Linux
 
 url: http://entra.la
 download: http://pega.la
