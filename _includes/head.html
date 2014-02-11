@@ -1,6 +1,6 @@
 <head>
-  {% if page.index %}
-  <title>{{ page.index | category_name }} | {{ page.index | category_slogan }}</title>
+  {% if page.category %}
+  <title>{{ page.title | category_name }} | {{ page.category | category_slogan }}</title>
   {% else %}
   <title>{{ page.title }} | {{ page.title | category_slogan }}</title>
   {% endif %}

@@ -12,7 +12,8 @@ module Jekyll
 
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'category-index.html')
-      self.data['index'] = category
+      self.data['category'] = category
+      self.data['title'] = category
     end
   end
 
@@ -26,7 +27,7 @@ module Jekyll
 
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'category-feed.xml')
-      self.data['index'] = category
+      self.data['category'] = category
     end
   end
 
