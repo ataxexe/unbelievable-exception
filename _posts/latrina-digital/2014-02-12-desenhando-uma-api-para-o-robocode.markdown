@@ -193,7 +193,7 @@ Para usar a API, basta apenas pegar o código no [GitHub][] e criar uma subclass
 
 ## Conclusão
 
-Ter contato com o Robocode foi excelente para o meu aprendizado. Eu me lembro que quando eu estava aprendendo, um dos meus mentores (o grande Jassa) me disse "Faça seu robô ganhar do Walls". Eu acabei nunca conseguindo fazer um naquela época que ganhasse de porcaria nenhuma. Hoje eu consegui fazer um que ganhou do Walls, mas não foi o fato de ter ganhado ou não que me fez sentir bem, foi o fato de eu ter conseguido aplicar uma porrada de conceitos e técnicas que aprendi no longo dos anos sem fazer um *input* idiota gravar no banco de dados.
+Ter tido contato com o Robocode foi excelente para o meu aprendizado. Eu me lembro que, quando eu estava aprendendo a programar, um dos meus mentores (o grande Jassa) me disse "Faça seu robô ganhar do Walls". Eu acabei não conseguindo fazer um que ganhasse de porcaria nenhuma naquela época. Hoje eu consegui fazer um que ganhou do Walls, mas não foi o fato de ter ganhado ou não que me fez sentir bem, foi o fato de eu ter conseguido aplicar uma porrada de conceitos e técnicas que aprendi no longo dos anos sem fazer um *input* idiota gravar no banco de dados.
 
 ... tá... ter ganhado do Walls foi do #$@%#!!
 
