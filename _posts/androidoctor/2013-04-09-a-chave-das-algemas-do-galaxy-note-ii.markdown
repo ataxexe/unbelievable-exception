@@ -168,8 +168,8 @@ Crie um perfil com os aplicativos que deseja (contexto Application) ligado a uma
 
 Vale! Se, e somente se, você for uma pessoa que gosta de fuçar nos seus brinquedinhos tecnológicos.
 
-[post-root]: </posts/root-o-papel-higienico-eletronico-para-o-seu-android>
-[post-tasker]: </posts/faca-valer-o-smart-do-seu-smartphone>
+[post-root]: <{% link_to_post root %}>
+[post-tasker]: <{% link_to_post tasker %}>
 
 [papyrus]: <https://play.google.com/store/apps/details?id=com.steadfastinnovation.android.projectpapyrus>
 [graffiti]: <https://play.google.com/store/apps/details?id=com.access_company.graffiti>

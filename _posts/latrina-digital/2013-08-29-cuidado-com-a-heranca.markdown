@@ -1,5 +1,6 @@
 ---
 layout: post
+id: herança
 title:  Cuidado com a Herança!
 category: Latrina Digital
 tags:

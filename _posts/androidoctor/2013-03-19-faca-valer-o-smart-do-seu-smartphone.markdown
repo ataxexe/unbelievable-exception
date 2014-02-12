@@ -1,5 +1,6 @@
 ---
 layout: post
+id: tasker
 title:  "Faça valer o \"smart\" do seu smartphone"
 category: AndroiDoctor
 tags:
@@ -113,4 +114,4 @@ Eu sabia! Aguarde por mais dicas e vá correndo testar o Tasker. Garanto que val
 
 [tasker]: <https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm>
 [secure_settings]: <https://play.google.com/store/apps/details?id=com.intangibleobject.securesettings.plugin>
-[post-root]: </posts/root-o-papel-higienico-eletronico-para-o-seu-android>
+[post-root]: <{% link_to_post root %}>

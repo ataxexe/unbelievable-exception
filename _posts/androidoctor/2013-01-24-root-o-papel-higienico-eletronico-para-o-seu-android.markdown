@@ -1,5 +1,6 @@
 ---
 layout: post
+id: root
 title:  "Root: o papel higiênico eletrônico para o seu Android"
 category: AndroiDoctor
 tags:

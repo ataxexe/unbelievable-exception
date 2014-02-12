@@ -1,5 +1,6 @@
 ---
 layout: post
+id: vendedor-idiota
 title:  O jeito idiota de se vender smartphones
 category: AndroiDoctor
 tags:
