@@ -2,16 +2,11 @@ module Jekyll
   class PostCount < Liquid::Tag
 
     def initialize(tag_name, text, tokens)
-      super
-      @category = text
+      @category = text.downcase.strip
     end
 
     def render(context)
-      if @category and not @category.empty?
-        context.registers[:site].categories[@category.downcase].size
-      else
-        context.registers[:site].posts.size
-      end
+      context.registers[:site].posts.size
     end
   end
 
