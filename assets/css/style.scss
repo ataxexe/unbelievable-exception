@@ -68,6 +68,12 @@ a.post-title {
 
 article {
 
+  font-size: 1.3em;
+
+  blockquote p {
+    font-size: 1em;
+  }
+
   .meta {
     padding-top: 6px;
     font-style: italic;
