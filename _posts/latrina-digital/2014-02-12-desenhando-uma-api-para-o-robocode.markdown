@@ -26,7 +26,7 @@ A diferença entre eles é, basicamente, na movimentação: enquanto o simples n
 No Robocode, cada robô é composto de três partes:
 
 - **Corpo**: responsável por mover o robô.
-- **Arma**: responsável por atirar as balas.
+- **Canhão**: responsável por atirar as balas.
 - **Radar**: responsável por escanear o campo de batalha e procurar os alvos.
 
 Apesar de haver essa diferenciação, o código do robô não a faz, ou seja, essas três partes são acessíveis direto por métodos da classe do robô. Aí está o primeiro problema: não existe uma separação lógica das partes do robô e isso dificulta a componentização. A minha ideia era justamente criar uma classe para representar cada uma dessas partes e, assim, poder facilitar a criação de diferentes sistemas de mira, de movimento e de escaneamento.
@@ -37,12 +37,12 @@ Claro que isso deve agora ser socado no código do robô. Para isso, criei uma c
 
 ## Separação de responsabilidades
 
-O interessante de ter separado as partes é que eu poderia trocar o corpo do robô para mudar a forma de movimentação. Mas logo não me pareceu ser uma boa ideia dividir apenas nessas três partes. A questão é que o corpo do robô, por exemplo, é responsável por mover o robô e dar a movimentação para cada turno. Isso é responsabilidade demais e acaba se repetindo para as demais partes: a arma deve saber movimentar, mirar e calcular a energia de cada tiro e o radar deve saber movimentar e adequar a movimentação para cada tipo de batalha ou comportamento do robô.
+O interessante de ter separado as partes é que eu poderia trocar o corpo do robô para mudar a forma de movimentação. Mas logo não me pareceu ser uma boa ideia dividir apenas nessas três partes. A questão é que o corpo do robô, por exemplo, é responsável por mover o robô e dar a movimentação para cada turno. Isso é responsabilidade demais e acaba se repetindo para as demais partes: o canhão deve saber movimentar, mirar e calcular a energia de cada tiro e o radar deve saber movimentar e adequar a movimentação para cada tipo de batalha ou comportamento do robô.
 
 Pensando muito na situação, eu acabei criando sistemas para acoplar em cada parte, ficou mais ou menos assim:
 
 - **Corpo**: responsável por mover o robô e é composto de um sistema de movimentação, que diz para o corpo para onde ele deve se mover.
-- **Arma**: responsável por mover a arma e é composta de um sistema de mira, que diz para onde a arma deve se mover, e um sistema de tiro, que diz qual é a energia da bala baseado em algum cálculo.
+- **Canhão**: responsável por mover o canhão e é composta de um sistema de mira, que diz para onde o canhão deve se mover, e um sistema de tiro, que diz qual é a energia da bala baseado em algum cálculo.
 - **Radar**: responsável por mover o radar e é composto de um sistema de escaneamento, que diz para onde o radar deve se movimentar.
 
 A explicação é simples: se eu quisesse trocar a forma como o robô se movimenta, deveria implementar os métodos básicos de virar e andar, separando essas responsabilidades, pude criar diversos sistemas, por exemplo:
