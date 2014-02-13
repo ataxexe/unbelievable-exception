@@ -59,7 +59,7 @@ A ideia era poder trocar cada sistema de acordo com dados coletados ou situaçõ
 
 A implementação foi feita com uma interface de condições, chamada de `Condition`, onde existe apenas um método chamado `evaluate`. Quando uma parte do robô está em funcionamento, ela percorre os diversos sistemas registrados para ver se algum possui uma condição que retorne `true`, dizendo que esse sistema deve ser usado agora.
 
-A brincadeira não estaria completa se não houvesse uma forma de compor as condições (*perto de uma parede* **e** *com pouca energia*, por exemplo) mantendo a reusabilidade. Foi aí que nasceram as classes *\*Conditions*.
+A brincadeira não estaria completa se não houvesse uma forma de compor as condições (*perto de uma parede* **e** *com pouca energia*, por exemplo) mantendo a reusabilidade. Foi aí que nasceram as classes `\*Conditions`.
 
 ## Eventos e anotações
 
@@ -115,7 +115,7 @@ Note que o componente não precisa saber quem está interessado em ser notificad
 ~~~java
 @When(ENEMY_FIRE)
 public void onEnemyFire(EnemyFireEvent event) {
-  // código para tenar desviar da bala
+  // código para tentar desviar da bala
 }
 ~~~
 
@@ -130,6 +130,8 @@ O sistema de plugins não tem interface alguma. É um objeto qualquer cujos mét
 ~~~java
   plug(new Dodger(this));
 ~~~
+
+Basta apenas receber o evento `ENEMY_FIRE` e fazer o que for preciso pra não levar chumbo.
 
 ## Interfaces Fluentes
 
@@ -167,7 +169,7 @@ gun().forAiming()
   .use(directAimingSystem);
 ~~~
 
-Para que não seja possível uma aberração dessas, é interessante deixar ao compilador o trabalho de validar tudo separando as interfaces. É mais ou menos um autômato, só que é muito complicado implementar um autômato em interfaces e abaixo está o autômato do exemplo acima:
+Para que não seja possível uma aberração dessas, é interessante deixar ao compilador o trabalho de validar as coisas separando os métodos entre interfaces. É mais ou menos um autômato. Abaixo está o autômato do exemplo:
 
 ![Deveria ser assim]({{page.images}}/system-select-automata.png)
 
@@ -193,9 +195,10 @@ Para usar a API, basta apenas pegar o código no [GitHub][] e criar uma subclass
 
 ## Conclusão
 
-Ter tido contato com o Robocode foi excelente para o meu aprendizado. Eu me lembro que, quando eu estava aprendendo a programar, um dos meus mentores (o grande Jassa) me disse "Faça seu robô ganhar do Walls". Eu acabei não conseguindo fazer um que ganhasse de porcaria nenhuma naquela época. Hoje eu consegui fazer um que ganhou do Walls, mas não foi o fato de ter ganhado ou não que me fez sentir bem, foi o fato de eu ter conseguido aplicar uma porrada de conceitos e técnicas que aprendi no longo dos anos sem fazer um *input* idiota gravar no banco de dados.
+Ter tido contato com o Robocode foi excelente para o meu aprendizado. Eu me lembro que, quando eu estava aprendendo a programar, um dos meus mentores (o grande Jassa) me disse "Faça seu robô ganhar do Walls". Eu acabei não conseguindo fazer um que ganhasse de porcaria nenhuma naquela época. Hoje eu [consegui][robo] fazer um que ganhou do Walls, mas não foi o fato de ter ganhado ou não que me fez sentir bem, foi o fato de eu ter conseguido aplicar uma porrada de conceitos e técnicas que aprendi no longo dos anos sem fazer os dados de um *input* idiota serem gravados no banco de dados.
 
 ... tá... ter ganhado do Walls foi do #$@%#!!
 
 [github]: <https://github.com/ataxexe/robobundle>
 [exemplos]: <https://github.com/ataxexe/robobundle/tree/master/src/atatec/robocode/robots>
+[robo]: <https://github.com/ataxexe/robobundle/blob/master/src/atatec/robocode/robots/Chronos.java>
