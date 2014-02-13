@@ -31,7 +31,7 @@ No Robocode, cada robô é composto de três partes:
 
 Apesar de haver essa diferenciação, o código do robô não a faz, ou seja, essas três partes são acessíveis direto por métodos da classe do robô. Aí está o primeiro problema: não existe uma separação lógica das partes do robô e isso dificulta a componentização. A minha ideia era justamente criar uma classe para representar cada uma dessas partes e, assim, poder facilitar a criação de diferentes sistemas de mira, de movimento e de escaneamento.
 
-Como é uma boa prática programar para interfaces, três interfaces foram criadas: `Body`, `Radar` e `Gun`. Como essas partes possuem métodos semelhantes com relação à movimentação, criei uma interface *Part*, que é a mãe da galera.
+Como é uma boa prática programar para interfaces, três interfaces foram criadas: `Body`, `Radar` e `Gun`. Como essas partes possuem métodos semelhantes com relação à movimentação, criei uma interface `Part`, que é a mãe da galera.
 
 Claro que isso deve agora ser socado no código do robô. Para isso, criei uma classe abstrata composta por essas três partes em uma implementação padrão. A coisa começou a ganhar forma.
 
