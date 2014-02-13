@@ -42,7 +42,7 @@ O interessante de ter separado as partes é que eu poderia trocar o corpo do rob
 Pensando muito na situação, eu acabei criando sistemas para acoplar em cada parte, ficou mais ou menos assim:
 
 - **Corpo**: responsável por mover o robô e é composto de um sistema de movimentação, que diz para o corpo para onde ele deve se mover.
-- **Canhão**: responsável por mover o canhão e é composta de um sistema de mira, que diz para onde o canhão deve se mover, e um sistema de tiro, que diz qual é a energia da bala baseado em algum cálculo.
+- **Canhão**: responsável por mover o canhão e é composto de um sistema de mira, que diz para onde o canhão deve se mover, e um sistema de tiro, que diz qual é a energia da bala baseado em algum cálculo.
 - **Radar**: responsável por mover o radar e é composto de um sistema de escaneamento, que diz para onde o radar deve se movimentar.
 
 A explicação é simples: se eu quisesse trocar a forma como o robô se movimenta, deveria implementar os métodos básicos de virar e andar, separando essas responsabilidades, pude criar diversos sistemas, por exemplo:
