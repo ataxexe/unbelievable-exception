@@ -185,7 +185,7 @@ Com certeza é muito diferente e propenso a falhas, mas, como o primeiro também
 
 É claro que alguns ajudantes são necessários pra fazer a coisa toda andar e um dos fundamentais é a Matemática (em especial a Trigonometria). O Robocode pode utilizar tanto graus como radianos, mas acaba duplicando os métodos (`setXXX` para graus e `setXXXRadians` para radianos), o que tem cheiro de cueca de dez dias. Eu resolvi o problema criando a classe `Angle`, que representa... dã... um ângulo.
 
-> Com certeza eu poderia utilizar bibliotecas prontas para esse tipo de cálculo (e pretendo usar), mas acabei querendo implementar por puro exercício. (Isso é, inclusive, muito bom de ser feito pois sistemas em produção não são o local mais apropriado para usarmos aquela teoria que acabamos de aprender em sala de aula.)
+Com certeza eu poderia utilizar bibliotecas prontas para esse tipo de cálculo (e pretendo usar), mas acabei querendo implementar por puro exercício. (Isso é, inclusive, muito bom de ser feito pois sistemas em produção não são o local mais apropriado para usarmos aquela teoria que acabamos de aprender em sala de aula.)
 
 Algumas outras classes foram criadas para abstrair algumas coisas como a localização dos robôs, trajetória das balas, pontos com força gravitacional (usados no movimento gravitacional) e outras loucuras. Tudo foi criado pensando em abstrair ao máximo a API do Robocode para evitar ao máximo o contato com duas APIs diferentes, principalmente das partes que me davam mal estar.
 
