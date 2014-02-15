@@ -59,7 +59,7 @@ A ideia era poder trocar cada sistema de acordo com dados coletados ou situaçõ
 
 A implementação foi feita com uma interface de condições, chamada de `Condition`, onde existe apenas um método chamado `evaluate`. Quando uma parte do robô está em funcionamento, ela percorre os diversos sistemas registrados para ver se algum possui uma condição que retorne `true`, dizendo que esse sistema deve ser usado agora.
 
-A brincadeira não estaria completa se não houvesse uma forma de compor as condições (*perto de uma parede* **e** *com pouca energia*, por exemplo) mantendo a reusabilidade. Foi aí que nasceram as classes `\*Conditions`.
+A brincadeira não estaria completa se não houvesse uma forma de compor as condições (*perto de uma parede* **e** *com pouca energia*, por exemplo) mantendo a reusabilidade. Foi aí que nasceram as classes `*Conditions`.
 
 ## Eventos e anotações
 
@@ -105,12 +105,14 @@ A grande vantagem de usar um mecanismo de eventos é desacoplar os componentes, 
 
 ~~~java
 // após detectar que um tiro foi dado
-bot.events().send(
+bot.dispatch(
   ENEMY_FIRE, new EnemyFireEvent(enemy, bulletPower)
 );
 ~~~
 
-Note que o componente não precisa saber quem está interessado em ser notificado quando ele detectar um possível tiro. Dessa forma, podemos ter vários pontos no código que podem se beneficiar disso e tomar qualquer decisão, exemplo:
+Apesar de existir uma interface de eventos, ela não é exposta no robô porque isso violaria o encapsulamento. Por isso, os *listeners* são registrados pelo método 'plug' e os eventos são disparados pelo método `dispatch`, ambos da interface `Bot`.
+
+Note que o componente que dispara o evento não precisa saber quem está interessado em ser notificado quando ele detectar um possível tiro. Dessa forma, podemos ter vários pontos no código que podem se beneficiar disso e tomar qualquer decisão, exemplo:
 
 ~~~java
 @When(ENEMY_FIRE)
