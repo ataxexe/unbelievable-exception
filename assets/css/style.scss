@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(../fonts/raleway.woff) format('woff');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(../fonts/raleway-bold.woff) format('woff');
+}
+
+
 $orange:            #ff8800;
 $white:             #fff;
 $dark-gray:         #161616;
@@ -14,6 +28,7 @@ html, body {
 }
 
 body {
+  font-family: Georgia,"Times New Roman",Times,serif;
   font-size: 1.5em;
 }
 
@@ -26,20 +41,33 @@ body {
   text-align: justify;
 }
 
-#site-name {
-  color: $orange;
+input, button, select, textarea {
+  font-family: inherit;
 }
 
-#site-description {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+code, kbd, pre, samp {
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+.navbar, .navbar-brand {
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.2em;
+}
+
+.btn, legend, .input-group-addon, .pagination, .pager, .label, .badge, .panel-default .panel-heading, .panel-default .panel-footer,  {
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#site-name {
   color: $orange;
 }
 
 .site-owner {
   color: $orange;
-}
-
-a.post-title {
-  color: $light-gray;
 }
 
 .post-details {
@@ -114,7 +142,6 @@ article {
 #copyright {
   font-style: italic;
   font-size: small;
-  background-color: $footer-background;
   li {
     list-style: none;
   }
