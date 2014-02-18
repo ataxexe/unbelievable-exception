@@ -14,15 +14,15 @@ tags:
   - aplicativos
 ---
 
-O Galaxy Note 2 é um ~~celular~~ ~~tablet~~ ~~coisa~~ ~~OVNI~~ aparelho excelente! A Samsung não diz se é um tablet, um smartphone ou filho de um Galaxy S3 bêbado com um Palmtop no cio. Alguns o chamam de *phablet* (tablet + smartphone). Eu prefiro o termo *aparelho traveco* mesmo, mas usarei somente *aparelho* para tentar manter a sanidade deste post (preciso acreditar nisso pelo menos uma vez)!
+O Galaxy Note II é um ~~celular~~ ~~tablet~~ ~~coisa~~ ~~OVNI~~ aparelho excelente! A Samsung não diz se é um tablet, um smartphone ou filho de um Galaxy S3 bêbado com um Palmtop no cio. Alguns o chamam de *phablet* (tablet + smartphone). Eu prefiro o termo *aparelho traveco* mesmo, mas usarei somente *aparelho* para tentar manter a sanidade deste post (preciso acreditar nisso pelo menos uma vez)!
 
-Nossa história começa num final de tarde. Você não tem mais nada pra fazer e resolve gastar seu rico dinheirinho em um belíssimo Samsung Galaxy Note 2. Ele não é aquele pedaço de cerâmica de um metro quadrado com slot pra cartão de memória tal qual seu antecessor, é uma garrafa de Guara Viton achatada que cabe bem na sua mão estilo raquete de tênis. Você o compra e fica louco pra descobrir tudo o que ele pode oferecer. É uma relação linda entre o homem e o seu ~~amplificador anti-social~~ aparelho móvel!
+Nossa história começa num final de tarde. Você não tem mais nada pra fazer e resolve gastar seu rico dinheirinho em um belíssimo Samsung Galaxy Note II. Ele não é aquele pedaço de cerâmica de um metro quadrado com slot pra cartão de memória tal qual seu antecessor, é uma garrafa de Guara Viton achatada que cabe bem na sua mão estilo raquete de tênis. Você o compra e fica louco pra descobrir tudo o que ele pode oferecer. É uma relação linda entre o homem e o seu ~~amplificador anti-social~~ aparelho móvel!
 
 Tudo vai bem até você se deparar com a interface teletubbiana da Samsung (e mais outras coisinhas que irei contar ao longo deste post). Não se desespere, meu caro padawan! Hoje você irá libertar seu ~~traveco~~ aparelho das forças do mal.
 
 ## Cara, eu não vou ler isso porque você é lunático e detesta a interface da Samsung
 
-Calma! Antes que você me dê uma voadora digital, irei delatar o maior vilão da ROM da Samsung no Galaxy Note 2: a caneta!
+Calma! Antes que você me dê uma voadora digital, irei delatar o maior vilão da ROM da Samsung no Galaxy Note II: a caneta!
 
 ## O quêêêê??!?!?!!?? A caneeeeeeeta?!!?!?!??!?
 
@@ -67,7 +67,7 @@ Prontinho! Seu brinquedo está rooteado e pronto pra receber uma ROM nova! O pr�
 
 ## E quais são as opções?
 
-Basicamente, existem dois tipos de ROM pro Galaxy Note 2: baseadas na ROM da Samsung e baseadas na ROM AOSP (Android Open Source Project). Usando a primeira, você terá a maioria dos problemas chatos que listei, mas terá alguma liberdade para modificar alguns aspectos do aparelho (principalmente os visuais). Na segunda, você não terá absolutamente nada que tenha relação com a ROM do fabricante (iupiiiiiiiiii). Recomendo as seguintes ROMs:
+Basicamente, existem dois tipos de ROM pro Galaxy Note II: baseadas na ROM da Samsung e baseadas na ROM AOSP (Android Open Source Project). Usando a primeira, você terá a maioria dos problemas chatos que listei, mas terá alguma liberdade para modificar alguns aspectos do aparelho (principalmente os visuais). Na segunda, você não terá absolutamente nada que tenha relação com a ROM do fabricante (iupiiiiiiiiii). Recomendo as seguintes ROMs:
 
 - [Slim][] - AOSP
 - [AllianceRom][] - baseada na ROM da Samsung
