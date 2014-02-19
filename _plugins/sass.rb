@@ -29,7 +29,7 @@ module Jekyll
             f.write(content)
           end
         rescue => e
-          STDERR.puts "Sass Exception: #{e.message}"
+          STDERR.puts "Sass Exception in file #{path}: #{e.message}"
         end
       end
 

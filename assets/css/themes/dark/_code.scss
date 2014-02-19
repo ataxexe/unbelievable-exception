@@ -1,0 +1,22 @@
+// Monokay based colors
+$purple:                #F92672;
+$yellow:                #E6DB74;
+$gray:                  #75715E;
+$dark_gray:             #252620;
+$violet:                #AE81FF;
+$green:                 #A6E22E;
+$white:                 #F8F8F0;
+
+$code-background-color: $dark_gray;
+$code-color:            $white;
+$code-border-color:     $gray;
+$code-keyword-color:    $purple;
+$code-comment-color:    $gray;
+$code-number-color:     $violet;
+$code-function-color:   $green;
+$code-attribute-color:  $green;
+$code-string-color:     $yellow;
+
+.sourceCode {
+  .kw, .dt { font-weight: normal; } /* Keyword.Declaration */
+}
