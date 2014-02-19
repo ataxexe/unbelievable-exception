@@ -1,5 +1,9 @@
 set_theme = function(theme) {
-  $.cookie("theme", theme);
+  if (theme == undefined) {
+    theme = "dark"
+  }
+  localStorage.setItem("theme", theme)
+  console.log(theme)
   css_files = ["bootstrap-" + theme + ".min.css", "style.css", "code.css"]
   for (var i = 0; i < css_files.length; i++) {
     $('head')
@@ -7,19 +11,12 @@ set_theme = function(theme) {
   }
 }
 
-theme = $.cookie("theme")
-if(theme == undefined) {
-  theme = "dark"
-}
-set_theme(theme)
-
+set_theme(localStorage.getItem("theme"))
 
 $("#btn-light-theme").click(function(){
-  $.cookie("theme", "light");
-  location.reload(false);
+  set_theme("light")
 })
 
 $("#btn-dark-theme").click(function(){
-  $.cookie("theme", "dark");
-  location.reload(false);
+  set_theme("dark")
 })
