@@ -25,9 +25,11 @@ Este blog é estático, ou seja, nada de servidores de aplicação ou banco de d
 
 Confesso que nunca fui muito chegado em programar pra web (apesar de adorar Javascript e venerar o [jQuery][]). Por isso comecei a estudar um pouco de CSS e a relembrar o que já tinha aprendido de Javascript. A escolha do jQuery foi meio óbvia pra mim. Para a parte do CSS, acabei ficando com o [Bootstrap][], o tema [Cyborg][] do [Bootswatch][] (com algumas mudanças) e [Sass][][^sass-less] pra escrever CSS como deveria ser. Essa galerinha me deu uma boa base pra montar um blog bem responsivo e, hoje, aprendi a gostar de web (apesar de continuar gostando muito mais de *backend*).
 
+A parte de temas veio de um feedback de um amigo meu: ele me disse ter achado cansativa aleitura em fundo preto, então, depois de estudar um pouco mais de CSS, eu consegui montar uma estrutura de temas pro blog. Como foi um saco pra fazer a coisa funcionar com *cookies*, eu usei o [Web Storage][] do HTML5 (e não estou nem aí pelos navegadores pré-históricos não suportarem). O tema claro foi baseado no [Readable][], outro excelente tema do [Bootswatch][].
+
 [^sass-less]: Inicialmente eu usava [Less][], mas achei o Sass mais bacana depois de ler um [excelente][sass-vs-less] comparativo entre eles.
 
-Um dos desafios em manter um blog é a organização e pra isso o Jekyll é bem flexível (até demais, pois faltam coisas básicas como geração de páginas de categorias e, por conseguinte, paginação e *feed* delas). Para isso eu criei geradores customizados e, sempre que precisava de alguma coisa (contadores de posts, por exemplo), foi só criar um *plugin*. Além da documentação, temos vários outros [sites][built-with-jekyll] feitos no Jekyll cujos fontes estão liberados no GitHub, então, era só dar uma olhada pra entender como tudo funcionava e poderia ser aplicado no meu caso.
+Um dos desafios em manter um blog é a organização e pra isso o Jekyll é bem flexível (até demais, pois faltam coisas básicas como geração de páginas de categorias e, por conseguinte, paginação e *feed* delas). Para isso eu criei geradores customizados e, sempre que precisava de alguma coisa (contadores de posts, por exemplo), foi só criar um *plugin*. Além da documentação, temos vários outros [sites][built-with-jekyll] feitos no Jekyll cujos fontes estão liberados no GitHub, então, era só dar uma olhada pra entender como tudo funcionava e poderia ser aplicado ao meu caso.
 
 A parte de busca foi a mais legal de implementar. Como tudo é estático, eu tinha duas alternativas:
 
@@ -62,6 +64,8 @@ Para os downloads, eu usei um outro domínio que aponta pra minha pasta pública
 [sass]: <http://sass-lang.com>
 [sass-vs-less]: <http://css-tricks.com/sass-vs-less>
 [lunr]: <http://lunrjs.com>
+[readable]: <[cyborg]: <http://bootswatch.com/readable>
 [repo]: <https://github.com/ataxexe/unbelievable-exception>
 [sharethis]: <http://www.sharethis.com>
+[web storage]: <http://www.w3schools.com/html/html5_webstorage.asp>
 [youtube]: <http://www.youtube.com/user/unbelievablexception>
