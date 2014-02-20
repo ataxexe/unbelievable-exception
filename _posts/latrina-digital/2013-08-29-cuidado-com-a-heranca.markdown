@@ -72,7 +72,7 @@ herança deveria ser com a classe `Lista` e não com `ListaLigada`.
 Tudo bem! O Juquinha não sabia que poderia fazer daquele jeito. Depois que deram uma bronca nele
 porque a API estava ficando muito confusa, Juquinha resolveu estudar um pouco mais e a refatorou.
 
-![Versão com dupla ligação]({{ page.images }}/listas-composicao.png)
+![Versão com composição]({{ page.images }}/listas-composicao.png)
 
 Note aqui que, além de `Lista` ser agora uma interface, não temos mais a classe
 `ListaLigadaSincronizada` e, sim, uma `ListaSincronizada`. Isso faz muito mais sentido porque a
