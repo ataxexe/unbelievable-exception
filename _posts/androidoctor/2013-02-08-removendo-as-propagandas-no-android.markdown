@@ -2,6 +2,7 @@
 layout: post
 title:  "Removendo as propagandas no Android"
 category: AndroiDoctor
+id: propagandas
 tags:
   - android
   - root
