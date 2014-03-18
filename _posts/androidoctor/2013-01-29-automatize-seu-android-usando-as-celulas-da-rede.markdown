@@ -116,4 +116,4 @@ pra isso, mas envolve [rootear seu celular][post-root] e usar outra solução de
 sobre ela em posts futuros). Por ora, deixe o GPS ligado.
 
 [llama]: <https://play.google.com/store/apps/details?id=com.kebab.Llama>
-[post-root]: <{% link_to_post root %}>
+[post-root]: <{% post root %}>

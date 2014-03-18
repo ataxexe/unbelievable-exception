@@ -114,4 +114,4 @@ Eu sabia! Aguarde por mais dicas e vá correndo testar o Tasker. Garanto que val
 
 [tasker]: <https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm>
 [secure_settings]: <https://play.google.com/store/apps/details?id=com.intangibleobject.securesettings.plugin>
-[post-root]: <{% link_to_post root %}>
+[post-root]: <{% post root %}>

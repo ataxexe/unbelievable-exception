@@ -74,5 +74,5 @@ Também acho! E a solução pra isso é o versátil [Maple Player][maple-player]
 [chord-free]: <https://play.google.com/store/apps/details?id=com.rabugentom.chordfree>
 [maple-player]: <https://play.google.com/store/apps/details?id=com.sqr5.android.audioplayer>
 [mapple-jb]: <https://play.google.com/store/apps/details?id=com.sqr5.android.player_jb>
-[post-propagandas]: <{% link_to_post propagandas %}>
+[post-propagandas]: <{% post propagandas %}>
 [guitar-pro]: <https://play.google.com/store/apps/details?id=com.arobasmusic.guitarpro>

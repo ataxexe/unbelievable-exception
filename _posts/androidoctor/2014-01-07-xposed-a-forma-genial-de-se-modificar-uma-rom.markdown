@@ -36,6 +36,6 @@ O Moto X tem uma peculiaridade: mesmo rooteado ele não permite modificar arquiv
 [GravityBox]: <http://repo.xposed.info/module/com.ceco.gm2.gravitybox>
 [Xposed]: <http://forum.xda-developers.com/showthread.php?t=1574401>
 [xposed-download]: <http://repo.xposed.info/module/de.robv.android.xposed.installer>
-[post-root]: <{% link_to_post root %}>
+[post-root]: <{% post root %}>
 
 [^porcaria]: Porcaria mesmo, meus dois Galaxy Note II tiveram fins trágicos de hardware logo depois da garantia terminar (e, pesquisando, minha esposa encontrou diversas outras historinhas parecidas - mas acho que isso é assunto pra outro post, ou um tribunal). O mais legal é que a "excelente" atendente da única assistência técnica de Brasília foi mais idiota do que o vendedor que me atendeu na loja da Samsung.

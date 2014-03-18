@@ -40,4 +40,4 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('post_count', Jekyll::PostCount)
-Liquid::Template.register_tag('link_to_post', Jekyll::PostLink)
+Liquid::Template.register_tag('post', Jekyll::PostLink)

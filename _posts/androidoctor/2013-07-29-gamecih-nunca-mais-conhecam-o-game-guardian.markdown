@@ -53,8 +53,8 @@ Agora é fácil, troque o valor por algo que te agrade e volte para a jogatina.
 
 Droga! Achei que não ia notar… eu ando meio sem tempo, então não sei quando vou voltar a postar coisas mais longas.
 
-[post-root]: <{% link_to_post root %}>
-[post-gamecih]: <{% link_to_post gamecih %}>
+[post-root]: <{% post root %}>
+[post-gamecih]: <{% post gamecih %}>
 [game guardian]: <http://gameguardian.net>
 [download]: <http://gameguardian.net/forum/files/file/2-gameguardian>
 [download-alternativo]: <{{site.download}}/android/Game_Guardian-6.0.3.apk>

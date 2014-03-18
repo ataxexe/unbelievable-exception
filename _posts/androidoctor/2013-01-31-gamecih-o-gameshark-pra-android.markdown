@@ -115,6 +115,6 @@ contra as gambiarras usadas pra mascarar o preço do jogo.
 
 Hoje os beneficiados não são os melhores jogadores, são os que tem mais grana pra torrar nos jogos.
 
-[post-root]: <{% link_to_post root %}>
+[post-root]: <{% post root %}>
 [gamecih]: <http://www.cih.com.tw/gamecih.html>
 [gamecih_download]: <{{site.download}}/android/GameCIH-3.0.0.apk>

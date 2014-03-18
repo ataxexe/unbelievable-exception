@@ -44,4 +44,4 @@ Por enquanto é um aplicativo genial e promissor. Se você é usuário do Window
 [Share Km]: <https://play.google.com/store/apps/details?id=com.liveov.skm>
 [download]: <https://sites.google.com/site/droidskm/download>
 [ADB]: <http://developer.android.com/tools/help/adb.html>
-[post-root]: <{% link_to_post root %}>
+[post-root]: <{% post root %}>

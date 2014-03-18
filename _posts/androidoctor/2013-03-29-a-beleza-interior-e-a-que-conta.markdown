@@ -123,8 +123,8 @@ Aquilo é ridículo! Nem o criador da ROM mais utilizada no mundo Android, o Ste
 
 [steve]: <https://plus.google.com/100275307499530023476/posts/U9KhibuYFcj>
 
-[post-root]: <{% link_to_post root %}>
-[post-launchers]: <{% link_to_post launchers %}>
+[post-root]: <{% post root %}>
+[post-launchers]: <{% post launchers %}>
 
 [WidgetLocker]: <https://play.google.com/store/apps/details?id=com.teslacoilsw.widgetlocker>
 [Missed It!]: <https://play.google.com/store/apps/details?id=net.igecelabs.android.MissedIt>

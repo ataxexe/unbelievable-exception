@@ -12,7 +12,7 @@ tags:
 - orientação a objetos
 ---
 
-Quando eu aprendi a programar, fiquei fissurado por um projeto de um jogo educacional feito por um maluco chamado **Mathew Nelson**. Nele, o estudante programava robôs para serem postos em uma arena para uma rinha virtual. Apesar de ser um projeto muito legal, ele era um pouco perigoso devido ao ponto de partida ser uma herança mais perigosa que repolho com batata-doce, e nós sabemos que devemos tomar muito [cuidado com a herança]({% link_to_post herança %}). O projeto era o excelente [Robocode](http://robocode.sourceforge.net).
+Quando eu aprendi a programar, fiquei fissurado por um projeto de um jogo educacional feito por um maluco chamado **Mathew Nelson**. Nele, o estudante programava robôs para serem postos em uma arena para uma rinha virtual. Apesar de ser um projeto muito legal, ele era um pouco perigoso devido ao ponto de partida ser uma herança mais perigosa que repolho com batata-doce, e nós sabemos que devemos tomar muito [cuidado com a herança]({% post herança %}). O projeto era o excelente [Robocode](http://robocode.sourceforge.net).
 
 A herança maldita é o que define os dois tipos de robôs:
 

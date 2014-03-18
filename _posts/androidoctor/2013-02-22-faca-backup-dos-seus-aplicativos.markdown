@@ -76,5 +76,5 @@ superusuário.
 ![]({{ page.images }}/hum.gif)
 Pare de se lamentar e vá logo rootear seu aparelho!
 
-[post-root]: <{% link_to_post root %}>
+[post-root]: <{% post root %}>
 [titanium_backup]: <https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup>
