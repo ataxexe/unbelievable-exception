@@ -64,7 +64,7 @@ Para os downloads, eu usei um outro domínio que aponta pra minha pasta pública
 [sass]: <http://sass-lang.com>
 [sass-vs-less]: <http://css-tricks.com/sass-vs-less>
 [lunr]: <http://lunrjs.com>
-[readable]: <[cyborg]: <http://bootswatch.com/readable>
+[readable]: <http://bootswatch.com/readable>
 [repo]: <https://github.com/ataxexe/unbelievable-exception>
 [sharethis]: <http://www.sharethis.com>
 [web storage]: <http://www.w3schools.com/html/html5_webstorage.asp>
