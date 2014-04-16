@@ -61,6 +61,10 @@ input, button, select, textarea {
   font-size: 0.8em;
 }
 
+.category {
+  font-size: 0.9em;
+}
+
 article {
 
   font-size: 1.3em;
@@ -71,6 +75,7 @@ article {
 
   .meta {
     padding-top: 6px;
+    font-style: italic;
     text-align: right;
   }
 
