@@ -1,24 +1,56 @@
-$("#btn-search").attr("disabled", "disabled")
-
-var search_engine = lunr(function () {
+full_engine = lunr(function () {
   this.field('title', { boost: 10 })
   this.field('tags', { boost: 8 })
   this.field('body', { boost: 5 })
   this.field('category')
   this.field('date')
   this.ref('url')
-})
+});
 
-var index_loaded = false
-var search_entries = null
+tag_engine = lunr(function () {
+  this.field('tags')
+  this.ref('url')
+});
 
-var search = function(term, callback) {
-  if(index_loaded) {
-    callback(search_engine.search(term))
+index_loaded = false
+search_entries = null
+
+load_index = function(callback) {
+  if (!index_loaded) {
+    input = $(this)
+    input.attr("placeholder", "Carregando...")
+    $("#search-input").attr("disabled", "disabled")
+    $.getJSON("/search.json", function(data, textStatus, jqXHR){
+      search_entries = data
+      $.each(search_entries, function(){
+        full_engine.add(this)
+        tag_engine.add(this)
+      })
+      index_loaded = true
+      input.attr("placeholder", "Pesquisar")
+      $("#btn-search, #search-input").removeAttr("disabled")
+      if (callback) {
+        callback()
+      }
+    })
   }
 }
-
-var search_finish = function(result) {
+search = function(term, engine, callback) {
+  if(index_loaded) {
+    finish(engine.search(term), callback)
+  } else {
+    load_index(function(){
+      search(term, engine, callback)
+    })
+  }
+}
+full_search = function(term, callback) {
+  search(term, full_engine, callback)
+}
+tag_search = function(tag, callback) {
+  search(tag, tag_engine, callback)
+}
+finish = function(result, callback) {
   $("#search-result").empty()
   if(result.length == 0) {
     $("<div class='alert alert-danger'>" +
@@ -39,38 +71,35 @@ var search_finish = function(result) {
   $("#search-result").show("slow")
   $("#content").hide("slow")
   $("#btn-clear-search").show()
+  if (callback) {
+    callback()
+  }
 }
-
-var cancel_search = function() {
+cancel_search = function() {
   $("#search-result").hide("slow")
   $("#content").show("slow")
   $(this).hide()
 }
+scroll_up = function() {
+  $("html, body").animate({ scrollTop: 0 }, 1000)
+}
 
+$("#btn-search").attr("disabled", "disabled")
 $("#btn-clear-search").click(cancel_search)
 $("#btn-search").click(function(){
   term = $("#search-input").val()
-  search(term, search_finish)
+  full_search(term)
 })
 $("#search-input").keydown(function(event){
   var ENTER = 13
   if (event.keyCode == ENTER) {
     term = $(this).val()
-    search(term, search_finish)
+    full_search(term)
   }
 }).focus(function(){
-  if (!index_loaded) {
-    input = $(this)
-    input.attr("placeholder", "Carregando...")
-    $("#search-input").attr("disabled", "disabled")
-    $.getJSON("/search.json", function(data, textStatus, jqXHR){
-      search_entries = data
-      $.each(search_entries, function(){
-        search_engine.add(this)
-      })
-      index_loaded = true
-      input.attr("placeholder", "Pesquisar")
-      $("#btn-search, #search-input").removeAttr("disabled")
-    })
-  }
+  load_index()
+})
+
+$(".post-tag").click(function() {
+  tag_search($(this).text(), scroll_up)
 })

@@ -9,12 +9,9 @@ layout: default
   <p class="meta">Postado por {{ site.owner.nickname }} em {{ page.date | date: "%d/%m/%Y" }}</p>
   <div class="post-content">
     {% include sharebar.html %}
+    {% include tags.html %}
     {{ content }}
-    <p class="meta">
-      {% for tag in page.tags %}
-        <span class="label label-primary">{{ tag }}</span>
-      {% endfor %}
-    </p>
+    {% include tags.html %}
     {% include sharebar.html %}
   </div>
   {% include comments.html %}

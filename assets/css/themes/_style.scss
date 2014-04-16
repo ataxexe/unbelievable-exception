@@ -57,6 +57,10 @@ input, button, select, textarea {
   }
 }
 
+.post-tag {
+  font-size: 0.8em;
+}
+
 article {
 
   font-size: 1.3em;
@@ -67,7 +71,6 @@ article {
 
   .meta {
     padding-top: 6px;
-    font-style: italic;
     text-align: right;
   }
 
