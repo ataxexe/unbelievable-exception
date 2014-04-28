@@ -10,7 +10,7 @@ tags:
 - aplicativos
 ---
 
-Não é raro ver músicos que nunca precisaram olhar pra tela de um computador. Eu nunca consegui desgrudar do mundo digital e creio que muitos aqui também não. O interessante é que, conforme os tablets e smartphones evoluíram em poder bélico, aplicativos muito interessantes começaram a aparecer na Play Store para auxiliar músicos fissurados pelo mundo binário, ao passo que, hoje, não ficamos tão atrás dos iPotocas em matéria de aplicativos musicais. Neste post, pretendo mostrar o porquê sem cair naqueles conteúdos numéricos chatos e cansativos do tipo *"As 50 melhores maneiras de se fazer cinco coisas legais duas vezes ao dia"*. A ideia aqui é mostrar como você pode digitalizar suas ferramentas musicais e as colocar no bolso daquela velha *bag* do seu instrumento.
+Não é raro ver músicos que nunca precisaram olhar pra tela de um computador. Eu nunca consegui desgrudar do mundo digital e creio que muitos aqui também não. O interessante é que, conforme os tablets e smartphones evoluíram em poder bélico, aplicativos muito interessantes começaram a aparecer na Play Store para auxiliar músicos fissurados pelo mundo binário, ao passo que, hoje, não ficamos tão atrás dos iTrecos em matéria de aplicativos musicais. Neste post, pretendo mostrar o porquê sem cair naqueles conteúdos numéricos chatos e cansativos do tipo *"As 50 melhores maneiras de se fazer cinco coisas legais duas vezes ao dia"*. A ideia aqui é mostrar como você pode digitalizar suas ferramentas musicais e as colocar no bolso daquela velha *bag* do seu instrumento.
 
 ## Ah! Mas nada é mais gracioso do que o som de um metrônomo mecânico...
 
