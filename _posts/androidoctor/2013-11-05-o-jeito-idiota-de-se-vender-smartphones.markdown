@@ -6,6 +6,7 @@ category: AndroiDoctor
 tags:
   - android
   - desempenho
+  - vendedor
 ---
 
 Um dia desses eu estava dando uma volta no shopping com um amigo e paramos em uma loja da Samsung pra dar uma fuçada. Tava tranquilo até um vendedor começar a falar um monte de merda pra mim e eu quase arranquei meu braço fora só pra ter o que jogar na cabeça dele.
