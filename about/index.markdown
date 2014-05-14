@@ -38,7 +38,7 @@ A parte de busca foi a mais legal de implementar. Como tudo é estático, eu tin
 
 Claro que optei pela segunda e, pra não reinventar a roda, utilizei a biblioteca [Lunr][], que é muito simples de usar e relativamente rápida. A dificuldade era de montar o que deveria ser indexado. Indexar os títulos, a categoria e as *tags* de cada post daria uma busca muito simples e colocar o conteúdo geral dos posts levaria a um índice muito pesado pra se colocar no lado do cliente. Optei por utilizar uma pequena parte do post e mandar o Jekyll gerar um [JSON][json-indices] com os índices e montá-lo somente quando o campo de pesquisa é selecionado (por isso ele fica inativo por algum tempo, esse é o tempo necessário pra montar o índice - que varia de dispositivo para dispositivo).
 
-Na parte dos comentários não deu pra fazer muita coisa diferente. Como não posso arquivar nada aqui, acabei utilizando o [Intense Debate][intense-debate] para os comentários. Os botões de compartilhamento foram fruto da minha preguiça (gerei-os no [ShareThis][]).
+Na parte dos comentários não deu pra fazer muita coisa diferente. Como não posso arquivar nada aqui, acabei utilizando o [Intense Debate][intense-debate] para os comentários e depois troquei pelo [Disqus][] (como quase ninguém comenta por aqui essa mudança praticamente passou despercebida). Os botões de compartilhamento foram fruto da minha preguiça (gerei-os no [ShareThis][]).
 
 Para escrever os posts, eu utilizo um repositório secundário no Git que, ao receber um *commit*, trata logo de construir o blog e jogá-lo no meu servidor (aluguei um no [DigitalOcean][] e recomendo). Depois da bagunça, ele mesmo manda o *commit* pro [repositório][repo] central no GitHub. Tentem imaginar uma estrutura dessas usando alguma porcaria como o SVN[^csv]. Tem como, mas não é simples e prático assim.
 
@@ -54,6 +54,7 @@ Para os downloads, eu usei um outro domínio que aponta pra minha pasta pública
 [built-with-jekyll]: <http://jekyllrb.com/docs/sites>
 [cyborg]: <http://bootswatch.com/cyborg>
 [digitalocean]: <http://www.digitalocean.com>
+[disqus]: <http://disqus.com>
 [github-pages]: <http://pages.github.com>
 [intense-debate]: <http://intensedebate.com>
 [issues]: <https://github.com/ataxexe/unbelievable-exception/issues>
