@@ -11,6 +11,9 @@ paginate_path: :num
 exclude:
   - build
   - test
+  - unbelievable-exception.iml
+  - unbelievable-exception.sublime-project
+  - unbelievable-exception.sublime-workspace
 
 analytics: true
 comments: true
