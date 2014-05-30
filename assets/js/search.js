@@ -15,14 +15,15 @@ tag_engine = lunr(function () {
 index_loaded = false
 search_entries = null
 
-load_index = function(callback) {
+load_index = function (callback) {
   if (!index_loaded) {
     input = $(this)
     input.attr("placeholder", "Carregando...")
     $("#search-input").attr("disabled", "disabled")
-    $.getJSON("/search.json", function(data, textStatus, jqXHR){
+
+    $.getJSON("/search.json", function (data) {
       search_entries = data
-      $.each(search_entries, function(){
+      $.each(search_entries, function () {
         full_engine.add(this)
         tag_engine.add(this)
       })
@@ -35,38 +36,38 @@ load_index = function(callback) {
     })
   }
 }
-search = function(term, engine, callback) {
-  if(index_loaded) {
+search = function (term, engine, callback) {
+  if (index_loaded) {
     finish(engine.search(term), callback)
   } else {
-    load_index(function(){
+    load_index(function () {
       search(term, engine, callback)
     })
   }
 }
-full_search = function(term, callback) {
+full_search = function (term, callback) {
   search(term, full_engine, callback)
 }
-tag_search = function(tag, callback) {
+tag_search = function (tag, callback) {
   search(tag, tag_engine, callback)
 }
-finish = function(result, callback) {
+finish = function (result, callback) {
   $("#search-result").empty()
-  if(result.length == 0) {
+  if (result.length == 0) {
     $("<div class='alert alert-danger'>" +
-      "<strong>Não foi encontrada nenhuma postagem com esse termo!</strong>" +
-    "</div>").appendTo("#search-result")
+        "<strong>Não foi encontrada nenhuma postagem com esse termo!</strong>" +
+        "</div>").appendTo("#search-result")
   }
-  $.each(result, function(){
+  $.each(result, function () {
     index = this['ref']
     entry = search_entries[index]
-    h4 = $("<h2 class='list-group-item-heading result-title'>" + 
-              entry['title'] + " <small>(" + entry["date"] + ")</small></h4>")
+    h4 = $("<h2 class='list-group-item-heading result-title'>" +
+        entry['title'] + " <small>(" + entry["date"] + ")</small></h4>")
     h5 = $("<h3 class='list-group-item-heading result-category'>" + entry['category'] + "</h5>")
     p = $("<p class='list-group-item-text result-excerpt'>" + entry['excerpt'] + "</p>")
     $("<a href='" + entry['url'] + "' class='list-group-item'>")
-      .append(h4, h5, p)
-      .appendTo("#search-result")
+        .append(h4, h5, p)
+        .appendTo("#search-result")
   })
   $("#search-result").show("slow")
   $("#content").hide("slow")
@@ -75,31 +76,29 @@ finish = function(result, callback) {
     callback()
   }
 }
-cancel_search = function() {
+cancel_search = function () {
   $("#search-result").hide("slow")
   $("#content").show("slow")
   $(this).hide()
 }
-scroll_up = function() {
+scroll_up = function () {
   $("html, body").animate({ scrollTop: 0 }, 1000)
 }
 
 $("#btn-search").attr("disabled", "disabled")
 $("#btn-clear-search").click(cancel_search)
-$("#btn-search").click(function(){
+$("#btn-search").click(function () {
   term = $("#search-input").val()
   full_search(term)
 })
-$("#search-input").keydown(function(event){
+$("#search-input").keydown(function (event) {
   var ENTER = 13
   if (event.keyCode == ENTER) {
     term = $(this).val()
     full_search(term)
   }
-}).focus(function(){
-  load_index()
-})
+}).focus(load_index)
 
-$(".post-tag").click(function() {
+$(".post-tag").click(function () {
   tag_search($(this).text(), scroll_up)
 })
