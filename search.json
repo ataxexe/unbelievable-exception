@@ -7,7 +7,7 @@ layout: none
     "tags": "{{post.tags | join: ', '}}",
     "category": "{{post.category}}",
     "title": "{{post.title | escape}}",
-    "body": "{{post.content | strip_html | strip_newlines | truncatewords: 400}}",
+    "body": "{{post.content | strip_html | strip_newlines | truncatewords: 200}}",
     "excerpt": "{{post.excerpt | strip_html | strip_newlines}}",
     "date": "{{post.date | date: "%d/%m/%Y"}}"
   } {% if post.previous %},{% endif %} {% endfor %}
