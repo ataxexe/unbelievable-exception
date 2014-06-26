@@ -9,9 +9,9 @@ Sou o **Marcelo Guimarães**, mais conhecido por **Ataxexe**. Sou um maluco rabu
 
 Apesar de ter entrado bem tarde no mundo da programação (comecei com 20 anos, bem tarde se comparado a outros malucos como eu), sempre fui encantado por computadores e meu brinquedo preferido era uma calculadora científica (depois arrumei um modelo programável e a coisa ficou melhor ainda... pro desespero dos meus professores). Minha relação com a computação deu início quando eu resolvi largar o curso de Filosofia pra estudar programação. Um maluco igual a mim ficou sabendo e me convidou pra estudar na empresa dele. Desde então o mundo binário não foi mais o mesmo.
 
-O interessante de ter aprendido a programar em uma empresa recheada de gente louca por programação foi que eu pude aprender orientado ao mundo real. E, como foram poucas as vezes em que me enfiei no meio da criação de um sistema (praticamente só trabalhei mantendo legado), tive um prato cheio pra aprender a resolver problemas oriundos de falta de perspectiva de médio e longo prazo (os contraexemplos parecem funcionar melhor do que os exemplos). Minha carreira foi praticamente moldada a resolver problemas, e eu achei muito divertido.
+O interessante de ter aprendido a programar em uma empresa recheada de gente louca por programação foi que eu pude aprender orientado ao mundo real e, como foram poucas as vezes em que me enfiei no meio da criação de um sistema (praticamente só trabalhei mantendo legado), tive um prato cheio pra aprender a resolver problemas oriundos de falta de perspectiva de médio e longo prazo (os contraexemplos parecem funcionar melhor do que os exemplos). Minha carreira foi praticamente voltada para resolução de problemas, o que eu acho muito divertido.
 
-Aprendi muita coisa, também, em fóruns de discussão (apesar de, infelizmente, não serem mais os mesmos - essa geração Y está ficando muito esquisita, mas isso é assunto pra outra hora) e lendo sobre coisas que eu não tinha vontade alguma de usar, mas precisava saber como funcionavam.
+Também aprendi muita coisa em fóruns de discussão (apesar de, infelizmente, não serem mais os mesmos) e lendo sobre coisas que eu não tinha vontade alguma de usar, mas precisava saber como funcionavam.
 
 Eu acredito que, se soubermos como as coisas funcionam, saberemos como usá-las de forma proveitosa. Por isso criei este blog e espero que aproveitem!
 
@@ -38,15 +38,17 @@ A parte de busca foi a mais legal de implementar. Como tudo é estático, eu tin
 
 Claro que optei pela segunda e, pra não reinventar a roda, utilizei a biblioteca [Lunr][], que é muito simples de usar e relativamente rápida. A dificuldade era de montar o que deveria ser indexado. Indexar os títulos, a categoria e as *tags* de cada post daria uma busca muito simples e colocar o conteúdo geral dos posts levaria a um índice muito pesado pra se colocar no lado do cliente. Optei por utilizar uma pequena parte do post e mandar o Jekyll gerar um [JSON][json-indices] com os índices e montá-lo somente quando o campo de pesquisa é selecionado (por isso ele fica inativo por algum tempo, esse é o tempo necessário pra montar o índice - que varia de dispositivo para dispositivo).
 
-Na parte dos comentários não deu pra fazer muita coisa diferente. Como não posso arquivar nada aqui, acabei utilizando o [Intense Debate][intense-debate] para os comentários e depois troquei pelo [Disqus][] (como quase ninguém comenta por aqui essa mudança praticamente passou despercebida). Os botões de compartilhamento foram fruto da minha preguiça (gerei-os no [ShareThis][]).
+Na parte dos comentários não deu pra fazer muita coisa diferente. Como não posso arquivar nada aqui, acabei utilizando o [Intense Debate][intense-debate] para os comentários e depois troquei pelo [Disqus][] (como quase ninguém comenta por aqui essa mudança praticamente passou despercebida). Os botões de compartilhamento foram frutos da minha preguiça (gerei-os no [ShareThis][]).
 
 Para escrever os posts, eu utilizo um repositório secundário no Git que, ao receber um *commit*, trata logo de construir o blog e jogá-lo no meu servidor (aluguei um no [DigitalOcean][] e recomendo). Depois da bagunça, ele mesmo manda o *commit* pro [repositório][repo] central no GitHub. Tentem imaginar uma estrutura dessas usando alguma porcaria como o SVN[^csv]. Tem como, mas não é simples e prático assim.
 
-Isso significa que o blog é OpenSource e pode servir como ajuda pra quem quiser aprender um pouco mais sobre como montar um blog estático com o Jekyll. Aproveitando a plataforma do GitHub, se você tiver sugestões de posts, pode mandá-las [aqui][issues]. Se tiver alguma melhoria, sinta-se à vontade para clonar o repositório e enviar um *pull request*.
+Isso significa que o blog é OpenSource e pode servir como ajuda pra quem quiser aprender um pouco mais sobre como montar um blog estático com o Jekyll (principalmente porque tem uns plugins legais que eu criei no meio dessa confusão toda). Aproveitando a plataforma do GitHub, se você tiver sugestões de posts, pode mandá-las [aqui][issues]. Se tiver alguma melhoria, sinta-se à vontade para clonar o repositório e enviar um *pull request*.
 
 [^csv]: CVS não, ele é ruim demais pra ser considerado uma mera porcaria.
 
 Para os downloads, eu usei um outro domínio que aponta pra minha pasta pública no Dropbox, assim não fico versionando arquivos no blog. Quanto aos vídeos, vão ficar no [canal][youtube] do blog (se eu tiver saco pra gravá-los). Claro que não podia faltar um [Google Analytics][analytics] no meio da brincadeira!
+
+Ah! Eu não sou fã de anúncios atrapalhando a leitura, então, não precisa se preocupar com eles por aqui.
 
 [analytics]: <http://www.google.com/analytics/>
 [bootstrap]: <http://getbootstrap.com>
