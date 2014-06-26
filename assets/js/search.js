@@ -1,7 +1,7 @@
 full_engine = lunr(function () {
   this.field('title', { boost: 10 })
   this.field('tags', { boost: 8 })
-  this.field('body', { boost: 5 })
+  this.field('excerpt', { boost: 5 })
   this.field('category')
   this.field('date')
   this.ref('url')
