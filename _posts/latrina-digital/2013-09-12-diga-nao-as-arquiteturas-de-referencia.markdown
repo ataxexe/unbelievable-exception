@@ -17,7 +17,7 @@ Fábrica de Software é algo paradoxal e insustentável da forma como é aplicad
 
 ## A questão dos padrões
 
-Quem defende uma arquitetura de referência costuma enaltecer a padronização das coisas. O problema é que uma arquitetura de referência não padroniza nada, ela **engessa**. Uma coisa é você ter diretrizes e padrões de projeto para seguir e outra, completamente diferente, é ter uma base resposável por resolver os requisitos não-funcionais que ainda nem são conhecidos. É quase o mesmo que dar um patinete para um saci subir uma rampa só porque o Juquinha conseguiu subí-la assim. Não vá pensando que uma arquitetura de referência responderá a qualquer necessidade, não se pode responder a qualquer coisa com uma só resposta (só o número 42 dá conta).
+Quem defende uma arquitetura de referência costuma enaltecer a padronização das coisas. O problema é que uma arquitetura de referência não padroniza nada, ela **engessa**. Uma coisa é você ter componentes, diretrizes e padrões e outra, completamente diferente, é ter uma base resposável por resolver os requisitos não-funcionais que ainda nem são conhecidos. É quase o mesmo que dar um patinete para um saci subir uma rampa só porque o Juquinha conseguiu subí-la assim.
 
 Existem, ainda, as *pseudo-arquiteturas de referência* (praticamente o bizarro do bizarro), que nada mais são do que uma lista de frameworks de adoção obrigatória para qualquer projeto. A regra se aplica novamente aqui: não é porque um framework deu certo em um projeto que dará certo em outro.
 
