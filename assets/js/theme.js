@@ -1,6 +1,6 @@
 set_theme = function(theme) {
   if (theme == undefined) {
-    theme = "dark"
+    theme = "gray"
   }
   localStorage.setItem("theme", theme)
   var css = document.createElement('link')
