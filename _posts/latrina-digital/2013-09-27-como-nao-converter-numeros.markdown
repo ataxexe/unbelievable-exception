@@ -5,7 +5,7 @@ category: Latrina Digital
 tags:
   - java
   - refatoração
-  - conversão
+  - orientação a objetos
   - juquinha
 ---
 
