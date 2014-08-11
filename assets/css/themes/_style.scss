@@ -58,10 +58,12 @@ input, button, select, textarea {
 }
 
 .post-tag {
+  font-family: "IndieFlower", sans-serif;
   font-size: 0.8em;
 }
 
 .category {
+  font-family: $font-family-sans-serif;
   font-size: 0.9em;
 }
 
