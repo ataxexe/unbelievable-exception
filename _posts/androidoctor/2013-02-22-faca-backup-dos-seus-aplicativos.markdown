@@ -1,5 +1,6 @@
 ---
 layout: post
+id: backup
 title:  "Faça backup dos seus aplicativos"
 category: AndroiDoctor
 images: /assets/images/backup

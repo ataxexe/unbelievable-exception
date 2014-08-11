@@ -139,4 +139,4 @@ Nos próximos posts irei falar sobre alguns aplicativos que só funcionam (ou fu
 privilégios de superusuário e formas de rootear alguns celulares que eu já usei, então, você pode
 esperar um pouco para ver o que te espera e, assim, decidir se vale a pena fazer o procedimento.
 
-[googlando]: <http://lmgtfy.com/?q=galaxy+s3+root>
+[googlando]: <{% google galaxy+s3+root %}>
