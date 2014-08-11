@@ -32,10 +32,10 @@ Para configurar os módulos, basta abrir o aplicativo correspondente ou ir em **
 
 O Moto X tem uma peculiaridade: mesmo rooteado ele não permite modificar arquivos de sistema (mesmo remontando a partição como **r/w**). Nesse caso, você deve, antes de seguir os passos acima, reiniciar o celular no modo **recovery**. Esse modo não irá abrir o **recovery** do aparelho, irá subir o Android com permissão para que os arquivos de sistema sejam alterados. Dessa forma você consegue instalar o Xposed no Moto X sem problemas (isso vale para a atualização também, só não para os módulos, já que são aplicativos normais como quaisquer outros).
 
-[AppSettings]: <http://repo.xposed.info/module/de.robv.android.xposed.mods.appsettings>
-[GravityBox]: <http://repo.xposed.info/module/com.ceco.gm2.gravitybox>
-[Xposed]: <http://forum.xda-developers.com/showthread.php?t=1574401>
-[xposed-download]: <http://repo.xposed.info/module/de.robv.android.xposed.installer>
+[AppSettings]: <{% xposed_module de.robv.android.xposed.mods.appsettings %}>
+[GravityBox]: <{% xposed_module com.ceco.gm2.gravitybox %}>
+[Xposed]: <{% xda_thread 1574401 %}>
+[xposed-download]: <{% xposed_module de.robv.android.xposed.installer %}>
 [post-root]: <{% post root %}>
 
 [^porcaria]: Porcaria mesmo, meus dois Galaxy Note II tiveram fins trágicos de hardware logo depois da garantia terminar (e, pesquisando, minha esposa encontrou diversas outras historinhas parecidas - mas acho que isso é assunto pra outro post, ou um tribunal). O mais legal é que a "excelente" atendente da única assistência técnica de Brasília foi mais idiota do que o vendedor que me atendeu na loja da Samsung.
