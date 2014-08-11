@@ -126,14 +126,14 @@ Aquilo é ridículo! Nem o criador da ROM mais utilizada no mundo Android, o Ste
 [post-root]: <{% post root %}>
 [post-launchers]: <{% post launchers %}>
 
-[WidgetLocker]: <https://play.google.com/store/apps/details?id=com.teslacoilsw.widgetlocker>
-[Missed It!]: <https://play.google.com/store/apps/details?id=net.igecelabs.android.MissedIt>
-[Minimalistic Text]: <https://play.google.com/store/apps/details?id=de.devmil.minimaltext>
-[Extended Controls]: <https://play.google.com/store/apps/details?id=com.extendedcontrols>
-[Droid Icons]: <https://play.google.com/store/apps/details?id=com.droidicon.launcherproicons>
-[Simple Text]: <https://play.google.com/store/apps/details?id=com.redphx.simpletext>
+[WidgetLocker]: <{% play_store com.teslacoilsw.widgetlocker %}>
+[Missed It!]: <{% play_store net.igecelabs.android.MissedIt %}>
+[Minimalistic Text]: <{% play_store de.devmil.minimaltext %}>
+[Extended Controls]: <{% play_store com.extendedcontrols %}>
+[Droid Icons]: <{% play_store com.droidicon.launcherproicons %}>
+[Simple Text]: <{% play_store com.redphx.simpletext %}>
 
-[Nova Launcher]: <https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher>
-[Simple Calendar Widget]: <https://play.google.com/store/apps/details?id=com.anod.calendar>
-[Tasks]: <https://play.google.com/store/apps/details?id=ch.teamtasks.tasks.paid>
-[Droid Icons]: <https://play.google.com/store/apps/details?id=com.droidicon.launcherproicons>
+[Nova Launcher]: <{% play_store com.teslacoilsw.launcher %}>
+[Simple Calendar Widget]: <{% play_store com.anod.calendar %}>
+[Tasks]: <{% play_store ch.teamtasks.tasks.paid %}>
+[Droid Icons]: <{% play_store com.droidicon.launcherproicons %}>

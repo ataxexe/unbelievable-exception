@@ -73,8 +73,8 @@ Também existem alguns aplicativos que podem te ajudar a montar uma bela interfa
 (mesmo o trambolho padrão do fabricante), por isso, fique ligado nos próximos posts!
 
 [post-root]: <{% post root %}>
-[nova_launcher]: <https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher>
-[apex_launcher]: <https://play.google.com/store/apps/details?id=com.anddoes.launcher>
-[launcherpro]: <https://play.google.com/store/apps/details?id=com.fede.launcher>
-[adw_launcher]: <https://play.google.com/store/apps/details?id=org.adw.launcher>
-[go_launcher]: <https://play.google.com/store/apps/details?id=com.gau.go.launcherex>
+[nova_launcher]: <{% play_store com.teslacoilsw.launcher %}>
+[apex_launcher]: <{% play_store com.anddoes.launcher %}>
+[launcherpro]: <{% play_store com.fede.launcher %}>
+[adw_launcher]: <{% play_store org.adw.launcher %}>
+[go_launcher]: <{% play_store com.gau.go.launcherex %}>

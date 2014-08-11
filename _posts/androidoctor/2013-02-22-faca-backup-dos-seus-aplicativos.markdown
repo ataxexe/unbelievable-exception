@@ -77,4 +77,4 @@ superusuário.
 Pare de se lamentar e vá logo rootear seu aparelho!
 
 [post-root]: <{% post root %}>
-[titanium_backup]: <https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup>
+[titanium_backup]: <{% play_store com.keramidas.TitaniumBackup %}>

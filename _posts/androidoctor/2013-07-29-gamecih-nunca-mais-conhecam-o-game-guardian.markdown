@@ -58,4 +58,4 @@ Droga! Achei que não ia notar… eu ando meio sem tempo, então não sei quando
 [game guardian]: <http://gameguardian.net>
 [download]: <http://gameguardian.net/forum/files/file/2-gameguardian>
 [download-alternativo]: <{{site.download}}/android/Game_Guardian-6.0.3.apk>
-[earn to die]: <https://play.google.com/store/apps/details?id=com.notdoppler.earntodielite>
+[earn to die]: <{% play_store com.notdoppler.earntodielite %}>

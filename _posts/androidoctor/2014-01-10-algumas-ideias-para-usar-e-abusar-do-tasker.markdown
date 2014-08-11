@@ -62,13 +62,13 @@ O tempo de espera é interessante para que você possa rejeitar a chamada antes 
 
 ![Configuração do estado de ligação]({{ page.images }}/call-incoming.png)
 
-[tasker]: <https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm>
-[secure settings]: <https://play.google.com/store/apps/details?id=com.intangibleobject.securesettings.plugin>
+[tasker]: <{% play_store net.dinglisch.android.taskerm %}>
+[secure settings]: <{% play_store com.intangibleobject.securesettings.plugin %}>
 [gravitybox]: <http://repo.xposed.info/module/com.ceco.gm2.gravitybox>
 [xposed]: <http://forum.xda-developers.com/showthread.php?t=1574401>
-[email me pro]: <https://play.google.com/store/apps/details?id=com.caramellabs.emailmepro>
-[skiplock]: <https://play.google.com/store/apps/details?id=com.benhirashima.skiplock>
-[unlock with wifi]: <https://play.google.com/store/apps/details?id=com.benhirashima.unlockwithwifi>
+[email me pro]: <{% play_store com.caramellabs.emailmepro %}>
+[skiplock]: <{% play_store com.benhirashima.skiplock %}>
+[unlock with wifi]: <{% play_store com.benhirashima.unlockwithwifi %}>
 
 [post-root]: <{% post root %}>
 [post-xposed]: <{% post xposed %}>

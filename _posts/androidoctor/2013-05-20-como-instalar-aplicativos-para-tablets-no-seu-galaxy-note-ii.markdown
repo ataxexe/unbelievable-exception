@@ -47,4 +47,4 @@ Você pode tentar alguma alternativa na Play Store. Pesquise por "lcd density" e
 Caso queira fazer a mudança manualmente, pode utilizar o [Build Prop Editor][] para mudar o valor da variável **ro.sf.lcd_density**. Apenas evite mudar outras variáveis dele (especialmente se você não tem a menor ideia do que elas significam). Se quiser mudar na mão o valor, altere o arquivo **/system/build.prop** do seu aparelho. Como o **/system** não pode ser modificado, esse é o motivo do procedimento só ser possível com root (todos os procedimentos acabam alterando esse arquivo).
 
 [slimbean]: <http://www.slimroms.net>
-[build prop editor]: <https://play.google.com/store/apps/details?id=com.jrummy.apps.build.prop.editor>
+[build prop editor]: <{% play_store com.jrummy.apps.build.prop.editor %}>

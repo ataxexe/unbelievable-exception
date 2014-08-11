@@ -1,5 +1,6 @@
 ---
 layout: post
+id: galaxy-note-ii
 title:  "A chave das algemas do Galaxy Note II"
 category: AndroiDoctor
 images: /assets/images/root-note-2
@@ -171,10 +172,10 @@ Vale! Se, e somente se, você for uma pessoa que gosta de fuçar nos seus brinqu
 [post-root]: <{% post root %}>
 [post-tasker]: <{% post tasker %}>
 
-[papyrus]: <https://play.google.com/store/apps/details?id=com.steadfastinnovation.android.projectpapyrus>
-[graffiti]: <https://play.google.com/store/apps/details?id=com.access_company.graffiti>
-[myscript stylus]: <https://play.google.com/store/apps/details?id=com.visionobjects.stylusmobile.v3_2_store>
-[gmd spen control]: <https://play.google.com/store/apps/details?id=com.gmd.spencontrol>
+[papyrus]: <{% play_store com.steadfastinnovation.android.projectpapyrus %}>
+[graffiti]: <{% play_store com.access_company.graffiti %}>
+[myscript stylus]: <{% play_store com.visionobjects.stylusmobile.v3_2_store %}>
+[gmd spen control]: <{% play_store com.gmd.spencontrol %}>
 
 [download-odin]: <{{site.download}}/android/GalaxyNote2Root.zip>
 [google-samsung-drivers]: <lmgtfy.com/?q=samsung+usb+driver>

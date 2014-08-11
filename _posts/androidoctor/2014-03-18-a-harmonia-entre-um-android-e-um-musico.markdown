@@ -60,19 +60,19 @@ Também acho! E a solução pra isso é o versátil [Maple Player][maple-player]
 
 ... e colocar o Darth Vader pra cantar Sultans Of Swing nele faz valer o download!
 
-[groove-metronome]: <https://play.google.com/store/apps/details?id=jeopeo.musiciansmetronome>
-[gstrings]: <https://play.google.com/store/apps/details?id=org.cohortor.gstrings>
-[notateme]: <https://play.google.com/store/apps/details?id=com.neuratron.notateme>
-[notateme-now]: <https://play.google.com/store/apps/details?id=com.neuratron.notatemenow>
-[ensemble-composer]: <https://play.google.com/store/apps/details?id=com.lotuz.musiccomposer>
-[music-score-pad]: <https://play.google.com/store/apps/details?id=com.fmfmmusicapp.musicscorepad.free>
-[music-tutor]: <https://play.google.com/store/apps/details?id=es.virtualcode.musictutor.sightread>
-[perfect-ear]: <https://play.google.com/store/apps/details?id=ru.exaybachay.pear>
-[ireal-pro]: <https://play.google.com/store/apps/details?id=com.massimobiolcati.irealb>
-[chord-bot]: <https://play.google.com/store/apps/details?id=com.chordbot>
-[chord]: <https://play.google.com/store/apps/details?id=com.rabugentom.chord>
-[chord-free]: <https://play.google.com/store/apps/details?id=com.rabugentom.chordfree>
-[maple-player]: <https://play.google.com/store/apps/details?id=com.sqr5.android.audioplayer>
-[mapple-jb]: <https://play.google.com/store/apps/details?id=com.sqr5.android.player_jb>
+[groove-metronome]: <{% play_store jeopeo.musiciansmetronome %}>
+[gstrings]: <{% play_store org.cohortor.gstrings %}>
+[notateme]: <{% play_store com.neuratron.notateme %}>
+[notateme-now]: <{% play_store com.neuratron.notatemenow %}>
+[ensemble-composer]: <{% play_store com.lotuz.musiccomposer %}>
+[music-score-pad]: <{% play_store com.fmfmmusicapp.musicscorepad.free %}>
+[music-tutor]: <{% play_store es.virtualcode.musictutor.sightread %}>
+[perfect-ear]: <{% play_store ru.exaybachay.pear %}>
+[ireal-pro]: <{% play_store com.massimobiolcati.irealb %}>
+[chord-bot]: <{% play_store com.chordbot %}>
+[chord]: <{% play_store com.rabugentom.chord %}>
+[chord-free]: <{% play_store com.rabugentom.chordfree %}>
+[maple-player]: <{% play_store com.sqr5.android.audioplayer %}>
+[mapple-jb]: <{% play_store com.sqr5.android.player_jb %}>
 [post-propagandas]: <{% post propagandas %}>
-[guitar-pro]: <https://play.google.com/store/apps/details?id=com.arobasmusic.guitarpro>
+[guitar-pro]: <{% play_store com.arobasmusic.guitarpro %}>

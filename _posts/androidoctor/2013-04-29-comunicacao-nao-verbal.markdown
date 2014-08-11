@@ -44,7 +44,7 @@ O meu intuito com o blog não é de dar uma receita de bolo pronta pra você rec
 [post-root]: <{% post root %}>
 [post-tasker]: <{% post tasker %}>
 
-[gmd gesturecontrol]: <https://play.google.com/store/apps/details?id=com.goodmooddroid.gesturecontrol>
-[widgetlocker]: <https://play.google.com/store/apps/details?id=com.teslacoilsw.widgetlocker>
+[gmd gesturecontrol]: <{% play_store com.goodmooddroid.gesturecontrol %}>
+[widgetlocker]: <{% play_store com.teslacoilsw.widgetlocker %}>
 
 [slim bean]: <http://www.slimroms.net>

@@ -112,6 +112,6 @@ os passos:
 
 Eu sabia! Aguarde por mais dicas e vá correndo testar o Tasker. Garanto que vale cada centavo.
 
-[tasker]: <https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm>
-[secure_settings]: <https://play.google.com/store/apps/details?id=com.intangibleobject.securesettings.plugin>
+[tasker]: <{% play_store net.dinglisch.android.taskerm %}>
+[secure_settings]: <{% play_store com.intangibleobject.securesettings.plugin %}>
 [post-root]: <{% post root %}>

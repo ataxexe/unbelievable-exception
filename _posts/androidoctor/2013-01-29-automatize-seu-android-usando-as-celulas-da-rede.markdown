@@ -115,5 +115,5 @@ Store, foi a melhor decisão para a maioria dos usuários. A boa notícia é que
 pra isso, mas envolve [rootear seu celular][post-root] e usar outra solução de automação (falarei
 sobre ela em posts futuros). Por ora, deixe o GPS ligado.
 
-[llama]: <https://play.google.com/store/apps/details?id=com.kebab.Llama>
+[llama]: <{% play_store com.kebab.Llama %}>
 [post-root]: <{% post root %}>

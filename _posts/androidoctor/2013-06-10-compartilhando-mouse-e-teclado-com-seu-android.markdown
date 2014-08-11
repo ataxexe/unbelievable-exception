@@ -41,7 +41,7 @@ Infelizmente ele tem alguns probleminhas. Os acentos não funcionam e os mapeame
 
 Por enquanto é um aplicativo genial e promissor. Se você é usuário do Windows, sinta-se privilegiado por poder brincar com o ShareKM.
 
-[Share Km]: <https://play.google.com/store/apps/details?id=com.liveov.skm>
+[Share Km]: <{% play_store com.liveov.skm %}>
 [download]: <https://sites.google.com/site/droidskm/download>
 [ADB]: <http://developer.android.com/tools/help/adb.html>
 [post-root]: <{% post root %}>

@@ -45,5 +45,5 @@ deixe o aTorrent fazer o resto.
 Pronto! Agora é só relaxar e esperar o download acabar (ou a sua franquia de dados).
 
 [the_pirate_bay]: <http://thepiratebay.se>
-[atorrent]: <https://play.google.com/store/apps/details?id=com.mobilityflow.torrent>
+[atorrent]: <{% play_store com.mobilityflow.torrent %}>
 [link_magnetico]: <http://www.tecmundo.com.br/torrent/4387-o-que-e-link-magnetico-.htm>
