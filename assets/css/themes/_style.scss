@@ -20,6 +20,10 @@ input, button, select, textarea {
   font-family: inherit;
 }
 
+.handwrite {
+  font-family: $font-family-handwrite;
+}
+
 .navbar, .navbar-brand {
   font-family: $font-family-sans-serif;
   font-size: 1.2em;
@@ -58,7 +62,6 @@ input, button, select, textarea {
 }
 
 .post-tag {
-  font-family: "IndieFlower", sans-serif;
   font-size: 0.8em;
 }
 
