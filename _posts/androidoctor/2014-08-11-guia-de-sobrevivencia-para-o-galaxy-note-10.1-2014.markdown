@@ -12,7 +12,7 @@ tags:
 images: /assets/images/note-2014
 ---
 
-Já faz algum tempo que eu comprei, com muito receio, o *Galaxy Note 10.1 2014* (ainda não engoli as mortes dos meus dois *Galaxy Note II*). Apesar de saber que é mais fácil acender uma vela na Fenda do Biquini do que gostar de alguma coisa que a Samsung faça, eu aprendi a conviver com esse rapazinho e, neste post, vou mostrar a vocês como tirar um bom proveito desse cacareco tecnológico com caneta embutida.
+Já faz algum tempo que eu comprei, com muito receio, o Galaxy Note 10.1 2014 (ainda não engoli as mortes dos meus **dois** Galaxy Note II). Apesar de saber que é mais fácil eu acender uma vela na Fenda do Biquíni do que gostar de alguma coisa que a Samsung faça, aprendi a conviver com esse rapazinho e, neste post, vou mostrar a vocês como tirar um bom proveito desse cacareco tecnológico com caneta embutida.
 
 ## Ai ai... Já vi que precisa fazer root, né?
 
@@ -24,9 +24,9 @@ Não! Eu vou colocar primeiro algumas dicas antes do root que são úteis para t
 
 ### Atualize o sistema
 
-A Samsung aparou muitas arestas no visual do Kit Kat. Eu até arrisco dizer que não é prejudicial à saúde, mas ainda não se compara ao Android puro.
+A Samsung aparou muitas arestas no visual do KitKat. Eu até arrisco dizer que não é prejudicial à saúde, mas ainda não se compara ao Android puro.
 
-Se você já tem uma versão rooteada antiga e quer fazer a atualização, baixe a imagem pelo [SamMobile][download-kitkat](lembre-se de verificar o modelo, esse link é para o **3G**) e enfie no Tablet com o [Odin][odin] (um *factory reset* antes é uma boa também).
+Se você já tem uma versão rooteada antiga e quer fazer a atualização, baixe a imagem pelo [SamMobile][download-kitkat] (lembre-se de verificar o modelo, esse link é para o **3G**) e enfie no Tablet com o [Odin][odin] (um *factory reset* antes é uma boa também).
 
 ### Troque a merda do Launcher
 
@@ -67,7 +67,7 @@ Agora sim podemos rootear o safado!
 
 ## Pelo menos vai dizer como rootear?
 
-Isso tudo está bem explicado na [*thread* do XDA](<{% xda_thread 2540191 %}>). Eu testei em ambas as versões Jelly Bean e Kit Kat e funcionou tranquilamente para a versão 3G. Se o seu tablet é de uma versão diferente (LTE ou WiFi), dê uma procurada no [XDA][xda-note-2014] ou no [Google](<{% google+galaxy+note+10.1+2014+root %}>)
+Isso tudo está bem explicado [nesta *thread* do XDA](<{% xda_thread 2540191 %}>). Eu testei em ambas as versões Jelly Bean e KitKat e funcionou tranquilamente para a versão **3G**. Se o seu tablet é de uma versão diferente (LTE ou WiFi), dê uma procurada no [XDA][xda-note-2014] ou no [Google](<{% google galaxy+note+10.1+2014+root %}>).
 
 ## Tá! Fiz o root, qual é o próximo passo?
 
@@ -83,7 +83,7 @@ Nesse caso é só tentar ajustar o valor da densidade para ver qual fica melhor.
 
 ## E cadê a barra de status?
 
-Bem lembrado! Eu arranquei ela com um módulo do Xposed. No meu caso eu acabei escrevendo o módulo pra mim (ainda não abri o código porque falta uns ajustes), mas o [AppSettings][xposed-appsettings] faz um excelente trabalho! Eu só escrevi o módulo pra mim porque acabei percebendo que eu queria a barra de status escondida sempre (e o AppSettings não tem ainda uma opção global - pelo menos eu não achei).
+Bem lembrado! Eu arranquei ela com um módulo do [Xposed][post-xposed]. No meu caso eu acabei escrevendo o módulo pra mim (ainda não abri o código porque falta uns ajustes), mas o [AppSettings][xposed-appsettings] faz um excelente trabalho! Eu só escrevi o módulo pra mim porque acabei percebendo que eu queria a barra de status escondida sempre (e o AppSettings não tem ainda uma opção global - pelo menos eu não achei). Existe até o módulo [Immerse Me][xposed-immerseme] que faz somente esse trabalho, mas, eu estou com um problema com os apps de terminal e é exatamente por isso que estou dando uma fuçada no Xposed pra resolver isso.
 
 ## Legal, mas eu notei que alguns aplicativos só abrem na orientação retrato
 
@@ -103,6 +103,8 @@ A primeira coisa a ser feita com o **SPen Control** é desativar os gestos da Sa
 
 Bom ponto! Independente ou não da barra de status, um bom sistema de notificações é muito interessante e o [NotifierPro][app-notifier-pro] faz um excelente trabalho com notificações bonitas e úteis.
 
+Outro truque interessante é usar os apps de gesto para "puxar" a barra de notificações. Ambos os apps suportam isso e o resultado é muito bom. Além disso, fazer o movimento de puxar a barra de notificações bem no canto superior faz a barra de status aparecer (ela sobe novamente).
+
 ## Interessante... e a função de colocar dois aplicativos na tela?
 
 Pra ser sincero eu a utilizo muito pouco. Acho válida, mas poucos aplicativos se beneficiam dela. Podemos marretar os aplicativos que não são compatíveis com o módulo do Xposed [Wanan Xposed][xposed-wanan] que, além de alguns ajustes interessantes, pode forçar a barra e colocar qualquer aplicativo para compartilhar a tela. Só tenha em mente que nem todos vão ser compatíveis. Para isso existe uma boa combinação de aplicativos.
@@ -116,14 +118,14 @@ Agora os aplicativos de gestos vão fazer mais sentido. Existe um outro aplicati
 
 Para o SPen Control, poderia ser algo assim:
 
-- Toque e arrastar para a direita abre o popup do GMail aparecendo pela esquerda
-- Toque e arrastar para a esquerda abre o popup do Hangouts aparecendo pela direita
+- Dar um toque e depois arrastar para a direita abre o popup do GMail aparecendo pela esquerda
+- Dar um toque e depois arrastar para a esquerda abre o popup do Hangouts aparecendo pela direita
 
 E por aí vai... a grande sacada é incluir widgets úteis como de tarefas, calendário e qualquer outra coisa que você ache interessante estar a um passo de um gesto, seja ele com a caneta ou com as mãos.
 
 ## Mas a caneta só pra gestos... sei não ein..
 
-É verdade! A caneta é a cereja no bolo desse Tablet e deve ser bem aproveitada. Como você já deve prever, eu não sou um grande fã dos aplicalixos da Samsung e, antes de prosseguirmos, sugiro a você que remova todas as porcarias que vieram instaladas nele. O [Titanium Backup][app-tianium-backup] dá conta do recado (e nem precisa ser a vesão paga) e, de quebra, te dá a possibilidade de fazer backups do aparelho. Falando nisso, sempre [faça backup dos seus aplicativos][post-backup].
+É verdade! A caneta é a cereja no bolo desse Tablet e deve ser bem aproveitada. Como você já deve prever, eu não sou um grande fã dos aplicalixos da Samsung e, antes de prosseguirmos, sugiro a você que remova todas as porcarias que vieram instaladas nele. O [Titanium Backup][app-titanium-backup] dá conta do recado (e nem precisa ser a vesão paga) e, de quebra, te dá a possibilidade de fazer backups do aparelho. Falando nisso, sempre [faça backup dos seus aplicativos][post-backup].
 
 ## Mas o Titanium nem faz backup pro cartão de memória
 
@@ -160,21 +162,33 @@ Concordo plenamente! Mesmo o teclado padrão da Samsung tendo um bom reconhecime
 
 Existe um [adaptador][adaptador-micro-usb] que facilita um bocado a vida. Ele converte a entrada Micro USB em uma entrada USB. Com isso você pode plugar pendrives, mouses, teclados e até adaptadores de rede pra conexões via cabo! As versões genéricas custam bem menos e não deixam a desejar em ponto algum. O único problema é não poder carregar a bateria enquanto utiliza os dispositivos, por isso optei pelo teclado bluetooth.
 
-## É... Faz sentido...
+## Mas o conector é na parte debaixo!
 
-Outro detalhe importante: se você usar o idioma do sistema diferente do idioma do teclado, terá problemas para usá-lo. Mais ainda: a merda do teclado da Samsung fica forçando você a trocar o teclado para ele toda vez que detecta o teclado bluetooth. Isso é uma merda pra quem, como eu e mais alguns milhões de terráqueos, utiliza o belo [SwiftKey][app-swiftkey]. Pensando nisso, um maluco criou um app muito útil para quem passa por essas presepadas da Samsung: o versátil [External Keyboard Helper Pro][app-keyboard-helper]. Com ele, é possível definir *layouts* de teclado diferentes do idioma do aparelho, definir teclas de atalho e até um *delay* para que, quando o teclado for trocado para o da Samsung, seja trocado novamente para o teclado do app.
+Cagada suprema!!! Acho que foi uma das piores decisões da Samsung nesse aparelho. Epic Fail!!!
 
-## Que saco isso... tem como partir pra ignorância?
+Foi justamente por isso que eu acabei liberando a rotação em todas as direções. Dessa forma, posso colocá-lo de cabeça pra baixo e usar o conector pela parte de cima.
 
-Falou minha língua! O Titanium Backup tem a opção de "congelar" aplicativos. Basta congelar o app do teclado da Samsung e pronto! Apenas tenha em mente que dessa forma o teclado da Samsung nem vai aparecer no sistema (pra mim já foi tarde mesmo...).
+## Mas e se estiver com a capinha?
+
+Bom, a capinha de couro que vale uma jaqueta de couro vai atrapalhar um pouquinho (apesar de cara, ela é muito boa, mas isso não a torna uma compra indispensável). O mais engraçado é que eu comprei uma "genérica" e, quando fui colocar no meu aparelho, percebi que ela ficou ao contrário. Resultado: ela me força a inverter o tablet, forçando-o a ficar na posição mais favorável para plugar alguma coisa na entrada Micro USB.
+
+Na pior das hipóteses, arrume um suporte. Pode sair bem mais barato e alguns teclados (inclusive o Wedge) possuem um *case* dobrável que vira um suporte.
+
+## Nossa! Dá pra piorar mais a situação?
+
+Claro que dá pra piorar (acho que esse deveria até ser o novo bordão da Samsung): se você usar o idioma do sistema diferente do idioma do teclado, terá problemas para usá-lo. Mais ainda: a merda do teclado da Samsung fica forçando você a trocar o teclado para ele toda vez que detecta o teclado bluetooth. Isso é uma merda pra quem, como eu e mais alguns milhões de terráqueos, utiliza o belo [SwiftKey][app-swiftkey]. Pensando nisso, um maluco criou um app muito útil para quem passa por essas presepadas da Samsung: o versátil [External Keyboard Helper Pro][app-keyboard-helper]. Com ele, é possível definir *layouts* de teclado diferentes do idioma do aparelho, definir teclas de atalho e até um *delay* para que, quando o teclado for trocado para o da Samsung, seja trocado novamente para o teclado do app.
+
+## Que saco isso! E tem como partir pra ignorância?
+
+Falou a minha língua! O Titanium Backup tem a opção de "congelar" aplicativos. Basta congelar o teclado da Samsung e pronto! Apenas tenha em mente que, dessa forma, o teclado da Samsung nem vai aparecer no sistema (pra mim já foi tarde mesmo...).
 
 ## Que saco! Aí eu perco o reconhecimento de escrita!
 
-E é aí que surge um salvador: o [MyScript Stylus][app-myscript-stylus]. Ele tem um reconhecimento de escrita muito bom e ainda tem alguns recursos de usabilidade interessantes. Faz um bom tempo que ele está em *beta*, mas é perfeitamente funcional.
+E é aí que surge um salvador: o [MyScript Stylus][app-myscript-stylus]. Ele tem um reconhecimento de escrita muito bom e ainda tem alguns recursos de usabilidade interessantes. Faz um bom tempo que ele está em *beta*, mas é perfeitamente funcional (ao contrário da merda do [MyScript Notes Mobile][app-myscript-notes], passe longe desse monstro).
 
 ## E para escrever textos? Esses apps de notas não parecem ter esse foco.
 
-E realmente não tem. Para textos eu recomendo dois apps: o [LightPaper Pro][app-lightpaper] e o [JotterPad][app-jotterpad]. Ambos são apps extremamentes funcionais e permitem a edição de textos em formato [Markdown][markdown], a diferença básica entre eles é que o LightPaper tem um pouco mais de recursos de edição e o JotterPad tem uma interface muito elegante.
+E realmente não tem. Para textos eu recomendo dois apps: o [LightPaper Pro][app-lightpaper] e o [JotterPad][app-jotterpad]. Ambos são apps extremamentes funcionais e permitem a edição de textos em formato [Markdown][markdown], a diferença básica entre eles é que o LightPaper tem um pouco mais de recursos de edição e o JotterPad tem uma interface muito elegante (apesar de gratuito, o JotterPad libera mais funções em uma versão *inn-app purchase*, da qual eu não sou muito fã pois não há reembolso nessa modalidade).
 
 ## Mas eu queria escrever documentos Word
 
@@ -197,10 +211,12 @@ Pois é... eu ainda não tenho certeza se vale a pena pra mim. Como a caneta é 
 [post-galaxy-note-ii]: <{% post galaxy-note-ii %}>
 [post-gestos]: <{% post app-gestos %}>
 [post-backup]: <{% post backup %}>
+[post-launchers]: <{% post launchers %}>
 
 [xposed-appsettings]: <{% xposed_module de.robv.android.xposed.mods.appsettings %}>
 [xposed-wanan]: <{% xposed_module ma.wanam.xposed %}>
 [xposed-sdcard]: <{% xposed_module kz.virtex.android.sdcardfix %}>
+[xposed-immerseme]: <{% xposed_module com.mohammadag.immerseme %}>
 
 [app-nova-launcher]: <{% play_store com.teslacoilsw.launcher %}>
 [app-build-prop]: <{% play_store com.jrummy.apps.build.prop.editor %}>
@@ -218,3 +234,5 @@ Pois é... eu ainda não tenho certeza se vale a pena pra mim. Como a caneta é 
 [app-jotterpad]: <{% play_store com.jotterpad.x %}>
 [app-officesuite]: <{% play_store com.mobisystems.editor.office_registered %}>
 [app-msoffice]: <{% play_store com.microsoft.office.officehub %}>
+[app-titanium-backup]: <{% play_store com.keramidas.TitaniumBackup %}>
+[app-myscript-notes]: <{% play_store com.visionobjects.notesmobile %}>
