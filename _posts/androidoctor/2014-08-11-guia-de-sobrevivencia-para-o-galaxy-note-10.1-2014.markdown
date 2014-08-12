@@ -18,6 +18,8 @@ Já faz algum tempo que eu comprei, com muito receio, o Galaxy Note 10.1 2014 (a
 
 Exatamente! Alguns truques só podem ser feitos com o aparelho [rooteado][post-root], sendo que boa parte deles são descendentes das artimanhas que usei para dar liberdade ao meu finado [Galaxy Note II][post-galaxy-note-ii].
 
+Neste post em questão, o root é necessário para os apps de gestos, backup e o Xposed. Como o resto são dicas de aplicativos úteis, preferi dar atenção aos que não precisam de root.
+
 ## Então o primeiro passo é rootear o aparelho?
 
 Não! Eu vou colocar primeiro algumas dicas antes do root que são úteis para todos os casos:
@@ -162,7 +164,7 @@ Concordo plenamente! Mesmo o teclado padrão da Samsung tendo um bom reconhecime
 
 Existe um [adaptador][adaptador-micro-usb] que facilita um bocado a vida. Ele converte a entrada Micro USB em uma entrada USB. Com isso você pode plugar pendrives, mouses, teclados e até adaptadores de rede pra conexões via cabo! As versões genéricas custam bem menos e não deixam a desejar em ponto algum. O único problema é não poder carregar a bateria enquanto utiliza os dispositivos, por isso optei pelo teclado bluetooth.
 
-## Mas o conector é na parte debaixo!
+## Mas o conector é na parte de baixo!
 
 Cagada suprema!!! Acho que foi uma das piores decisões da Samsung nesse aparelho. Epic Fail!!!
 
