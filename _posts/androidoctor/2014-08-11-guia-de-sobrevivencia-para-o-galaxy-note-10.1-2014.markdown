@@ -188,6 +188,8 @@ Falou a minha língua! O Titanium Backup tem a opção de "congelar" aplicativos
 
 E é aí que surge um salvador: o [MyScript Stylus][app-myscript-stylus]. Ele tem um reconhecimento de escrita muito bom e ainda tem alguns recursos de usabilidade interessantes. Faz um bom tempo que ele está em *beta*, mas é perfeitamente funcional (ao contrário da merda do [MyScript Notes Mobile][app-myscript-notes], passe longe desse monstro).
 
+Se quiser usar algo mais profissional (ou for igual a mim e odiar o péssimo trabalho do pessoal do MyScript e não querer usar nada deles depois de pagar mais de 20 reais por um aplicativo pior do que o Notepad que vem no Windows) pode tentar o excelente [Mazec3][app-mazec]. Apesar de custar um pouco a mais para nós (o app só vem com o dicionário inglês, o português é comprado à parte) ele vale o investimento. Até agora nenhum aplicativo de reconhecimento de escrita conseguiu desvendar minha caligrafia tão bem como o Mazec3. 
+
 ## E para escrever textos? Esses apps de notas não parecem ter esse foco.
 
 E realmente não tem. Para textos eu recomendo dois apps: o [LightPaper Pro][app-lightpaper] e o [JotterPad][app-jotterpad]. Ambos são apps extremamentes funcionais e permitem a edição de textos em formato [Markdown][markdown], a diferença básica entre eles é que o LightPaper tem um pouco mais de recursos de edição e o JotterPad tem uma interface muito elegante (apesar de gratuito, o JotterPad libera mais funções em uma versão *inn-app purchase*, da qual eu não sou muito fã pois não há reembolso nessa modalidade).
@@ -198,7 +200,15 @@ Eu gosto muito do [OfficeSuite Pro][app-officesuite], nunca testei o que já vem
 
 ## Você falou do teclado... e o mouse? Vale a pena?
 
-Pois é... eu ainda não tenho certeza se vale a pena pra mim. Como a caneta é muito útil eu acabo fazendo dela um mouse meia boca. Se você tiver dinheiro sobrando é legal usar o mouse caso deixe a tela mais inclinada, impossibilitando o uso da caneta. Eu ainda vou testar mais um pouco com meu mouse normal aqui antes de torrar mais um salário nessas bugigangas.
+É um pouco complicado isso. Como a caneta é muito útil eu acabo fazendo dela um mouse meia boca, mas, se você tiver dinheiro sobrando, é legal usar o mouse caso deixe a tela mais inclinada.
+
+O complicado de usar um mouse é que nem o Android nem os aplicativos suportam o uso de um mouse como.. dã... um mouse. Parece idiota essa afirmação, mas o dispositivo foi feito para ser usado com as mãos e todo o design foi pensado nisso. O botão direito, por exemplo, é mapeado para o **voltar** e não para o **menu**. E isso faz todo o sentido por causa das diretrizes do Android (o menu acabou virando um painel deslizante), mas não deixa de ser estranho porque deixamos de interagir com o dispositivo pela tela para interagir pelo mouse. É um item que ajuda um bocado em situações pontuais (como navegar em alguns sites e escrever textos), mas não faz tanta diferença quanto um teclado.
+
+### Então eu devo escolher um teclado em vez de um mouse?
+
+Exatamente! Se os dois estiverem dentro do seu orçamento, é uma boa dupla. Caso contrário, adquira o teclado sem pensar duas vezes!
+
+Só por curiosidade: esse post foi criado no meu computador e editado no meu tablet usando o teclado bluetooth. Foi uma ótima aquisição!
 
 [xda-note-2014]: <http://forum.xda-developers.com/galaxy-note-10-2014>
 [kies]: <http://www.samsung.com/br/kies>
@@ -232,6 +242,7 @@ Pois é... eu ainda não tenho certeza se vale a pena pra mim. Como a caneta é 
 [app-swiftkey]: <{% play_store com.touchtype.swiftkey %}>
 [app-keyboard-helper]: <{% play_store com.apedroid.hwkeyboardhelper %}>
 [app-myscript-stylus]: <{% play_store com.visionobjects.stylusmobile.v3_2_store %}>
+[app-mazec]: <{% play_store com.metamoji.mazecen %}>
 [app-lightpaper]: <{% play_store com.clockworkengine.android.LightPaper %}>
 [app-jotterpad]: <{% play_store com.jotterpad.x %}>
 [app-officesuite]: <{% play_store com.mobisystems.editor.office_registered %}>
