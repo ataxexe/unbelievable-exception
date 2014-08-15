@@ -208,7 +208,7 @@ O complicado de usar um mouse é que nem o Android nem os aplicativos suportam o
 
 Exatamente! Se os dois estiverem dentro do seu orçamento, é uma boa dupla. Caso contrário, adquira o teclado sem pensar duas vezes!
 
-Só por curiosidade: esse post foi criado no meu computador e editado no meu tablet usando o teclado bluetooth. Foi uma ótima aquisição!
+Só por curiosidade: este post foi criado no meu computador e editado no meu tablet usando o teclado bluetooth. Foi uma ótima aquisição!
 
 [xda-note-2014]: <http://forum.xda-developers.com/galaxy-note-10-2014>
 [kies]: <http://www.samsung.com/br/kies>
