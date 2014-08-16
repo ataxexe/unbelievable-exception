@@ -204,7 +204,7 @@ Eu gosto muito do [OfficeSuite Pro][app-officesuite], nunca testei o que já vem
 
 O complicado de usar um mouse é que nem o Android nem os aplicativos suportam o uso de um mouse como.. dã... um mouse. Parece idiota essa afirmação, mas o dispositivo foi feito para ser usado com as mãos e todo o design foi pensado nisso. O botão direito, por exemplo, é mapeado para o **voltar** e não para o **menu**. E isso faz todo o sentido por causa das diretrizes do Android (o menu acabou virando um painel deslizante), mas não deixa de ser estranho porque deixamos de interagir com o dispositivo pela tela para interagir pelo mouse. É um item que ajuda um bocado em situações pontuais (como navegar em alguns sites e escrever textos), mas não faz tanta diferença quanto um teclado.
 
-### Então eu devo escolher um teclado em vez de um mouse?
+## Então eu devo escolher um teclado em vez de um mouse?
 
 Exatamente! Se os dois estiverem dentro do seu orçamento, é uma boa dupla. Caso contrário, adquira o teclado sem pensar duas vezes!
 
