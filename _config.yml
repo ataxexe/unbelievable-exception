@@ -2,7 +2,7 @@ name: Unbelievable Exception
 description: "Problema ocorrido com sucesso!"
 
 markdown: pandoc
-pygments: true
+highlighter: pygments
 
 permalink: /posts/:title
 paginate: 15
