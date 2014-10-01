@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  Ativando e desativando touchpads não identificados
-category: Linux
+category: Latrina Digital
 tags:
   - shell script
   - xinput
+  - linux
 ---
 
 Alguns touchpads são complicados de serem instalados no Linux, o meu é um desses. Eu não estava com vontade de instalar o driver somente pra usar a função de ativar e desativar quando eu estivesse com o mouse plugado, então, refatorei um script que [encontrei][script] jogado pela internet e vou deixar o resultado compartilhado com vocês:

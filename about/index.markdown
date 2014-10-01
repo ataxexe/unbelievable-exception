@@ -46,9 +46,9 @@ Isso significa que o blog é OpenSource e pode servir como ajuda pra quem quiser
 
 [^csv]: CVS não, ele é ruim demais pra ser considerado uma mera porcaria.
 
-Para os downloads, eu usei um outro domínio que aponta pra minha pasta pública no Dropbox, assim não fico versionando arquivos no blog. Quanto aos vídeos, vão ficar no [canal][youtube] do blog (se eu tiver saco pra gravá-los). Claro que não podia faltar um [Google Analytics][analytics] no meio da brincadeira!
+Para os downloads, eu usei um subdomínio que aponta pra minha pasta pública no Dropbox, assim não fico versionando arquivos no blog. Quanto aos vídeos, vão ficar no [canal][youtube] do blog (se eu tiver saco pra gravá-los). Claro que não podia faltar um [Google Analytics][analytics] no meio da brincadeira!
 
-Ah! Eu não sou fã de anúncios atrapalhando a leitura, então, não precisa se preocupar com eles por aqui.
+Ah! Eu não sou fã de anúncios atrapalhando a leitura, então, não precisa se preocupar com eles por aqui (mas pelo menos divulgue essa bagaça pro tempo que eu dedico valer ainda mais a pena).
 
 [analytics]: <http://www.google.com/analytics/>
 [bootstrap]: <http://getbootstrap.com>

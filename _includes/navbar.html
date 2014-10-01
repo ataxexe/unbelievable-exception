@@ -15,11 +15,9 @@
             Artigos&nbsp;<span class="badge">{% post_count %}</span><b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            {% assign category = "Linux" %}
-            {% include category-menu-item.html %}
-            <li class="dropdown-header divider"></li>
             {% assign category = "AndroiDoctor" %}
             {% include category-menu-item.html %}
+            
             {% assign category = "Latrina Digital" %}
             {% include category-menu-item.html %}
           </ul>
@@ -64,11 +62,6 @@
             <li id="theme-dark">
               <a href="#" class="theme-change" id="to-dark-theme">
                 Escuro
-              </a>
-            </li>
-            <li id="theme-gray">
-              <a href="#" class="theme-change" id="to-gray-theme">
-                Cinza
               </a>
             </li>
             <li id="theme-light">

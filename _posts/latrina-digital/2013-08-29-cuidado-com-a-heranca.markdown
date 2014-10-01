@@ -8,6 +8,7 @@ tags:
   - herança
   - composição
   - juquinha
+  - programação
 images: /assets/images/heranca-composicao
 ---
 

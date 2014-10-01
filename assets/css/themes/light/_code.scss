@@ -1,21 +1,6 @@
-// GitHub based colors
-$purple:                #F92672;
-$yellow:                #E6DB74;
-$gray:                  #75715E;
-$dark_gray:             #252620;
-$violet:                #AE81FF;
-$green:                 #A6E22E;
-$white:                 #F8F8F0;
-
-$code-background-color: $white;
-$code-color:            #555555;
-$code-border-color:     $gray;
-$code-keyword-color:    #555555;
-$code-comment-color:    #b8b6b1;
-$code-number-color:     #DD1144;
-$code-function-color:   #DD1144;
-$code-attribute-color:  #008080;
-$code-string-color:     #DD1144;
+$code-background-color: $base3;
+$code-color:            $base01;
+$code-border-color:     $base2;
 
 .sourceCode {
   .kw, .dt { font-weight: bold; } /* Keyword.Declaration */
