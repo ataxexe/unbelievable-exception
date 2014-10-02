@@ -1,6 +1,8 @@
 name: Unbelievable Exception
 description: "Problema ocorrido com sucesso!"
 
+encoding: utf-8
+
 markdown: pandoc
 highlighter: pygments
 
