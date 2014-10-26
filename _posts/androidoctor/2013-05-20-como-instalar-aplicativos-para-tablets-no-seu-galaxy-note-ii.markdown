@@ -8,6 +8,8 @@ tags:
   - galaxy note ii
   - tablets
   - root
+alerts:
+  - root_required
 ---
 
 Outro dia me perguntaram em uma entrevista de emprego qual foi o elogio mais legal que já recebi. Respondi que foi quando me disseram "Você é doido!". O quê isso tem a haver com este post? Quase nada, mas você vai me achar doido também depois de lê-lo.

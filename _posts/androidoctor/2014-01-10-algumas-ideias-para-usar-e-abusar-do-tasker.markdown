@@ -11,6 +11,8 @@ tags:
   - xposed
   - gravity box
   - customização
+alerts:
+  - root_required
 ---
 
 Já faz algum tempo que eu ando mexendo no excelente [Tasker][] e hoje pretendo compartilhar algumas ideias, mas, antes de começarmos, tenha em mente que seu robozinho precisa estar [rooteado][post-root].

@@ -10,6 +10,8 @@ tags:
   - root
   - jogos
   - hack
+alerts:
+  - root_required
 ---
 
 Você acaba de baixar aquele joguinho, se vicia mais do que o povo da Crackolândia, junta um monte de

@@ -8,6 +8,8 @@ tags:
   - android
   - backup
   - root
+alerts:
+  - root_required
 ---
 
 Uma coisa é bem certa sobre nossa parafernália digital: **sempre** devemos fazer backups. E isso

@@ -9,6 +9,8 @@ tags:
   - propagandas
   - xposed
 images: /assets/images/adaway
+alerts:
+  - root_required
 ---
 
 Todos sabemos que as propagandas são uma interessante fonte de renda para os desenvolvedores. É
