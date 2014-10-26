@@ -10,6 +10,12 @@ layout: default
   <div class="post-content">
     {% include sharebar.html %}
     {% include tags.html %}
+    {% for alert in page.alerts %}
+      {% include {{ alert }}.html %}
+    {% endfor %}
+    {% if page.root_required %}
+      {% include root-advise.html %}
+    {% endif %}
     {{ content }}
     {% include tags.html %}
     {% include sharebar.html %}
