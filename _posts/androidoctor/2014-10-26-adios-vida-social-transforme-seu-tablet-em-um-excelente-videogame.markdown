@@ -26,9 +26,7 @@ Agora vem a melhor parte: o [Sixaxis Controller][]. Esse aplicativo suporta cont
 
 ## Mas tem que fazer um monte de coisa pra parear
 
-Agora vem a melhor parte: com um cabo OTG você consegue fazer a maracutaia pelo próprio aplicativo. Usando o cabo OTG você também consegue utilizar o controle nativamente, mas é um saco fazer a gambiarra com o cabo porque não é nada prático e ainda atrapalha um pouco mais os próximos truques.
-
-## Ué, tem mais?
+Agora vem a melhor parte: com um cabo [OTG][] você consegue fazer a maracutaia pelo próprio aplicativo. Usando o cabo OTG você também consegue utilizar o controle nativamente, mas é um saco fazer a gambiarra com o cabo porque não é nada prático e ainda atrapalha se você for ligar o tablet na televisão.
 
 Agora vem o *headshot*: o Sixaxis Controller permite criar mapeamentos de toque para os botões e os analógicos do controle.
 
@@ -42,3 +40,4 @@ Agora que você já sabe a receita, não perca tempo e vá logo baixar os aplica
 [robert broglia]: <https://play.google.com/store/apps/developer?id=Robert+Broglia>
 [snes9x]: <{% play_store com.explusalpha.Snes9xPlus %}>
 [sixaxis controller]: <{% play_store com.dancingpixelstudios.sixaxiscontroller %}>
+[otg]: <http://en.wikipedia.org/wiki/USB_On-The-Go>
