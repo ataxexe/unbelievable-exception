@@ -11,7 +11,7 @@ layout: default
     {% include sharebar.html %}
     {% include tags.html %}
     {% for alert in page.alerts %}
-      {% include {{ alert }}.html %}
+      {% include alerts/{{ alert }}.html %}
     {% endfor %}
     {% if page.root_required %}
       {% include root-advise.html %}
