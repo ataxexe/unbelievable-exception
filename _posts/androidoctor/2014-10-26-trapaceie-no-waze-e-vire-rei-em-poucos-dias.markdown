@@ -42,5 +42,9 @@ Eu perdi as contas de quantas vezes atravessei a Transamazônica, quantos animai
 
 Agora eu já posso brincar de causar o caos no trânsito sem sair de casa!
 
+---
+
+[UPDATE] Eu recebi um feedback dizendo que a conta tinha sido bloqueada depois de fazer esses procedimentos. Eu não sei ao certo o que pode ter acontecido, já que eu não uso o Waze há um certo tempo. Talvez seja interessante colocar viagens de ida e volta que partam da sua localização atual e tenham a duração real da viagem para evitar o bloqueio.
+
 [location spoofer pro]: <{% play_store org.ajeje.locationspooferpro %}>
 [titanium backup]: <{% play_store com.keramidas.TitaniumBackup %}>
