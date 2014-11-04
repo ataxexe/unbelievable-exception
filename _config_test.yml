@@ -1,5 +1,5 @@
 url: http://localhost:4000
 analytics: false
 comments: false
-share: false
+share: true
 minify: false
