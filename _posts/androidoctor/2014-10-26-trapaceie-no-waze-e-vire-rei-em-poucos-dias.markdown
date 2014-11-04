@@ -11,6 +11,7 @@ tags:
   - dicas
 images: /assets/images/waze
 alerts:
+  - danger
   - root_required
 ---
 
@@ -44,7 +45,9 @@ Agora eu já posso brincar de causar o caos no trânsito sem sair de casa!
 
 ---
 
-[UPDATE] Eu recebi um feedback dizendo que a conta tinha sido bloqueada depois de fazer esses procedimentos. Eu não sei ao certo o que pode ter acontecido, já que eu não uso o Waze há um certo tempo. Talvez seja interessante colocar viagens de ida e volta que partam da sua localização atual e tenham a duração real da viagem para evitar o bloqueio.
+[UPDATE] Eu recebi um feedback de um pessoal dizendo que as contas tinham sido bloqueadas depois de fazerem esses procedimentos. Eu não sei ao certo o que pode ter acontecido, já que eu não uso o Waze há um certo tempo. Talvez seja interessante colocar viagens de ida e volta que partam da sua localização atual e tenham a duração real da viagem para evitar o bloqueio.
+
+A minha conta ainda está ativa e com os 40 mil pontos, mas eu fiz essa brincadeira antes do Google adquirir o Waze, então, pode ser que eles começaram a rastrear esse procedimento.
 
 [location spoofer pro]: <{% play_store org.ajeje.locationspooferpro %}>
 [titanium backup]: <{% play_store com.keramidas.TitaniumBackup %}>
