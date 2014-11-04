@@ -9,6 +9,7 @@ tags:
   - xposed
   - customização
 alerts:
+  - danger
   - root_required
 ---
 

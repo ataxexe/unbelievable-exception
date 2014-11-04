@@ -9,6 +9,7 @@ tags:
   - tablets
   - root
 alerts:
+  - danger
   - root_required
 ---
 

@@ -8,6 +8,8 @@ tags:
   - moto x
   - root
   - dicas
+alerts:
+  - danger
 ---
 
 Há poucos dias meu Moto X Segunda Geração chegou. Eu estava muito empolgado pois [adorei o primeiro Moto X]({% post moto-x %}). Tirando o fato de ele ter vindo com um rastreador de carga de presente, tudo estava em ordem. Eu pensei muito se iria rootear o danado pois queria ter a sensação de como é usar um Android sem root, já que eu sempre faço isso logo de cara. Pois bem, não foi desta vez.

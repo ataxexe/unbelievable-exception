@@ -11,6 +11,7 @@ tags:
   - jogos
   - hack
 alerts:
+  - danger
   - root_required
 ---
 

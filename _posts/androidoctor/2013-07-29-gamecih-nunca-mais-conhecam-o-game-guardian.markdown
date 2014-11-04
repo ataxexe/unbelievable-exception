@@ -10,6 +10,7 @@ tags:
   - game guardian
   - jogos
 alerts:
+  - danger
   - root_required
 ---
 

@@ -10,6 +10,8 @@ tags:
   - galaxy note
   - root
 images: /assets/images/note-2014
+alerts:
+  - danger
 ---
 
 Já faz algum tempo que eu comprei, com muito receio, o Galaxy Note 10.1 2014 (ainda não engoli as mortes dos meus **dois** Galaxy Note II). Apesar de saber que é mais fácil eu acender uma vela na Fenda do Biquíni do que gostar de alguma coisa que a Samsung faça, aprendi a conviver com esse rapazinho e, neste post, vou mostrar a vocês como tirar um bom proveito desse cacareco tecnológico com caneta embutida.
