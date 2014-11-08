@@ -45,9 +45,9 @@ Agora eu já posso brincar de causar o caos no trânsito sem sair de casa!
 
 ---
 
-[UPDATE] Eu recebi um feedback de um pessoal dizendo que as contas tinham sido bloqueadas depois de fazerem esses procedimentos. Eu não sei ao certo o que pode ter acontecido, já que eu não uso o Waze há um certo tempo. Talvez seja interessante colocar viagens de ida e volta que partam da sua localização atual e tenham a duração real da viagem para evitar o bloqueio.
+[UPDATE] Eu recebi retorno de um pessoal dizendo que suas contas tinham sido bloqueadas depois de fazerem esses procedimentos. Eu não sei ao certo o que pode ter acontecido, já que eu não uso o Waze há um certo tempo. Talvez seja interessante colocar viagens de ida e volta que partam da sua localização atual e tenham a duração real da viagem para evitar o bloqueio.
 
-Um pouco depois deste post, talvez por ironia do destino online, o Google resolveu zerar os pontos da minha conta porque nos últimos dias eu "reportei muitas coisas"... como eu não uso o Waze mesmo (inclusive não usava há um bom par de meses, nem sei como fui reportar tantas coisas assim), pra mim tanto faz.
+Um pouco depois deste post, talvez por ironia do destino online, o Google resolveu zerar os pontos da minha conta porque nos últimos dias eu "reportei muitas coisas" (interessante, soa como "Parabéns!!! Sua conta foi zerada porque você participou bastante.")... como eu não uso o Waze mesmo (inclusive não usava há um bom par de meses, nem sei como fui reportar tantas coisas assim), pra mim tanto faz.
 
 Foi justamente por isso que eu demorei a escrever esse post. Eu já imaginava que depois de postar iria sofrer com as consequências.
 
