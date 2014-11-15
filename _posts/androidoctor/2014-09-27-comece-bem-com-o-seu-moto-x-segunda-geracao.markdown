@@ -62,6 +62,7 @@ Bom, agora é o bom e velho procedimento padrão:
 - [Remova as propagandas]({% post propagandas %})
 - [Restaure seus backups]({% post backup %})
 - [Customize a bagaça]({% post customizacao %})
+- [Automatize o rapaz]({% post tasker %})
 
 [unlock-bootloader]: https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-b
 [flash-logo]: http://forum.xda-developers.com/moto-x-2014/development/warning-message-unlocked-bootloader-t2871478
