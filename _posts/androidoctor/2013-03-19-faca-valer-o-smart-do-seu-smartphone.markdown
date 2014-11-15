@@ -109,8 +109,9 @@ os passos:
 
 ## Quero mais! Mais! Maaaais!!!!!
 
-Eu sabia! Aguarde por mais dicas e vá correndo testar o Tasker. Garanto que vale cada centavo.
+Você pode ver mais dicas [aqui][dicas-tasker]
 
 [tasker]: <{% play_store net.dinglisch.android.taskerm %}>
 [secure_settings]: <{% play_store com.intangibleobject.securesettings.plugin %}>
 [post-root]: <{% post root %}>
+[dicas-tasker]: <% post tasker-ideas %>
