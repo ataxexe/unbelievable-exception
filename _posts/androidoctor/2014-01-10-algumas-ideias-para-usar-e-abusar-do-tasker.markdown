@@ -11,6 +11,7 @@ tags:
   - xposed
   - gravity box
   - customização
+  - automação
 alerts:
   - root_required
 ---
