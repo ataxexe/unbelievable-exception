@@ -8,6 +8,7 @@ tags:
   - tasker
   - root
   - secure settings
+  - automação
 images: /assets/images/tasker
 ---
 
