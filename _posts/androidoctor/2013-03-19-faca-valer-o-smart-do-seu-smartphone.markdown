@@ -107,11 +107,7 @@ os passos:
 1. Tarefa de Saída: Plugin -&gt; Secure Settings -&gt; Configuation -&gt; GPS (Helper Actions) -&gt;
    Off
 
-## Quero mais! Mais! Maaaais!!!!!
-
-Você pode ver mais dicas [aqui][dicas-tasker]
-
 [tasker]: <{% play_store net.dinglisch.android.taskerm %}>
 [secure_settings]: <{% play_store com.intangibleobject.securesettings.plugin %}>
 [post-root]: <{% post root %}>
-[dicas-tasker]: <% post tasker-ideas %>
+[dicas-tasker]: <% post tasker-ideias %>

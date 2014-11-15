@@ -1,6 +1,6 @@
 ---
 layout: post
-id: tasker-ideas
+id: tasker-ideias
 title:  "Algumas ideias para usar e abusar do Tasker"
 category: AndroiDoctor
 images: /assets/images/tasker-ideias
