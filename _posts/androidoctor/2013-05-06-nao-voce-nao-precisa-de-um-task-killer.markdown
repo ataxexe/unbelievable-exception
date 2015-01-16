@@ -1,5 +1,6 @@
 ---
 layout: post
+id: task-killer
 title:  "Não! Vocẽ não precisa de um Task Killer"
 category: AndroiDoctor
 tags:
